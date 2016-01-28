@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<工作台>
+  <ParentMenu title="资料维护" url="" target="mainFrame">
+    <SubMenu title="个人资料" url="~/job/Students/ProfileManagement.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="修改资料" url="~/job/Students/EditProfile.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="导师资料" url="~/job/Students/MentorProfile.aspx" target="mainFrame"></SubMenu>
+  </ParentMenu>
+  <ParentMenu title="消息管理" url="" target="mainFrame">
+    <SubMenu title="写消息" url="~/job/Students/AddMessage.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="发件箱" url="~/MyMessage.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="收件箱" url="~/MessageManagement.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="公告" url="~/ShowNotices.aspx" target="mainFrame"></SubMenu>
+  </ParentMenu>
+  <ParentMenu title="顶岗实习" url="" target="mainFrame">
+    <SubMenu title="选择岗位" url="~/job/Students/SelectSubject.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="岗位推荐" url="~/RecommendSubject.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="提交文档" url="~/job/Students/UploadFile.aspx" target="mainFrame"></SubMenu>
+  </ParentMenu>
+  <ParentMenu title="资源管理" url="" target="mainFrame">
+    <SubMenu title="个人文件夹" url="~/FileManagerPage.aspx" target="mainFrame"></SubMenu>
+  </ParentMenu>
+
+  <ParentMenu title="使用说明" url="~/Help.aspx" target="mainFrame"/>
+</工作台>

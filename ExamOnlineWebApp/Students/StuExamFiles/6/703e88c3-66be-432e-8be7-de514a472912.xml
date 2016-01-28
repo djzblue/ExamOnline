@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="703e88c3-66be-432e-8be7-de514a472912" basicExamID="6" randomExamID="12" getMark="0" endTime="2013-5-23 14:34:28" loginNum="2">
+  <SingleChoices count="10" eachMark="5" getMark="0">
+    <SingleChoice choiceID="97" title="在数据通讯的过程中，将模拟信号还原成数字信号的过程称为 (  ) 。">
+      <ChoiceItem choiceItemID="6289" title="A. 调制" isSelected="false" />
+      <ChoiceItem choiceItemID="6291" title="B. 流量控制" isSelected="false" />
+      <ChoiceItem choiceItemID="6292" title="C. 差错控制" isSelected="false" />
+      <ChoiceItem choiceItemID="6290" title="D. 解调" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="123" title="现有的公共数据网都采用（ ） 技术">
+      <ChoiceItem choiceItemID="6396" title="A. 分组交换" isSelected="false" />
+      <ChoiceItem choiceItemID="6394" title="B. 报文交换" isSelected="false" />
+      <ChoiceItem choiceItemID="6393" title="C. 电路交换" isSelected="false" />
+      <ChoiceItem choiceItemID="6395" title="D. 语音插空" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="115" title="计算机网络中信息传递的调度控制技术可分为三类，以下不属于此控制技术的是（）。">
+      <ChoiceItem choiceItemID="6364" title="A. 时延控制" isSelected="false" />
+      <ChoiceItem choiceItemID="6362" title="B. 拥塞控制" isSelected="false" />
+      <ChoiceItem choiceItemID="6361" title="C. 流量控制" isSelected="false" />
+      <ChoiceItem choiceItemID="6363" title="D. 防止死锁" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="84" title="TCP/IP 是 (  ) 。">
+      <ChoiceItem choiceItemID="6240" title="A. 一个部件" isSelected="false" />
+      <ChoiceItem choiceItemID="6238" title="B. —个网络地址" isSelected="false" />
+      <ChoiceItem choiceItemID="6237" title="C. 一种网络操作系统" isSelected="false" />
+      <ChoiceItem choiceItemID="6239" title="D. 一套通信协议" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="131" title=" ATM 技术的特点是(  )">
+      <ChoiceItem choiceItemID="6428" title="A. 同步传输" isSelected="false" />
+      <ChoiceItem choiceItemID="6426" title="B. 以信元为数据传输单位" isSelected="false" />
+      <ChoiceItem choiceItemID="6425" title="C. 网状拓朴" isSelected="false" />
+      <ChoiceItem choiceItemID="6427" title="D. 以帧为数据传输单位" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="110" title="在如下网络拓朴结构中，具在一定集中控制功能的网络是（ ）。">
+      <ChoiceItem choiceItemID="6342" title="A. 星型网络" isSelected="false" />
+      <ChoiceItem choiceItemID="6341" title="B. 总线型网络" isSelected="false" />
+      <ChoiceItem choiceItemID="6343" title="C. 环型网络" isSelected="false" />
+      <ChoiceItem choiceItemID="6344" title="D. 全连接型网络" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="59" title="局域网的网络硬件主要包括网络服务器，工作站、(  ) 和通信介质。">
+      <ChoiceItem choiceItemID="6138" title="A. 网卡" isSelected="false" />
+      <ChoiceItem choiceItemID="6137" title="B. 计算机" isSelected="false" />
+      <ChoiceItem choiceItemID="6139" title="C. 网络拓扑结构" isSelected="false" />
+      <ChoiceItem choiceItemID="6140" title="D. 网络协议" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="31" title="下列哪项不属于路由选择协议的功能？（ ）。">
+      <ChoiceItem choiceItemID="6027" title="A. 构建路由表" isSelected="false" />
+      <ChoiceItem choiceItemID="6028" title="B. 发现下一跳的物理地址" isSelected="false" />
+      <ChoiceItem choiceItemID="6026" title="C. 选择到达每个目的网络的最优路径" isSelected="false" />
+      <ChoiceItem choiceItemID="6025" title="D. 获取网络拓扑结构的信息" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="117" title="以下网络技术中不能用于城域网的是（ ）。">
+      <ChoiceItem choiceItemID="6371" title="A. DQDB " isSelected="false" />
+      <ChoiceItem choiceItemID="6372" title="B. ISDN" isSelected="false" />
+      <ChoiceItem choiceItemID="6370" title="C. Ethernet（以太网）" isSelected="false" />
+      <ChoiceItem choiceItemID="6369" title="D. FDDI " isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="128" title="令牌环(Token Ring)的访问方法和物理技术规范由(  )描述。">
+      <ChoiceItem choiceItemID="6415" title="A. IEEE802．4" isSelected="false" />
+      <ChoiceItem choiceItemID="6416" title="B. IEEE802．5" isSelected="false" />
+      <ChoiceItem choiceItemID="6414" title="C. IEEE802．3" isSelected="false" />
+      <ChoiceItem choiceItemID="6413" title="D. IEEE802．2" isSelected="false" />
+    </SingleChoice>
+  </SingleChoices>
+  <Judges count="10" eachMark="5" getMark="0">
+    <JudgeItem judgeID="179" title="LLC子层是局域网中的数据链路控制子层。" setTrue="-1" />
+    <JudgeItem judgeID="164" title="10M/100M自适应交换机的灵活性比10M和100M交换机的都小。" setTrue="-1" />
+    <JudgeItem judgeID="155" title="交换机会无条件转发收到的所有正确数据帧。" setTrue="-1" />
+    <JudgeItem judgeID="181" title="两个虚拟局域网之间的通信必须在第三层（网络层）路由才能实现。" setTrue="-1" />
+    <JudgeItem judgeID="175" title="IP协议首部的源地址和目的地址字段存放的是源主机和目的主机的物理地址地址。" setTrue="-1" />
+    <JudgeItem judgeID="203" title="如果在数据传输过程中没有发生传输错误，那么接收端接收到的带有CRC校验码的接收数据比特序列一定能被相同的生成多项式整除。 " setTrue="-1" />
+    <JudgeItem judgeID="212" title=" 网络用户在选择自已的口令时使用自已与亲人的名字、生日、身份证号、电话号码等做法是危险的。" setTrue="-1" />
+    <JudgeItem judgeID="165" title="在OSI模型中物理层实现了数据的无差错传输" setTrue="-1" />
+    <JudgeItem judgeID="208" title=" ICMP差错报告报文是单向的，而ICMP查询报文则是双向的、成对出现的。 " setTrue="-1" />
+    <JudgeItem judgeID="204" title=" 在数据传输过程中，差错主要是由通信过程中的噪声引起的。" setTrue="-1" />
+  </Judges>
+</StudentExam>

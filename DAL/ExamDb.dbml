@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ExamDB" EntityNamespace="SDPTExam.DAL.Model" ContextNamespace="SDPTExam.DAL.Linq" Class="ExamDbDataContext" Serialization="Unidirectional" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=ExamDB;Integrated Security=True" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="ExamDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.AdminUserInfo" Member="AdminUserInfo">
+    <Type Name="AdminUserInfo">
+      <Column Name="AdminUserID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LoginName" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="IsSuperAdmin" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DepartmentID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TeacherID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsFromAdministration" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="RoleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LoginCount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="DepartmentInfo_AdminUserInfo" Member="DepartmentInfo" ThisKey="DepartmentID" OtherKey="DepartmentID" Type="DepartmentInfo" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="RoleInfo_AdminUserInfo" Member="RoleInfo" ThisKey="RoleID" OtherKey="RoleID" Type="RoleInfo" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TimeLimitInfo" Member="TimeLimitInfo">
+    <Type Name="TimeLimitInfo">
+      <Column Name="TimeLimitID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="startTime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="endTime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BasicExamInfo" Member="BasicExamInfo">
+    <Type Name="BasicExamInfo">
+      <Column Name="BasicExamID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="BasicExamTitle" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="BasicExamDesc" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="MajorID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ChapterID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CourseID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AuthorID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="TimeUse" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SingChoiceNum" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SingChoiceMark" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MutilChoiceNum" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MutilChoiceMark" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="JudgeNum" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="JudgeMark" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="BasicQuestionCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DifficultFactor" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DiscriminationFactor" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KPointDistribute" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionTypeIDS" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionTypeCount" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="BasicExamInfo_RandomExamInfo" Member="RandomExamInfo" ThisKey="BasicExamID" OtherKey="BasicExamID" Type="RandomExamInfo" />
+      <Association Name="CourseInfo_BasicExamInfo" Member="CourseInfo" ThisKey="CourseID" OtherKey="CourseID" Type="CourseInfo" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ChapterInfo" Member="ChapterInfo">
+    <Type Name="ChapterInfo">
+      <Column Name="ChapterID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="CourseID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ChapterDesc" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="ChapterInfo_JudgeInfo" Member="JudgeInfo" ThisKey="ChapterID" OtherKey="ChapterID" Type="JudgeInfo" />
+      <Association Name="ChapterInfo_SelectChoiceInfo" Member="SelectChoiceInfo" ThisKey="ChapterID" OtherKey="ChapterID" Type="SelectChoiceInfo" />
+      <Association Name="CourseInfo_ChapterInfo" Member="CourseInfo" ThisKey="CourseID" OtherKey="CourseID" Type="CourseInfo" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ChoiceItemInfo" Member="ChoiceItemInfo">
+    <Type Name="ChoiceItemInfo">
+      <Column Name="ChoiceItemID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="SelectChoiceID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IsRight" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="SelectChoiceInfo_ChoiceItemInfo" Member="SelectChoiceInfo" ThisKey="SelectChoiceID" OtherKey="SelectChoiceID" Type="SelectChoiceInfo" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ClassInfo" Member="ClassInfo">
+    <Type Name="ClassInfo">
+      <Column Name="ClassID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ClassName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="StuCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MajorID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DepartmentID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="ClassInfo_ExamResultInfo" Member="ExamResultInfo" ThisKey="ClassID" OtherKey="ClassID" Type="ExamResultInfo" />
+      <Association Name="MajorInfo_ClassInfo" Member="MajorInfo" ThisKey="MajorID" OtherKey="MajorID" Type="MajorInfo" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CourseInfo" Member="CourseInfo">
+    <Type Name="CourseInfo">
+      <Column Name="CourseID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="MajorID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DepartmentID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CourseDesc" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CreditHour" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ClassHour" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="ChargeTeacherID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="CourseInfo_BasicExamInfo" Member="BasicExamInfo" ThisKey="CourseID" OtherKey="CourseID" Type="BasicExamInfo" />
+      <Association Name="CourseInfo_ChapterInfo" Member="ChapterInfo" ThisKey="CourseID" OtherKey="CourseID" Type="ChapterInfo" />
+      <Association Name="CourseInfo_ExamResultInfo" Member="ExamResultInfo" ThisKey="CourseID" OtherKey="CourseID" Type="ExamResultInfo" />
+      <Association Name="CourseInfo_JudgeInfo" Member="JudgeInfo" ThisKey="CourseID" OtherKey="CourseID" Type="JudgeInfo" />
+      <Association Name="CourseInfo_KnowledgePointInfo" Member="KnowledgePointInfo" ThisKey="CourseID" OtherKey="CourseID" Type="KnowledgePointInfo" />
+      <Association Name="CourseInfo_QuestionInfo" Member="QuestionInfo" ThisKey="CourseID" OtherKey="CourseID" Type="QuestionInfo" />
+      <Association Name="CourseInfo_SelectChoiceInfo" Member="SelectChoiceInfo" ThisKey="CourseID" OtherKey="CourseID" Type="SelectChoiceInfo" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DepartmentInfo" Member="DepartmentInfo">
+    <Type Name="DepartmentInfo">
+      <Column Name="DepartmentID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DepartmentName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="IsTeachingDept" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="DepartmentInfo_AdminUserInfo" Member="AdminUserInfo" ThisKey="DepartmentID" OtherKey="DepartmentID" Type="AdminUserInfo" />
+      <Association Name="DepartmentInfo_MajorInfo" Member="MajorInfo" ThisKey="DepartmentID" OtherKey="DepartmentID" Type="MajorInfo" />
+      <Association Name="DepartmentInfo_MessageInfo" Member="MessageInfo" ThisKey="DepartmentID" OtherKey="DepartmentID" Type="MessageInfo" />
+      <Association Name="DepartmentInfo_NoticeInfo" Member="NoticeInfo" ThisKey="DepartmentID" OtherKey="DepartmentID" Type="NoticeInfo" />
+      <Association Name="DepartmentInfo_StudentInfo" Member="StudentInfo" ThisKey="DepartmentID" OtherKey="DepartmentID" Type="StudentInfo" />
+      <Association Name="DepartmentInfo_SubjectInfo" Member="SubjectInfo" ThisKey="DepartmentID" OtherKey="DepartmentID" Type="SubjectInfo" />
+      <Association Name="DepartmentInfo_TeacherInfo" Member="TeacherInfo" ThisKey="DepartmentID" OtherKey="DepartmentID" Type="TeacherInfo" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ExamResultInfo" Member="ExamResultInfo">
+    <Type Name="ExamResultInfo">
+      <Column Name="ExamResultID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ClassID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CourseID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PassedRate" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ExcellentRate" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AverageMark" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Sum90" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Sum80" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Sum70" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Sum60" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Sum40And50" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Sum40" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="ClassInfo_ExamResultInfo" Member="ClassInfo" ThisKey="ClassID" OtherKey="ClassID" Type="ClassInfo" IsForeignKey="true" />
+      <Association Name="CourseInfo_ExamResultInfo" Member="CourseInfo" ThisKey="CourseID" OtherKey="CourseID" Type="CourseInfo" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.JudgeInfo" Member="JudgeInfo">
+    <Type Name="JudgeInfo">
+      <Column Name="JudgeID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="RightAnswer" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="MajorID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CourseID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DifficultyLevel" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ChapterID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="ChapterInfo_JudgeInfo" Member="ChapterInfo" ThisKey="ChapterID" OtherKey="ChapterID" Type="ChapterInfo" IsForeignKey="true" />
+      <Association Name="CourseInfo_JudgeInfo" Member="CourseInfo" ThisKey="CourseID" OtherKey="CourseID" Type="CourseInfo" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KnowledgePointInfo" Member="KnowledgePointInfo">
+    <Type Name="KnowledgePointInfo">
+      <Column Name="KnowledgePointID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CourseID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KPointDesc" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="KPointImportance" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KPointType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="KnowledgePointInfo_QuestionInfo" Member="QuestionInfo" ThisKey="KnowledgePointID" OtherKey="KPointID" Type="QuestionInfo" />
+      <Association Name="CourseInfo_KnowledgePointInfo" Member="CourseInfo" ThisKey="CourseID" OtherKey="CourseID" Type="CourseInfo" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LogInfo" Member="LogInfo">
+    <Type Name="LogInfo">
+      <Column Name="LogID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LogTitle" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="LogType" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="AddedTime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="LogContent" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MajorInfo" Member="MajorInfo">
+    <Type Name="MajorInfo">
+      <Column Name="MajorID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MajorName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DepartmentID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Association Name="MajorInfo_ClassInfo" Member="ClassInfo" ThisKey="MajorID" OtherKey="MajorID" Type="ClassInfo" />
+      <Association Name="MajorInfo_StudentInfo" Member="StudentInfo" ThisKey="MajorID" OtherKey="MajorID" Type="StudentInfo" />
+      <Association Name="MajorInfo_SubjectInfo" Member="SubjectInfo" ThisKey="MajorID" OtherKey="MajorID" Type="SubjectInfo" />
+      <Association Name="MajorInfo_TeacherInfo" Member="TeacherInfo" ThisKey="MajorID" OtherKey="MajorID" Type="TeacherInfo" />
+      <Association Name="DepartmentInfo_MajorInfo" Member="DepartmentInfo" ThisKey="DepartmentID" OtherKey="DepartmentID" Type="DepartmentInfo" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MessageInfo" Member="MessageInfo">
+    <Type Name="MessageInfo">
+      <Column Name="MessageID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Body" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="HasBeenReadByAuthor" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="HasBeenReadByReceiver" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="AddedTime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="LastUpdatedTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IsArchived" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="AuthorID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ReceiverID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AuthorIsStudent" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ReceiverIsStudent" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="HasAttachment" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="AttachmentPath" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DepartmentID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Grade" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Association Name="DepartmentInfo_MessageInfo" Member="DepartmentInfo" ThisKey="DepartmentID" OtherKey="DepartmentID" Type="DepartmentInfo" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NoticeInfo" Member="NoticeInfo">
+    <Type Name="NoticeInfo">
+      <Column Name="NoticeID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Body" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="AddedTime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Type" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HasAttachment" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="AttachmentPath" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DepartmentID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AuthorTeacherID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ClassID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CourseID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="DepartmentInfo_NoticeInfo" Member="DepartmentInfo" ThisKey="DepartmentID" OtherKey="DepartmentID" Type="DepartmentInfo" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QuestionInfo" Member="QuestionInfo">
+    <Type Name="QuestionInfo">
+      <Column Name="QuestionID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="RefAnswer" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="IsSingleOrRightForJudge" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ChoiceOrBlankCount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="QuestionTypeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CourseID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DifficultFactor" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DiscriminationFactor" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KPointID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Keywords" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="RunResult" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="HasImage" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ImgPath" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="AuthorID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AuthorIsStudent" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AuthorName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="IsFormal" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="UsedCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Chapter" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="CourseInfo_QuestionInfo" Member="CourseInfo" ThisKey="CourseID" OtherKey="CourseID" Type="CourseInfo" IsForeignKey="true" />
+      <Association Name="KnowledgePointInfo_QuestionInfo" Member="KnowledgePointInfo" ThisKey="KPointID" OtherKey="KnowledgePointID" Type="KnowledgePointInfo" IsForeignKey="true" />
+      <Association Name="QuestionTypeInfo_QuestionInfo" Member="QuestionTypeInfo" ThisKey="QuestionTypeID" OtherKey="QuestionTypeID" Type="QuestionTypeInfo" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QuestionTypeInfo" Member="QuestionTypeInfo">
+    <Type Name="QuestionTypeInfo">
+      <Column Name="QuestionTypeID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TypeTitle" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TypeDesc" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="RefMark" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="QuestionTypeInfo_QuestionInfo" Member="QuestionInfo" ThisKey="QuestionTypeID" OtherKey="QuestionTypeID" Type="QuestionInfo" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RandomExamInfo" Member="RandomExamInfo">
+    <Type Name="RandomExamInfo">
+      <Column Name="RandomExamID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="StudentID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="StuNum" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="ClassID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BasicExamID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SingleChoiceIDs" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="MutilChoiceIDs" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="JudgeIDs" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionIDS" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="HasFinished" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="TimeUse" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LoginTimes" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="InExaming" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ExamInfoFilePath" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="SingleGetMark" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MutilGetMark" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="JudgeGetMark" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TotalGetMark" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="EachQuestionTypeGetMark" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CourseID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IsVisitor" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IPAddress" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="BasicExamInfo_RandomExamInfo" Member="BasicExamInfo" ThisKey="BasicExamID" OtherKey="BasicExamID" Type="BasicExamInfo" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RoleInfo" Member="RoleInfo">
+    <Type Name="RoleInfo">
+      <Column Name="RoleID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="RoleName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="RoleDesc" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="RoleInfo_AdminUserInfo" Member="AdminUserInfo" ThisKey="RoleID" OtherKey="RoleID" Type="AdminUserInfo" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SelectChoiceInfo" Member="SelectChoiceInfo">
+    <Type Name="SelectChoiceInfo">
+      <Column Name="SelectChoiceID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="ChoiceCount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IsSingleSelect" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DifficultyLevel" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MajorID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CourseID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ChapterID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="SelectChoiceInfo_ChoiceItemInfo" Member="ChoiceItemInfo" ThisKey="SelectChoiceID" OtherKey="SelectChoiceID" Type="ChoiceItemInfo" />
+      <Association Name="ChapterInfo_SelectChoiceInfo" Member="ChapterInfo" ThisKey="ChapterID" OtherKey="ChapterID" Type="ChapterInfo" IsForeignKey="true" />
+      <Association Name="CourseInfo_SelectChoiceInfo" Member="CourseInfo" ThisKey="CourseID" OtherKey="CourseID" Type="CourseInfo" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.StudentInfo" Member="StudentInfo">
+    <Type Name="StudentInfo">
+      <Column Name="StudentID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="StuName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Sex" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="StuNum" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DepartmentID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MajorID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Grade" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Class" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="ClassID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HomeAddress" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="LoginName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CellPhone" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="QQNum" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="HomePhoneNum" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PersonalDesc" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ImagePath" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="State" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TeacherID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PractiseTeacherID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CompanyTeacherID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HasSelectedThesis" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsFullProfile" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="OtherTeacher" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="OtherCompanyTeacher" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="FreeToUploadForThesis" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="FreeToUploadForPractise" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="StuType" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IdentityCardNo" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="MajorDirection" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="LengthOfSchool" Type="System.Char" DbType="NChar(1)" CanBeNull="true" />
+      <Column Name="Race" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="Birthday" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LoginCount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="DepartmentInfo_StudentInfo" Member="DepartmentInfo" ThisKey="DepartmentID" OtherKey="DepartmentID" Type="DepartmentInfo" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="MajorInfo_StudentInfo" Member="MajorInfo" ThisKey="MajorID" OtherKey="MajorID" Type="MajorInfo" IsForeignKey="true" />
+      <Association Name="TeacherInfo_StudentInfo" Member="TeacherInfo" ThisKey="PractiseTeacherID" OtherKey="TeacherID" Type="TeacherInfo" IsForeignKey="true" />
+      <Association Name="TeacherInfo_StudentInfo1" Member="TeacherInfo1" ThisKey="TeacherID" OtherKey="TeacherID" Type="TeacherInfo" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SubjectInfo" Member="SubjectInfo">
+    <Type Name="SubjectInfo">
+      <Column Name="SubjectID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(70) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="AuthorName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Reference" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="MajorID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DepartmentID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IsChecked" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsFormal" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="AuthorID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AuthorIsStudent" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsFromWork" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsForemostInDept" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="MajorInfo_SubjectInfo" Member="MajorInfo" ThisKey="MajorID" OtherKey="MajorID" Type="MajorInfo" IsForeignKey="true" />
+      <Association Name="DepartmentInfo_SubjectInfo" Member="DepartmentInfo" ThisKey="DepartmentID" OtherKey="DepartmentID" Type="DepartmentInfo" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TeacherInfo" Member="TeacherInfo">
+    <Type Name="TeacherInfo">
+      <Column Name="TeacherID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TeacherName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TeacherNum" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Sex" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="MajorID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DepartmentID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ProfessionalTitle" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ResearchField" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="LoginName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="QQNum" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CellPhoneNum" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="OfficePhoneNum" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PersonalDesc" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ImaPath" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="IsMajorManager" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="LoginCount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="LastLoginTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="TeacherInfo_StudentInfo" Member="StudentInfo" ThisKey="TeacherID" OtherKey="PractiseTeacherID" Type="StudentInfo" />
+      <Association Name="TeacherInfo_StudentInfo1" Member="StudentInfo1" ThisKey="TeacherID" OtherKey="TeacherID" Type="StudentInfo" />
+      <Association Name="DepartmentInfo_TeacherInfo" Member="DepartmentInfo" ThisKey="DepartmentID" OtherKey="DepartmentID" Type="DepartmentInfo" IsForeignKey="true" />
+      <Association Name="MajorInfo_TeacherInfo" Member="MajorInfo" ThisKey="MajorID" OtherKey="MajorID" Type="MajorInfo" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

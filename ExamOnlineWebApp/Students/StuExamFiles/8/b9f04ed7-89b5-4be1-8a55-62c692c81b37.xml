@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="b9f04ed7-89b5-4be1-8a55-62c692c81b37" basicExamID="8" randomExamID="5" getMark="0" endTime="2013-5-22 23:03:50" loginNum="1">
+  <SingleChoices count="1" eachMark="50" getMark="0">
+    <SingleChoice choiceID="101" title="域名和IP 地址之间的关系是 (  ) 。">
+      <ChoiceItem choiceItemID="6307" title="A. 域名与IP 地址没有关系" isSelected="false" />
+      <ChoiceItem choiceItemID="6305" title="B. 一个域名对应多个IP 地址" isSelected="false" />
+      <ChoiceItem choiceItemID="6306" title="C. 一个IP 地址对应多个域名" isSelected="false" />
+      <ChoiceItem choiceItemID="6308" title="D. 一一对应" isSelected="false" />
+    </SingleChoice>
+  </SingleChoices>
+  <Judges count="1" eachMark="50" getMark="0">
+    <JudgeItem judgeID="252" title="创建用户帐户时可以不设置密码。" setTrue="-1" />
+  </Judges>
+</StudentExam>

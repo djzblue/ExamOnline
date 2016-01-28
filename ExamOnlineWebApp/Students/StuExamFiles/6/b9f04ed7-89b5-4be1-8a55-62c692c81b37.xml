@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="b9f04ed7-89b5-4be1-8a55-62c692c81b37" basicExamID="6" randomExamID="8" getMark="0" endTime="2013-5-22 23:04:20" loginNum="1">
+  <SingleChoices count="1" eachMark="50" getMark="0">
+    <SingleChoice choiceID="182" title="文件传输使用下面的（ ）协议">
+      <ChoiceItem choiceItemID="6630" title="A. FTP" isSelected="false" />
+      <ChoiceItem choiceItemID="6631" title="B. UDP" isSelected="false" />
+      <ChoiceItem choiceItemID="6632" title="C. Telnet" isSelected="false" />
+      <ChoiceItem choiceItemID="6629" title="D. SMTP" isSelected="false" />
+    </SingleChoice>
+  </SingleChoices>
+  <Judges count="1" eachMark="50" getMark="0">
+    <JudgeItem judgeID="247" title="局域网只有通过代理服务器才能连接Internet。" setTrue="-1" />
+  </Judges>
+</StudentExam>

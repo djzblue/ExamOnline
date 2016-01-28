@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="ef2f915d-903d-4e94-ac13-b83315c942fa" basicExamID="10" randomExamID="11" getMark="0" endTime="2013-5-22 23:20:45" loginNum="2">
+  <SingleChoices count="1" eachMark="50" getMark="0">
+    <SingleChoice choiceID="217" title="在Internet网的用户接入方式中，目前，大多数个人用户广泛采用的接入方式是（ ）">
+      <ChoiceItem choiceItemID="6769" title="A. 仿真终端方式" isSelected="false" />
+      <ChoiceItem choiceItemID="6772" title="B. 局域网连接方式" isSelected="false" />
+      <ChoiceItem choiceItemID="6771" title="C. 拨号IP方式" isSelected="false" />
+      <ChoiceItem choiceItemID="6770" title="D. 帧中继方式" isSelected="false" />
+    </SingleChoice>
+  </SingleChoices>
+  <Judges count="1" eachMark="50" getMark="0">
+    <JudgeItem judgeID="262" title="在将计算机与100BASE-TX集线器进行连接时。UTP电缆的长度不能大于150米。" setTrue="-1" />
+  </Judges>
+</StudentExam>

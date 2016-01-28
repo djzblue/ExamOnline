@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="febee41a-28d9-40c3-939e-14c5b4db876e" basicExamID="8" randomExamID="4" getMark="0" endTime="" loginNum="1">
+  <SingleChoices count="1" eachMark="50" getMark="0">
+    <SingleChoice choiceID="201" title="不能对用户帐户进行（ ）操作。">
+      <ChoiceItem choiceItemID="6708" title="A. 重命名" isSelected="false" />
+      <ChoiceItem choiceItemID="6706" title="B. 恢复删除" isSelected="false" />
+      <ChoiceItem choiceItemID="6705" title="C. 复制、移动、删除" isSelected="false" />
+      <ChoiceItem choiceItemID="6707" title="D. 重新设置密码" isSelected="false" />
+    </SingleChoice>
+  </SingleChoices>
+  <Judges count="1" eachMark="50" getMark="0">
+    <JudgeItem judgeID="254" title="在默认情况下，用户可从域中任何工作站登录网络。" setTrue="-1" />
+  </Judges>
+</StudentExam>

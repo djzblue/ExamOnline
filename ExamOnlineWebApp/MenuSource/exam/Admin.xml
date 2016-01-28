@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<工作台>
+  <ParentMenu title="基本管理" url="" target="mainFrame">
+   <SubMenu title="修改密码" url="~/Admin/ChangeAdminPwd.aspx" target="mainFrame"></SubMenu>
+  </ParentMenu>
+  <ParentMenu title="出题管理" url="" target="mainFrame">
+    <SubMenu title="试卷管理" url="~/Admin/ExamSetup.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="试题批量导入" url="~/Admin/ImportExamData.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="选择题" url="~/Admin/SelectChoiceManagement.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="判断题" url="~/Admin/JudgeManagement.aspx" target="mainFrame"></SubMenu>
+  </ParentMenu>
+  <ParentMenu title="成绩管理" url="" target="mainFrame">
+    <SubMenu title="学生成绩" url="~/Admin/StuExamMarkList.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="统计数据" url="~/Admin/QueryShow.aspx" target="mainFrame"></SubMenu>
+  </ParentMenu>  
+  <ParentMenu title="基础数据" url="" target="mainFrame">
+    <SubMenu title="教师数据" url="~/Admin/TeacherManagement.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="学生数据" url="~/Admin/StudentManagement.aspx" target="mainFrame"></SubMenu>
+  </ParentMenu>
+
+</工作台>

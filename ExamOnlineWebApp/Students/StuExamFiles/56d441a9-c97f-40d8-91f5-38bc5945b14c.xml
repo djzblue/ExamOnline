@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="56d441a9-c97f-40d8-91f5-38bc5945b14c" basicExamID="7" randomExamID="97" getMark="50" endTime="2013-5-22 21:59:46" loginNum="4">
+  <SingleChoices count="1" eachMark="50" getMark="0">
+    <SingleChoice choiceID="65" title="万维网的网址以http 为前导，表示遵从 (  ) 协议。">
+      <ChoiceItem choiceItemID="6163" title="A. TCP/IP" isSelected="true" />
+      <ChoiceItem choiceItemID="6164" title="B. POP" isSelected="false" />
+      <ChoiceItem choiceItemID="6161" title="C. 超文本传输" isSelected="false" />
+      <ChoiceItem choiceItemID="6162" title="D. 纯文本 " isSelected="false" />
+    </SingleChoice>
+  </SingleChoices>
+  <Judges count="1" eachMark="50" getMark="50">
+    <JudgeItem judgeID="234" title="IP地址是用数字表示Internet地址，域名地址不表示Internet地址；" setTrue="0" />
+  </Judges>
+</StudentExam>

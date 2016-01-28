@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<工作台>
+  <ParentMenu title="基本管理" url="" target="mainFrame">
+    <SubMenu title="系统设置" url="~/practise/Admin/GeneralSettings.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="修改密码" url="~/practise/Admin/ChangeAdminPwd.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="选择身份" url="~/practise/Admin/LoginAs.aspx" target="mainFrame"></SubMenu>
+  </ParentMenu>
+  <ParentMenu title="消息管理" url="" target="mainFrame">
+    <SubMenu title="消息群发" url="~/practise/Admin/AddMessage.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="发件箱" url="~/MyMessage.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="收件箱" url="~/practise/Admin/AdminMessages.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="公告管理" url="~/practise/Admin/NoticeManagement.aspx" target="mainFrame"></SubMenu>
+  </ParentMenu>
+
+  <ParentMenu title="社会实践管理" url="" target="mainFrame">
+    <ParentMenu title="基本设置" url="" target="mainFrame">
+      <SubMenu title="设置导师" url="~/practise/Admin/MentorManagement.aspx" target="mainFrame"></SubMenu>
+      <SubMenu title="学生分配" url="~/practise/Admin/DispatchStu.aspx" target="mainFrame"></SubMenu>
+      <SubMenu title="流程管理" url="~/practise/Admin/UploadFileManagement.aspx" target="mainFrame"></SubMenu>
+      <SubMenu title="岗位审核" url="~/practise/Admin/CheckSubjects.aspx" target="mainFrame"></SubMenu>
+      <SubMenu title="岗位录入" url="~/practise/Admin/SubjectManagement.aspx" target="mainFrame"></SubMenu>
+    </ParentMenu>
+    <ParentMenu title="信息查询" url="" target="mainFrame">
+      <SubMenu title="学生岗位情况" url="~/practise/Admin/SubjectSelectedQuery.aspx" target="mainFrame"></SubMenu>
+      <SubMenu title="学生文档进度" url="~/practise/Admin/ProcessQuery.aspx" target="mainFrame"></SubMenu>
+      <SubMenu title="教师文档进度" url="~/practise/Admin/TeacherProcessQuery.aspx" target="mainFrame"></SubMenu>
+      <SubMenu title="教师指导记录" url="~/practise/Admin/GuideQuery.aspx" target="mainFrame"></SubMenu>
+    </ParentMenu>
+  </ParentMenu>
+
+  <ParentMenu title="基础数据" url="" target="mainFrame">
+    <SubMenu title="教师数据" url="~/practise/Admin/TeacherManagement.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="学生数据" url="~/practise/Admin/StudentManagement.aspx" target="mainFrame"></SubMenu>
+  </ParentMenu>
+
+  <ParentMenu title="顶岗实习" url="" target="mainFrame">
+    <SubMenu title="查询实习情况" url="~/practise/Admin/QueryPractice.aspx" target="mainFrame"></SubMenu>
+  </ParentMenu>
+
+  <ParentMenu title="帮助与简介" url="" target="mainFrame">
+    <SubMenu title="项目简介" url="~/Copyright.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="用户手册" url="~/help.rar" target="mainFrame"></SubMenu>
+  </ParentMenu>
+
+
+
+</工作台>

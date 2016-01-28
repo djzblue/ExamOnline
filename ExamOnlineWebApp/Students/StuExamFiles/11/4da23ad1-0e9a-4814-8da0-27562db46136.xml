@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="4da23ad1-0e9a-4814-8da0-27562db46136" basicExamID="11" randomExamID="21" getMark="0" endTime="2014-07-03 0:12:16" loginNum="1">
+  <SingleChoices count="1" eachMark="50" getMark="0">
+    <SingleChoice choiceID="180" title="ADSL技术主要解决的问题是（ ）">
+      <ChoiceItem choiceItemID="6621" title="A. 宽带传输 " isSelected="false" />
+      <ChoiceItem choiceItemID="6622" title="B. 宽带接入" isSelected="false" />
+      <ChoiceItem choiceItemID="6623" title="C. 宽带交换" isSelected="false" />
+      <ChoiceItem choiceItemID="6624" title="D. 多媒体综合网络" isSelected="false" />
+    </SingleChoice>
+  </SingleChoices>
+  <Judges count="1" eachMark="50" getMark="0">
+    <JudgeItem judgeID="245" title="ADSL虚拟拨号连接Internet时也需要拨号电话号码。" setTrue="-1" />
+  </Judges>
+</StudentExam>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="6e0f6104-5a4e-4571-8644-8229ca6f2f81" basicExamID="6" randomExamID="13" getMark="0" endTime="2013-5-23 16:34:26" loginNum="1">
+  <SingleChoices count="10" eachMark="5" getMark="0">
+    <SingleChoice choiceID="124" title=" B 类地址中用（ ）位来标识网络中的一台主机">
+      <ChoiceItem choiceItemID="6398" title="A. 14" isSelected="false" />
+      <ChoiceItem choiceItemID="6397" title="B. 8" isSelected="false" />
+      <ChoiceItem choiceItemID="6399" title="C. 16" isSelected="false" />
+      <ChoiceItem choiceItemID="6400" title="D. 24" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="55" title="具有异种网互联能力的网络设备是 ( ) 。">
+      <ChoiceItem choiceItemID="6123" title="A. 网桥" isSelected="false" />
+      <ChoiceItem choiceItemID="6124" title="B. 桥路器" isSelected="false" />
+      <ChoiceItem choiceItemID="6122" title="C. 网关" isSelected="false" />
+      <ChoiceItem choiceItemID="6121" title="D. 路由器" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="115" title="计算机网络中信息传递的调度控制技术可分为三类，以下不属于此控制技术的是（）。">
+      <ChoiceItem choiceItemID="6363" title="A. 防止死锁" isSelected="false" />
+      <ChoiceItem choiceItemID="6364" title="B. 时延控制" isSelected="false" />
+      <ChoiceItem choiceItemID="6362" title="C. 拥塞控制" isSelected="false" />
+      <ChoiceItem choiceItemID="6361" title="D. 流量控制" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="127" title="下列哪个属于无连接的服务(  )">
+      <ChoiceItem choiceItemID="6411" title="A. 网络层IP" isSelected="false" />
+      <ChoiceItem choiceItemID="6412" title="B. 传输层TCP" isSelected="false" />
+      <ChoiceItem choiceItemID="6410" title="C. 数据链路层PPP" isSelected="false" />
+      <ChoiceItem choiceItemID="6409" title="D. 物理层电路交换" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="86" title="计算机网络的主要功能是 (  ) 。">
+      <ChoiceItem choiceItemID="6247" title="A. 提高系统可靠性" isSelected="false" />
+      <ChoiceItem choiceItemID="6248" title="B. 将负荷均匀地分配给网上备计算机系统" isSelected="false" />
+      <ChoiceItem choiceItemID="6246" title="C. 数据通信和资源共享" isSelected="false" />
+      <ChoiceItem choiceItemID="6245" title="D. 计算机之间的互相制约" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="110" title="在如下网络拓朴结构中，具在一定集中控制功能的网络是（ ）。">
+      <ChoiceItem choiceItemID="6343" title="A. 环型网络" isSelected="false" />
+      <ChoiceItem choiceItemID="6341" title="B. 总线型网络" isSelected="false" />
+      <ChoiceItem choiceItemID="6342" title="C. 星型网络" isSelected="false" />
+      <ChoiceItem choiceItemID="6344" title="D. 全连接型网络" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="25" title="通过拨号上网，从室外进来的电话线应当和（ ）连接。">
+      <ChoiceItem choiceItemID="6003" title="A. 调制解调器上标有PHONE的口" isSelected="false" />
+      <ChoiceItem choiceItemID="6001" title="B. 计算机的串口" isSelected="false" />
+      <ChoiceItem choiceItemID="6002" title="C. 计算机的并口" isSelected="false" />
+      <ChoiceItem choiceItemID="6004" title="D. 调制解调器上标有LINE的口" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="87" title="中国教育科研网是指： (  ) 。">
+      <ChoiceItem choiceItemID="6251" title="A. Internet " isSelected="false" />
+      <ChoiceItem choiceItemID="6249" title="B. CHINAnet " isSelected="false" />
+      <ChoiceItem choiceItemID="6250" title="C. CERNET " isSelected="false" />
+      <ChoiceItem choiceItemID="6252" title="D. CEINET" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="138" title="通信系统必须具备的三个基本要素是 (  )">
+      <ChoiceItem choiceItemID="6455" title="A. 信源(源系统)、通信媒体（传输系统）、信宿（目的系统）" isSelected="false" />
+      <ChoiceItem choiceItemID="6453" title="B. 终端、电缆、计算机" isSelected="false" />
+      <ChoiceItem choiceItemID="6454" title="C. 信号发生器、通信线路、信号接收设备" isSelected="false" />
+      <ChoiceItem choiceItemID="6456" title="D. 终端、通信设施、接收设备" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="67" title="Internet 网站域名地址中的GOV 表示 (  ) 。">
+      <ChoiceItem choiceItemID="6172" title="A. 非盈利组织" isSelected="false" />
+      <ChoiceItem choiceItemID="6170" title="B. 商业部门" isSelected="false" />
+      <ChoiceItem choiceItemID="6169" title="C. 政府部门 " isSelected="false" />
+      <ChoiceItem choiceItemID="6171" title="D. 网络机构" isSelected="false" />
+    </SingleChoice>
+  </SingleChoices>
+  <Judges count="10" eachMark="5" getMark="0">
+    <JudgeItem judgeID="161" title="多集线器100M以太网的整个网络的最大覆盖范围是500m。" setTrue="-1" />
+    <JudgeItem judgeID="152" title="网络组建好后，必须安装TCP/IP协议组件计算机之间才能通信。" setTrue="-1" />
+    <JudgeItem judgeID="226" title=" 提供虚电路服务的通信子网内部的实际操作必须是虚电路方式的。 " setTrue="-1" />
+    <JudgeItem judgeID="168" title="在CSMA/CD控制方法中，站点在发送完帧之后，再对冲突进行检测。" setTrue="-1" />
+    <JudgeItem judgeID="218" title=" ICMP差错报告报文共有5种：目的站不可达、源站抑制、超时、参数问题与改变路由。" setTrue="-1" />
+    <JudgeItem judgeID="198" title=" 建立在交换技术的基础上，能够将网络上的结点按需要来划分成若干个“逻辑工作组”的网络称之为广域网。" setTrue="-1" />
+    <JudgeItem judgeID="219" title=" TCP协议规定HTTP服务器进程的端口号为80。 " setTrue="-1" />
+    <JudgeItem judgeID="157" title="集线器组成的以太网在物理连接上可以出现环路。" setTrue="-1" />
+    <JudgeItem judgeID="222" title=" 所有的总线拓扑网中，都会发生数据冲突问题。 " setTrue="-1" />
+    <JudgeItem judgeID="167" title="在CRC的多项式表示方法中，若M=110011，则多项式为M（x）=x5+x4+x+1。" setTrue="-1" />
+  </Judges>
+</StudentExam>

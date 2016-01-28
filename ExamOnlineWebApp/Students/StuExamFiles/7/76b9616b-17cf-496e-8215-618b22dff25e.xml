@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="76b9616b-17cf-496e-8215-618b22dff25e" basicExamID="7" randomExamID="14" getMark="0" endTime="2013-5-23 16:43:15" loginNum="1">
+  <SingleChoices count="10" eachMark="5" getMark="0">
+    <SingleChoice choiceID="89" title="有关邮件帐号设置的说法中正确的是： (  ) 。">
+      <ChoiceItem choiceItemID="6257" title="A. 接收邮件服务器使用的邮件协议名，只能采用POP3 协议" isSelected="false" />
+      <ChoiceItem choiceItemID="6259" title="B. 发送邮件服务器的域名或IP 必须与接收邮件服务器相同" isSelected="false" />
+      <ChoiceItem choiceItemID="6260" title="C. 发送邮件服务器的域名或IP 必须选择一个其它的服务器地址" isSelected="false" />
+      <ChoiceItem choiceItemID="6258" title="D. 接收邮件服务器的域名或IP 地址，应填入你的电子邮件地址" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="167" title="企业内部网又称为（ ）。">
+      <ChoiceItem choiceItemID="6569" title="A. Internet" isSelected="false" />
+      <ChoiceItem choiceItemID="6571" title="B. Wan" isSelected="false" />
+      <ChoiceItem choiceItemID="6572" title="C. Lan" isSelected="false" />
+      <ChoiceItem choiceItemID="6570" title="D. Intranet" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="163" title="URL如：ftp://ftp.sdpt.com.cn/index.html由以下各部分组成。">
+      <ChoiceItem choiceItemID="6553" title="A. 协议、主机名、路径和文件名" isSelected="false" />
+      <ChoiceItem choiceItemID="6555" title="B. 协议、文件名" isSelected="false" />
+      <ChoiceItem choiceItemID="6556" title="C. WEB服务器和浏览器" isSelected="false" />
+      <ChoiceItem choiceItemID="6554" title="D. 协议、WWW、HTML和文件名" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="158" title="术语HTML的含义是">
+      <ChoiceItem choiceItemID="6533" title="A. 超文本标识语言" isSelected="false" />
+      <ChoiceItem choiceItemID="6535" title="B. 网页制作语言" isSelected="false" />
+      <ChoiceItem choiceItemID="6536" title="C. 通信协议" isSelected="false" />
+      <ChoiceItem choiceItemID="6534" title="D. WWW编程语言" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="99" title="WWW 的作用是 (  ) 。">
+      <ChoiceItem choiceItemID="6300" title="A. 远程登录" isSelected="false" />
+      <ChoiceItem choiceItemID="6299" title="B. 收发电子邮件" isSelected="false" />
+      <ChoiceItem choiceItemID="6297" title="C. 信息浏览" isSelected="false" />
+      <ChoiceItem choiceItemID="6298" title="D. 文件传输 " isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="165" title="Internet网最基本、最重要且使用最广的服务是()">
+      <ChoiceItem choiceItemID="6564" title="A. WWW" isSelected="false" />
+      <ChoiceItem choiceItemID="6563" title="B. FTP" isSelected="false" />
+      <ChoiceItem choiceItemID="6561" title="C. Telnet " isSelected="false" />
+      <ChoiceItem choiceItemID="6562" title="D. E-Mail" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="166" title="我们俗称的家庭办公,即工作人员在家与其办公室之间的通信形式属于计算机网络的一种()应用形式。">
+      <ChoiceItem choiceItemID="6568" title="A. 电子数据交换" isSelected="false" />
+      <ChoiceItem choiceItemID="6567" title="B. 电子公告板" isSelected="false" />
+      <ChoiceItem choiceItemID="6565" title="C. 办公自动化" isSelected="false" />
+      <ChoiceItem choiceItemID="6566" title="D. 远程交换" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="164" title="在Web服务中的HTTP（超文本传输协议）默认使用TCP（）号端口。">
+      <ChoiceItem choiceItemID="6560" title="A. 80" isSelected="false" />
+      <ChoiceItem choiceItemID="6559" title="B. 25" isSelected="false" />
+      <ChoiceItem choiceItemID="6557" title="C. 21" isSelected="false" />
+      <ChoiceItem choiceItemID="6558" title="D. 23" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="150" title="Internet服务提供者的英文简写是">
+      <ChoiceItem choiceItemID="6502" title="A. NII " isSelected="false" />
+      <ChoiceItem choiceItemID="6501" title="B. DSS " isSelected="false" />
+      <ChoiceItem choiceItemID="6503" title="C. IIS " isSelected="false" />
+      <ChoiceItem choiceItemID="6504" title="D. ISP" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="75" title="www 使用C1ient／Server 模型，用户通过 (  ) 端浏览器访问www。">
+      <ChoiceItem choiceItemID="6202" title="A. 服务器" isSelected="false" />
+      <ChoiceItem choiceItemID="6201" title="B. 客户机 " isSelected="false" />
+      <ChoiceItem choiceItemID="6203" title="C. 浏览器" isSelected="false" />
+      <ChoiceItem choiceItemID="6204" title="D. 局域网" isSelected="false" />
+    </SingleChoice>
+  </SingleChoices>
+  <Judges count="10" eachMark="5" getMark="0">
+    <JudgeItem judgeID="240" title="局域网因为使用了Internet技术而称为Intranet。" setTrue="-1" />
+    <JudgeItem judgeID="224" title=" SNMP是基于UDP协议，提供无连接的不可靠的服务。 " setTrue="-1" />
+    <JudgeItem judgeID="243" title="56Kbps Modem拨号上网接收和发送的速率相同，均为56Kbps。" setTrue="-1" />
+    <JudgeItem judgeID="247" title="局域网只有通过代理服务器才能连接Internet。" setTrue="-1" />
+    <JudgeItem judgeID="236" title="在命令状态下键入“ping 127．0．0．1”可以用来验证网卡是否正常；" setTrue="-1" />
+    <JudgeItem judgeID="237" title="要访问Internet一定要安装TCP/IP协议；" setTrue="-1" />
+    <JudgeItem judgeID="244" title="ISDN通过模拟电话网络PSTN接入Internet。" setTrue="-1" />
+    <JudgeItem judgeID="234" title="IP地址是用数字表示Internet地址，域名地址不表示Internet地址；" setTrue="-1" />
+    <JudgeItem judgeID="136" title="因为光纤带宽比电话线大，所以采用有线电视网接入 Internet 的速度较 ADSL 快。" setTrue="-1" />
+    <JudgeItem judgeID="245" title="ADSL虚拟拨号连接Internet时也需要拨号电话号码。" setTrue="-1" />
+  </Judges>
+</StudentExam>

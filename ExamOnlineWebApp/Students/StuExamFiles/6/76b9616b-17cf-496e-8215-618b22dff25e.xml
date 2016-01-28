@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="76b9616b-17cf-496e-8215-618b22dff25e" basicExamID="6" randomExamID="15" getMark="0" endTime="2013-5-23 17:09:04" loginNum="1">
+  <SingleChoices count="10" eachMark="5" getMark="0">
+    <SingleChoice choiceID="56" title="局域网常用的基本拓扑结构有 (  ) 、环型和星型。">
+      <ChoiceItem choiceItemID="6127" title="A. 交换型" isSelected="false" />
+      <ChoiceItem choiceItemID="6125" title="B. 层次型" isSelected="false" />
+      <ChoiceItem choiceItemID="6128" title="C. 分组型" isSelected="false" />
+      <ChoiceItem choiceItemID="6126" title="D. 总线型" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="28" title="（ ）对电话拨号上网用户访问Internet的速度没有直接影响。">
+      <ChoiceItem choiceItemID="6016" title="A. ISP的位置" isSelected="false" />
+      <ChoiceItem choiceItemID="6013" title="B. 用户调制解调器的速率" isSelected="false" />
+      <ChoiceItem choiceItemID="6014" title="C. ISP的出口带宽" isSelected="false" />
+      <ChoiceItem choiceItemID="6015" title="D. 被访问服务器的性能" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="43" title="(  ) 是实现数字信号和模拟信号转换的设备。">
+      <ChoiceItem choiceItemID="6076" title="A. 都不是" isSelected="false" />
+      <ChoiceItem choiceItemID="6073" title="B. 网卡" isSelected="false" />
+      <ChoiceItem choiceItemID="6074" title="C. 调制解调器" isSelected="false" />
+      <ChoiceItem choiceItemID="6075" title="D. 网络线" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="132" title="通过改变载波信号的相位值来表示数字信号1，0 的方法称为">
+      <ChoiceItem choiceItemID="6432" title="A. ATM" isSelected="false" />
+      <ChoiceItem choiceItemID="6429" title="B. ASK " isSelected="false" />
+      <ChoiceItem choiceItemID="6430" title="C. FSK" isSelected="false" />
+      <ChoiceItem choiceItemID="6431" title="D. PSK " isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="33" title="动态路由选择和静态路由选择的主要区别在哪里？（ ）。">
+      <ChoiceItem choiceItemID="6034" title="A. 动态路由选择需要使用路由选择协议去发现和维护路由信息，而静态路由选择只需要手动配置路由信息" isSelected="false" />
+      <ChoiceItem choiceItemID="6035" title="B. 动态路由选择的可扩展性要大大优于静态路由选择，因为在网络拓扑发生变化时路由选择不需要手动配置去通知路由器" isSelected="false" />
+      <ChoiceItem choiceItemID="6033" title="C. 动态路由选择需要维护整个网络的拓扑结构信息，而静态路由选择只需要维护有限的拓扑结构信息" isSelected="false" />
+      <ChoiceItem choiceItemID="6036" title="D. 动态路由选择使用路由表，而静态路由选择不使用路由表" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="59" title="局域网的网络硬件主要包括网络服务器，工作站、(  ) 和通信介质。">
+      <ChoiceItem choiceItemID="6138" title="A. 网卡" isSelected="false" />
+      <ChoiceItem choiceItemID="6139" title="B. 网络拓扑结构" isSelected="false" />
+      <ChoiceItem choiceItemID="6137" title="C. 计算机" isSelected="false" />
+      <ChoiceItem choiceItemID="6140" title="D. 网络协议" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="62" title=" 国际标准化组织 (  ) 提出的七层网络模型被称为开放系统互连参考模型 ( )">
+      <ChoiceItem choiceItemID="6150" title="A. ISO " isSelected="false" />
+      <ChoiceItem choiceItemID="6151" title="B. OSI／RM " isSelected="false" />
+      <ChoiceItem choiceItemID="6149" title="C. OSI " isSelected="false" />
+      <ChoiceItem choiceItemID="6152" title="D. TCP／IP" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="61" title="计算机传输介质中传输最快的是 (  ) 。">
+      <ChoiceItem choiceItemID="6145" title="A. 同轴电缆" isSelected="false" />
+      <ChoiceItem choiceItemID="6148" title="B. 铜质电缆" isSelected="false" />
+      <ChoiceItem choiceItemID="6147" title="C. 双绞线" isSelected="false" />
+      <ChoiceItem choiceItemID="6146" title="D. 光缆" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="83" title="OSI 将计算机网络的体系结构规定为7 层，而TCP/IP 则规定为 (  ) 。">
+      <ChoiceItem choiceItemID="6233" title="A. 4 层" isSelected="false" />
+      <ChoiceItem choiceItemID="6236" title="B. 7 层" isSelected="false" />
+      <ChoiceItem choiceItemID="6235" title="C. 6 层" isSelected="false" />
+      <ChoiceItem choiceItemID="6234" title="D. 5 层" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="72" title="(  ) 是传输层以上实现两个异构系统互连的设备。">
+      <ChoiceItem choiceItemID="6189" title="A. 网桥" isSelected="false" />
+      <ChoiceItem choiceItemID="6192" title="B. 路由器" isSelected="false" />
+      <ChoiceItem choiceItemID="6191" title="C. 集线器" isSelected="false" />
+      <ChoiceItem choiceItemID="6190" title="D. 网关" isSelected="false" />
+    </SingleChoice>
+  </SingleChoices>
+  <Judges count="10" eachMark="5" getMark="0">
+    <JudgeItem judgeID="209" title=" 如果网络环境中的两台主机要实现进程通信，那么它们首先要约定好传输层协议类型。例如，两台主机中一台主机的传输层使用TCP协议，而另一台主机的传输层可以使用UDP协议。 " setTrue="-1" />
+    <JudgeItem judgeID="218" title=" ICMP差错报告报文共有5种：目的站不可达、源站抑制、超时、参数问题与改变路由。" setTrue="-1" />
+    <JudgeItem judgeID="187" title="所有的帧都必须以标志字段开头和结尾。" setTrue="-1" />
+    <JudgeItem judgeID="174" title="外部网关协议EGP是用于自治系统内部路径信息获取和交换的协议集。" setTrue="-1" />
+    <JudgeItem judgeID="181" title="两个虚拟局域网之间的通信必须在第三层（网络层）路由才能实现。" setTrue="-1" />
+    <JudgeItem judgeID="180" title="通过找出到各目的网络的最短距离来更新路由表的算法称为距离向量算法。" setTrue="-1" />
+    <JudgeItem judgeID="199" title=" 在互联的网络路由器中转发IP分组的物理传输过程与数据报转发机制称之为分组交付。" setTrue="-1" />
+    <JudgeItem judgeID="185" title="在局域网中，网络软件和网络应用服务程序主要安装在工作站上。" setTrue="-1" />
+    <JudgeItem judgeID="192" title="网桥是属于OSI模型中网络层的互联设备。" setTrue="-1" />
+    <JudgeItem judgeID="183" title="在使用无分类域间路由选择（CIDR）时，路由表由“网络前缀”和“下一跳地址”组成，查找路由表时可能会得到不止一个匹配结果，这时应选择具有最长网络前缀的路由。" setTrue="-1" />
+  </Judges>
+</StudentExam>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="3e8e4521-9a09-4ddd-acbd-8aba3d0e0167" basicExamID="11" randomExamID="24" getMark="30" endTime="2014-07-03 0:20:12" loginNum="1">
+  <SingleChoices count="5" eachMark="10" getMark="0">
+    <SingleChoice choiceID="123" title="现有的公共数据网都采用（ ） 技术">
+      <ChoiceItem choiceItemID="6394" title="A. 报文交换" isSelected="true" />
+      <ChoiceItem choiceItemID="6396" title="B. 分组交换" isSelected="false" />
+      <ChoiceItem choiceItemID="6395" title="C. 语音插空" isSelected="false" />
+      <ChoiceItem choiceItemID="6393" title="D. 电路交换" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="15" title="以下哪种软件是网吧必须安装的（ ）。">
+      <ChoiceItem choiceItemID="5964" title="A. Realplay 播放软件" isSelected="false" />
+      <ChoiceItem choiceItemID="5961" title="B. VC 开发工具软件" isSelected="true" />
+      <ChoiceItem choiceItemID="5962" title="C. 杀毒软件" isSelected="false" />
+      <ChoiceItem choiceItemID="5963" title="D. 网络流量统计工具软件" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="80" title="数据通信中的信道传输速率单位用bps 表示 (  ) 。">
+      <ChoiceItem choiceItemID="6224" title="A. K 字节／秒" isSelected="false" />
+      <ChoiceItem choiceItemID="6221" title="B. 字节／秒" isSelected="false" />
+      <ChoiceItem choiceItemID="6222" title="C. 位／秒" isSelected="false" />
+      <ChoiceItem choiceItemID="6223" title="D. K 位／秒" isSelected="true" />
+    </SingleChoice>
+    <SingleChoice choiceID="52" title="ISDN 的含义是 (  ) 。">
+      <ChoiceItem choiceItemID="6112" title="A. 光缆网" isSelected="false" />
+      <ChoiceItem choiceItemID="6109" title="B. 计算机网" isSelected="false" />
+      <ChoiceItem choiceItemID="6110" title="C. 广播电视网" isSelected="true" />
+      <ChoiceItem choiceItemID="6111" title="D. 综合业务数字网" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="188" title="下列属于网络故障管理的内容的是（           ）。">
+      <ChoiceItem choiceItemID="6653" title="A. 检查网络应用和协议行为" isSelected="false" />
+      <ChoiceItem choiceItemID="6656" title="B. 定位问题,隔离问题" isSelected="false" />
+      <ChoiceItem choiceItemID="6654" title="C. 保存对网络设备的配置信息，包括设备清单" isSelected="true" />
+      <ChoiceItem choiceItemID="6655" title="D. 维护并分发口令或密钥" isSelected="false" />
+    </SingleChoice>
+  </SingleChoices>
+  <Judges count="5" eachMark="10" getMark="30">
+    <JudgeItem judgeID="188" title="如果要实现双向同时通信就必须要有两条数据传输线路。" setTrue="1" />
+    <JudgeItem judgeID="196" title=" 同一报文中的所有分组可以通过预先在通信子网中建立的传输路径来传输的方法称之为虚电路。" setTrue="1" />
+    <JudgeItem judgeID="247" title="局域网只有通过代理服务器才能连接Internet。" setTrue="0" />
+    <JudgeItem judgeID="192" title="网桥是属于OSI模型中网络层的互联设备。" setTrue="1" />
+    <JudgeItem judgeID="219" title=" TCP协议规定HTTP服务器进程的端口号为80。 " setTrue="1" />
+  </Judges>
+</StudentExam>

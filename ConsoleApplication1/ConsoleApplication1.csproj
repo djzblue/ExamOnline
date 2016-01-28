@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{40252517-381F-4CA3-BE7A-1C041E1EE640}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <AssemblyName>ConsoleApplication1</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{8EAF51D0-5307-48B4-807B-3F4938EE34B2}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Controls\Controls.csproj">
+      <Project>{D015C7C8-5D19-4225-8939-5954321EF1C9}</Project>
+      <Name>Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{F5D21FAA-91F2-4BBF-B9D1-926657023A8E}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileManager\FileManager.csproj">
+      <Project>{4AA02A18-D67B-4D58-94EF-27E74B597698}</Project>
+      <Name>FileManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ThesisManagement\ExamOnline.csproj">
+      <Project>{8AA1A3F5-D2A9-4918-8D4D-20C315B7BC56}</Project>
+      <Name>ExamOnline</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Web\Web.csproj">
+      <Project>{D22A9568-49B8-47AF-98A2-C130E1D42142}</Project>
+      <Name>Web</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

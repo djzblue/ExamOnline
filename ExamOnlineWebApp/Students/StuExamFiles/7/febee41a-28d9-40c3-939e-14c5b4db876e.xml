@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="febee41a-28d9-40c3-939e-14c5b4db876e" basicExamID="7" randomExamID="2" getMark="0" endTime="" loginNum="1">
+  <SingleChoices count="1" eachMark="50" getMark="0">
+    <SingleChoice choiceID="179" title="接入网技术复杂、实施困难、影响面广。以下选项中（ ）技术不是典型的宽带网络接入技术。">
+      <ChoiceItem choiceItemID="6617" title="A. 数字用户线路接入" isSelected="false" />
+      <ChoiceItem choiceItemID="6618" title="B. 光纤/同轴电缆混合接入" isSelected="false" />
+      <ChoiceItem choiceItemID="6619" title="C. 电话交换网" isSelected="false" />
+      <ChoiceItem choiceItemID="6620" title="D. 光纤网络" isSelected="false" />
+    </SingleChoice>
+  </SingleChoices>
+  <Judges count="1" eachMark="50" getMark="0">
+    <JudgeItem judgeID="242" title="Internet基础协议为TCP/IP。" setTrue="-1" />
+  </Judges>
+</StudentExam>

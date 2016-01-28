@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode url="~/Default.aspx" title="Default">
+    <siteMapNode title="Admin">
+      <siteMapNode url="~/Admin/AddAdmin.aspx" title="AddAdmin" />
+      <siteMapNode url="~/Admin/AddMessage.aspx" title="AddMessage" />
+      <siteMapNode url="~/Admin/AdminMessages.aspx" title="AdminMessages" />
+      <siteMapNode url="~/Admin/BaseDataManagement.aspx" title="BaseDataManagement" />
+      <siteMapNode url="~/Admin/ChangeAdminPwd.aspx" title="ChangeAdminPwd" />
+      <siteMapNode url="~/Admin/CheckSubjects.aspx" title="CheckSubjects" />
+      <siteMapNode url="~/Admin/DispatchStu.aspx" title="DispatchStu" />
+      <siteMapNode url="~/Admin/GeneralSettings.aspx" title="GeneralSettings" />
+      <siteMapNode url="~/Admin/GuideQuery.aspx" title="GuideQuery" />
+      <siteMapNode url="~/Admin/LoginAs.aspx" title="LoginAs" />
+      <siteMapNode url="~/Admin/MentorManagement.aspx" title="MentorManagement" />
+      <siteMapNode url="~/Admin/NoticeManagement.aspx" title="NoticeManagement" />
+      <siteMapNode url="~/Admin/ProcessQuery.aspx" title="ProcessQuery" />
+      <siteMapNode url="~/Admin/QueryPractice.aspx" title="QueryPractice" />
+      <siteMapNode url="~/Admin/StudentManagement.aspx" title="StudentManagement" />
+      <siteMapNode url="~/Admin/SubjectManagement.aspx" title="SubjectManagement" />
+      <siteMapNode url="~/Admin/TeacherManagement.aspx" title="TeacherManagement" />
+      <siteMapNode url="~/Admin/UploadFileManagement.aspx" title="UploadFileManagement" />
+    </siteMapNode>
+    <siteMapNode url="~/admin.html" title="admin" />
+    <siteMapNode url="~/ChangesSelectedSubject.aspx" title="ChangesSelectedSubject" />
+      <siteMapNode url="~/FileManagerPage.aspx" title="FileManagerPage" />
+   
+    <siteMapNode url="~/left.aspx" title="left" />
+    <siteMapNode url="~/Login.aspx" title="Login" />
+    <siteMapNode url="~/MessageManagement.aspx" title="MessageManagement" />
+    <siteMapNode url="~/MyMessage.aspx" title="MyMessage" />
+    <siteMapNode url="~/RecommendSubject.aspx" title="RecommendSubject" />
+    <siteMapNode title="SampleFiles" />
+    <siteMapNode url="~/ShowMessageDetails.aspx" title="ShowMessageDetails" />
+    <siteMapNode url="~/ShowNotices.aspx" title="ShowNotices" />
+    <siteMapNode title="Students">
+      <siteMapNode url="~/Students/AddMessage.aspx" title="AddMessage" />
+      <siteMapNode url="~/Students/EditProfile.aspx" title="EditProfile" />
+      <siteMapNode url="~/Students/InputPractice.aspx" title="InputPractice" />
+      <siteMapNode url="~/Students/MentorProfile.aspx" title="MentorProfile" />
+      <siteMapNode url="~/Students/ProfileManagement.aspx" title="ProfileManagement" />
+      <siteMapNode url="~/Students/SelectSubject.aspx" title="SelectSubject" />
+      <siteMapNode url="~/Students/UploadFile.aspx" title="UploadFile" />
+    </siteMapNode>
+    <siteMapNode url="~/SubjectDetails.aspx" title="SubjectDetails" />
+    <siteMapNode url="~/TeacherMessageList.aspx" title="TeacherMessageList" />
+    <siteMapNode title="Teachers">
+      <siteMapNode url="~/Teachers/AddMessage.aspx" title="AddMessage" />
+      <siteMapNode url="~/Teachers/CheckFile.aspx" title="CheckFile" />
+      <siteMapNode url="~/Teachers/CheckSelectedSubject.aspx" title="CheckSelectedSubject" />
+      <siteMapNode url="~/Teachers/EditProfile.aspx" title="EditProfile" />
+      <siteMapNode url="~/Teachers/ProfileManagement.aspx" title="ProfileManagement" />
+      <siteMapNode url="~/Teachers/StudentProfile.aspx" title="StudentProfile" />
+      <siteMapNode url="~/Teachers/UploadFile.aspx" title="UploadFile" />
+    </siteMapNode>
+    <siteMapNode url="~/Test.aspx" title="Test" />
+    <siteMapNode url="~/top.html" title="top" />
+    <siteMapNode url="~/WebForm1.aspx" title="WebForm1" />
+  </siteMapNode>
+</siteMap>

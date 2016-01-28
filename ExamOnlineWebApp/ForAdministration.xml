@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<工作台>
+  <ParentMenu title="基本管理" url="" target="mainFrame">
+    <SubMenu title="修改密码" url="~/Admin/ChangeAdminPwd.aspx" target="mainFrame"></SubMenu>
+      <SubMenu title="选择身份" url="~/Admin/LoginAs.aspx" target="mainFrame"></SubMenu>
+  </ParentMenu> 
+  <ParentMenu title="消息管理" url="" target="mainFrame">
+    <SubMenu title="消息群发" url="~/Admin/AddMessage.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="收件箱" url="~/Admin/AdminMessages.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="公告管理" url="~/Admin/NoticeManagement.aspx" target="mainFrame"></SubMenu>
+  </ParentMenu>
+  <ParentMenu title="毕业设计" url="" target="mainFrame">
+    <SubMenu title="查询毕业设计情况" url="~/Admin/QueryPractice.aspx" target="mainFrame"></SubMenu>
+  </ParentMenu>
+  <ParentMenu title="顶岗实习" url="" target="mainFrame">
+    <SubMenu title="查询实习情况" url="~/Admin/QueryPractice.aspx" target="mainFrame"></SubMenu>
+  </ParentMenu>
+
+</工作台>

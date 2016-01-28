@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="44" basicExamID="6" randomExamID="95" getMark="100" endTime="2013-5-22 19:15:21" loginNum="1">
+  <SingleChoices count="1" eachMark="50" getMark="50">
+    <SingleChoice choiceID="30" title="在局域网交换机中，交换机只要接收并检测到目的地址字段就立即将该帧转发出去，帧出错检测任务有节点主机完成，这种交换方法叫做（ ）。">
+      <ChoiceItem choiceItemID="6022" title="A. 存储转发交换" isSelected="false" />
+      <ChoiceItem choiceItemID="6021" title="B. 直接交换" isSelected="true" />
+      <ChoiceItem choiceItemID="6024" title="C. 查询交换" isSelected="false" />
+      <ChoiceItem choiceItemID="6023" title="D. 改进直接交换" isSelected="false" />
+    </SingleChoice>
+  </SingleChoices>
+  <Judges count="1" eachMark="50" getMark="50">
+    <JudgeItem judgeID="176" title="IP传输时，路由表中的每一条路由最主要的信息是：目的网络地址和下一跳地址。" setTrue="1" />
+  </Judges>
+</StudentExam>

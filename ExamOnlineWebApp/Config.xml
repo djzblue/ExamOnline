@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <Department ID="10020" name="">
+    <SubjectSelectTimitLimitID>10081</SubjectSelectTimitLimitID>
+    <UploadedFilePath>~/Files/</UploadedFilePath>
+    <HesitationDays>5</HesitationDays>
+    <MessageDays>2</MessageDays>
+    <SubjectManagedByTeacher>True</SubjectManagedByTeacher>
+    <HasToSelectedSubjectBefore>false</HasToSelectedSubjectBefore>
+  </Department>
+  <Department ID="10003" name="">
+    <SubjectSelectTimitLimitID>10082</SubjectSelectTimitLimitID>
+    <UploadedFilePath>~/Files/</UploadedFilePath>
+    <HesitationDays>2</HesitationDays>
+    <MessageDays>2</MessageDays>
+    <SubjectManagedByTeacher>true</SubjectManagedByTeacher>
+    <HasToSelectedSubjectBefore>false</HasToSelectedSubjectBefore>
+  </Department>
+  <Department ID="10029" name="test">
+    <SubjectSelectTimitLimitID>10083</SubjectSelectTimitLimitID>
+    <UploadedFilePath>~/Files/test</UploadedFilePath>
+    <HesitationDays>2</HesitationDays>
+    <MessageDays>2</MessageDays>
+    <SubjectManagedByTeacher>true</SubjectManagedByTeacher>
+    <HasToSelectedSubjectBefore>false</HasToSelectedSubjectBefore>
+  </Department>
+  <Department ID="10030" name="设计学院">
+    <SubjectSelectTimitLimitID>10084</SubjectSelectTimitLimitID>
+    <UploadedFilePath>~/Files/设计学院</UploadedFilePath>
+    <HesitationDays>2</HesitationDays>
+    <MessageDays>2</MessageDays>
+    <SubjectManagedByTeacher>true</SubjectManagedByTeacher>
+    <HasToSelectedSubjectBefore>false</HasToSelectedSubjectBefore>
+  </Department>
+  <Department ID="10031" name="创业培训学院 ">
+    <SubjectSelectTimitLimitID>10085</SubjectSelectTimitLimitID>
+    <UploadedFilePath>~/Files/创业培训学院 </UploadedFilePath>
+    <HesitationDays>2</HesitationDays>
+    <MessageDays>2</MessageDays>
+    <SubjectManagedByTeacher>true</SubjectManagedByTeacher>
+    <HasToSelectedSubjectBefore>false</HasToSelectedSubjectBefore>
+  </Department>
+  <Department ID="10032" name="机电工程系">
+    <SubjectSelectTimitLimitID>10086</SubjectSelectTimitLimitID>
+    <UploadedFilePath>~/Files/机电工程系</UploadedFilePath>
+    <HesitationDays>2</HesitationDays>
+    <MessageDays>2</MessageDays>
+    <SubjectManagedByTeacher>true</SubjectManagedByTeacher>
+    <HasToSelectedSubjectBefore>false</HasToSelectedSubjectBefore>
+  </Department>
+  <Department ID="10033" name="应用化工技术系">
+    <SubjectSelectTimitLimitID>10087</SubjectSelectTimitLimitID>
+    <UploadedFilePath>~/Files/应用化工技术系</UploadedFilePath>
+    <HesitationDays>2</HesitationDays>
+    <MessageDays>2</MessageDays>
+    <SubjectManagedByTeacher>true</SubjectManagedByTeacher>
+    <HasToSelectedSubjectBefore>false</HasToSelectedSubjectBefore>
+  </Department>
+</config>

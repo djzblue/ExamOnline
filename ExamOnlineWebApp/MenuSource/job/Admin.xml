@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<工作台>
+  <ParentMenu title="基本管理" url="" target="mainFrame">
+    <SubMenu title="系统设置" url="~/job/Admin/GeneralSettings.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="修改密码" url="~/job/Admin/ChangeAdminPwd.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="选择身份" url="~/job/Admin/LoginAs.aspx" target="mainFrame"></SubMenu>
+  </ParentMenu>
+  <ParentMenu title="消息管理" url="" target="mainFrame">
+    <SubMenu title="消息群发" url="~/job/Admin/AddMessage.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="发件箱" url="~/MyMessage.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="收件箱" url="~/job/Admin/AdminMessages.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="公告管理" url="~/job/Admin/NoticeManagement.aspx" target="mainFrame"></SubMenu>
+  </ParentMenu>
+
+  <ParentMenu title="顶岗实习管理" url="" target="mainFrame">
+    <ParentMenu title="基本设置" url="" target="mainFrame">
+      <SubMenu title="设置导师" url="~/job/Admin/MentorManagement.aspx" target="mainFrame"></SubMenu>
+      <SubMenu title="学生分配" url="~/job/Admin/DispatchStu.aspx" target="mainFrame"></SubMenu>
+      <SubMenu title="流程管理" url="~/job/Admin/UploadFileManagement.aspx" target="mainFrame"></SubMenu>
+      <SubMenu title="岗位审核" url="~/job/Admin/CheckSubjects.aspx" target="mainFrame"></SubMenu>
+      <SubMenu title="岗位录入" url="~/job/Admin/SubjectManagement.aspx" target="mainFrame"></SubMenu>
+    </ParentMenu>
+    <ParentMenu title="信息查询" url="" target="mainFrame">
+      <SubMenu title="学生岗位情况" url="~/job/Admin/SubjectSelectedQuery.aspx" target="mainFrame"></SubMenu>
+      <SubMenu title="学生文档进度" url="~/job/Admin/ProcessQuery.aspx" target="mainFrame"></SubMenu>
+      <SubMenu title="教师文档进度" url="~/job/Admin/TeacherProcessQuery.aspx" target="mainFrame"></SubMenu>
+      <SubMenu title="教师指导记录" url="~/job/Admin/GuideQuery.aspx" target="mainFrame"></SubMenu>
+    </ParentMenu>
+  </ParentMenu>
+
+  <ParentMenu title="基础数据" url="" target="mainFrame">
+    <SubMenu title="教师数据" url="~/job/Admin/TeacherManagement.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="学生数据" url="~/job/Admin/StudentManagement.aspx" target="mainFrame"></SubMenu>
+  </ParentMenu>
+
+  <ParentMenu title="帮助与简介" url="" target="mainFrame">
+    <SubMenu title="项目简介" url="~/Copyright.aspx" target="mainFrame"></SubMenu>
+    <SubMenu title="用户手册" url="~/help.rar" target="mainFrame"></SubMenu>
+  </ParentMenu>
+
+
+
+</工作台>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="ef2f915d-903d-4e94-ac13-b83315c942fa" basicExamID="7" randomExamID="10" getMark="0" endTime="2013-5-22 23:18:37" loginNum="1">
+  <SingleChoices count="1" eachMark="50" getMark="0">
+    <SingleChoice choiceID="172" title="ADSL是一种专线接入方式，在连接Internet时使用（ ）线路。">
+      <ChoiceItem choiceItemID="6592" title="A. 光缆" isSelected="false" />
+      <ChoiceItem choiceItemID="6590" title="B. 普通电话" isSelected="false" />
+      <ChoiceItem choiceItemID="6591" title="C. 双绞线" isSelected="false" />
+      <ChoiceItem choiceItemID="6589" title="D. 数字电话" isSelected="false" />
+    </SingleChoice>
+  </SingleChoices>
+  <Judges count="1" eachMark="50" getMark="0">
+    <JudgeItem judgeID="173" title="因特网控制报文协议ICMP主要处理的是流量控制和路径控制。" setTrue="-1" />
+  </Judges>
+</StudentExam>

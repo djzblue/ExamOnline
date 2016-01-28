@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="ef2f915d-903d-4e94-ac13-b83315c942fa" basicExamID="6" randomExamID="9" getMark="0" endTime="2013-5-22 23:17:10" loginNum="1">
+  <SingleChoices count="1" eachMark="50" getMark="0">
+    <SingleChoice choiceID="171" title="Windows系统拨号连接Internet一般使用（ ）拨号方式。">
+      <ChoiceItem choiceItemID="6587" title="A. V.90" isSelected="false" />
+      <ChoiceItem choiceItemID="6586" title="B. SLIP" isSelected="false" />
+      <ChoiceItem choiceItemID="6585" title="C. PPP" isSelected="false" />
+      <ChoiceItem choiceItemID="6588" title="D. NetBEUI" isSelected="false" />
+    </SingleChoice>
+  </SingleChoices>
+  <Judges count="1" eachMark="50" getMark="0">
+    <JudgeItem judgeID="136" title="因为光纤带宽比电话线大，所以采用有线电视网接入 Internet 的速度较 ADSL 快。" setTrue="-1" />
+  </Judges>
+</StudentExam>

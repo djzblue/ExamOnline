@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="4da23ad1-0e9a-4814-8da0-27562db46136" basicExamID="6" randomExamID="20" getMark="0" endTime="2014-07-03 0:12:00" loginNum="1">
+  <SingleChoices count="10" eachMark="5" getMark="0">
+    <SingleChoice choiceID="57" title="最早出现的计算机网是 (  ) 。">
+      <ChoiceItem choiceItemID="6132" title="A. Ethernet" isSelected="false" />
+      <ChoiceItem choiceItemID="6131" title="B. Arpanet " isSelected="false" />
+      <ChoiceItem choiceItemID="6130" title="C. Bitnet " isSelected="false" />
+      <ChoiceItem choiceItemID="6129" title="D. Internet " isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="66" title="双绞线分 (  ) 双绞线和 ( ) 双纹线两类。">
+      <ChoiceItem choiceItemID="6167" title="A. 屏蔽、非屏蔽" isSelected="false" />
+      <ChoiceItem choiceItemID="6165" title="B. 基带、宽带 " isSelected="false" />
+      <ChoiceItem choiceItemID="6168" title="C. 屏蔽、基带" isSelected="false" />
+      <ChoiceItem choiceItemID="6166" title="D. 基带、窄带" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="47" title="因特网利用浏览器，查看某Web 主页时，在地址栏中也可填入 (  ) 格式的地址。">
+      <ChoiceItem choiceItemID="6091" title="A. 128.AA.5" isSelected="false" />
+      <ChoiceItem choiceItemID="6089" title="B. 210.37.40.54" isSelected="false" />
+      <ChoiceItem choiceItemID="6092" title="C. 210.37.AA.3" isSelected="false" />
+      <ChoiceItem choiceItemID="6090" title="D. 198.4.135" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="31" title="下列哪项不属于路由选择协议的功能？（ ）。">
+      <ChoiceItem choiceItemID="6028" title="A. 发现下一跳的物理地址" isSelected="false" />
+      <ChoiceItem choiceItemID="6025" title="B. 获取网络拓扑结构的信息" isSelected="false" />
+      <ChoiceItem choiceItemID="6027" title="C. 构建路由表" isSelected="false" />
+      <ChoiceItem choiceItemID="6026" title="D. 选择到达每个目的网络的最优路径" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="125" title="虚拟网（VLAN）可以有多种划分方式,下列方式中不正确的是()">
+      <ChoiceItem choiceItemID="6404" title="A. 基于用户" isSelected="false" />
+      <ChoiceItem choiceItemID="6401" title="B. 基于交换机端口" isSelected="false" />
+      <ChoiceItem choiceItemID="6403" title="C. 基于网络层地址" isSelected="false" />
+      <ChoiceItem choiceItemID="6402" title="D. 基于网卡的MAC 地址" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="19" title="虚拟网络中逻辑工作组的节点组成不受物理位置的限制，逻辑工作组的划分与管理是通过（ ）实现的。">
+      <ChoiceItem choiceItemID="5980" title="A. 软件方式" isSelected="false" />
+      <ChoiceItem choiceItemID="5977" title="B. 硬件方式" isSelected="false" />
+      <ChoiceItem choiceItemID="5979" title="C. 改变接口连接方式" isSelected="false" />
+      <ChoiceItem choiceItemID="5978" title="D. 存储转发方方式" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="94" title="建立一个计算机网络需要网络硬件设备和 (  ) 。">
+      <ChoiceItem choiceItemID="6278" title="A. 资源子网" isSelected="false" />
+      <ChoiceItem choiceItemID="6279" title="B. 网络操作系统" isSelected="false" />
+      <ChoiceItem choiceItemID="6280" title="C. 传输介质" isSelected="false" />
+      <ChoiceItem choiceItemID="6277" title="D. 体系结构" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="134" title="两台计算机利用电话线路传输数据信号时必备的设备是(  )">
+      <ChoiceItem choiceItemID="6438" title="A. MODEM" isSelected="false" />
+      <ChoiceItem choiceItemID="6439" title="B. 中继器" isSelected="false" />
+      <ChoiceItem choiceItemID="6440" title="C. 同轴电缆" isSelected="false" />
+      <ChoiceItem choiceItemID="6437" title="D. 网卡" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="48" title="在TCP/IP（IPv4）协议下，每一台主机设定一个唯一的 (  ) 位二进制的IP 地址。">
+      <ChoiceItem choiceItemID="6094" title="A. 32" isSelected="false" />
+      <ChoiceItem choiceItemID="6095" title="B. 8" isSelected="false" />
+      <ChoiceItem choiceItemID="6096" title="C. 4" isSelected="false" />
+      <ChoiceItem choiceItemID="6093" title="D. 16" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="133" title="因特网中的IP 地址由四个字节组成，每个字节之间用(  )符号分开。">
+      <ChoiceItem choiceItemID="6433" title="A. 、" isSelected="false" />
+      <ChoiceItem choiceItemID="6436" title="B. ．" isSelected="false" />
+      <ChoiceItem choiceItemID="6435" title="C. ；" isSelected="false" />
+      <ChoiceItem choiceItemID="6434" title="D. ，" isSelected="false" />
+    </SingleChoice>
+  </SingleChoices>
+  <Judges count="10" eachMark="5" getMark="0">
+    <JudgeItem judgeID="196" title=" 同一报文中的所有分组可以通过预先在通信子网中建立的传输路径来传输的方法称之为虚电路。" setTrue="-1" />
+    <JudgeItem judgeID="195" title=" 为网络数据交换而制定的规则、约定与标准称之为网络体系结构。" setTrue="-1" />
+    <JudgeItem judgeID="232" title="频带传输只传输模拟信号；" setTrue="-1" />
+    <JudgeItem judgeID="215" title=" 在常用的传输介质中，带宽最宽，信号传输衰减最小，搞干扰能力最强的一类传输介质是光缆。" setTrue="-1" />
+    <JudgeItem judgeID="218" title=" ICMP差错报告报文共有5种：目的站不可达、源站抑制、超时、参数问题与改变路由。" setTrue="-1" />
+    <JudgeItem judgeID="157" title="集线器组成的以太网在物理连接上可以出现环路。" setTrue="-1" />
+    <JudgeItem judgeID="190" title="上下层之间交换信息叫接口。" setTrue="-1" />
+    <JudgeItem judgeID="187" title="所有的帧都必须以标志字段开头和结尾。" setTrue="-1" />
+    <JudgeItem judgeID="161" title="多集线器100M以太网的整个网络的最大覆盖范围是500m。" setTrue="-1" />
+    <JudgeItem judgeID="176" title="IP传输时，路由表中的每一条路由最主要的信息是：目的网络地址和下一跳地址。" setTrue="-1" />
+  </Judges>
+</StudentExam>

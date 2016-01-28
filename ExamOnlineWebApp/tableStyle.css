@@ -1,0 +1,23 @@
+﻿    table
+    {
+    	border:1px solid #3399FF;
+    	border-width:1px 0 0 1px;
+    	margin:2px 0 2px 0;
+    	text-align:center;
+    	border-collapse:collapse;
+    	width: 90%;
+    	}
+ td,th
+ {
+ 	border:1px solid #3399FF;
+ 	border-width:0 1px 1px 0;
+ 	margin:2px 0 2px 0;
+ 	text-align:left;
+ 	}
+th
+{
+	text-align:center;
+	font-weight:600;
+	font-size:12px;
+	background-color:#F4F4F4;
+	}

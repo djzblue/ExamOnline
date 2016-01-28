@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="123456" basicExamID="11" randomExamID="26" getMark="20" endTime="2014-07-03 0:27:21" loginNum="1">
+  <SingleChoices count="5" eachMark="10" getMark="10">
+    <SingleChoice choiceID="130" title="下列哪个是面向连接的服务(  )">
+      <ChoiceItem choiceItemID="6421" title="A. 报文交换" isSelected="false" />
+      <ChoiceItem choiceItemID="6423" title="B. 网络层虚电路交换" isSelected="true" />
+      <ChoiceItem choiceItemID="6422" title="C. 数据链路层ARQ" isSelected="false" />
+      <ChoiceItem choiceItemID="6424" title="D. 网络电话VOIP" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="170" title="ISDN的基本速率接口BRI服务最多可连接（ ）个设备。">
+      <ChoiceItem choiceItemID="6581" title="A. 1" isSelected="false" />
+      <ChoiceItem choiceItemID="6583" title="B. 8" isSelected="false" />
+      <ChoiceItem choiceItemID="6582" title="C. 4" isSelected="true" />
+      <ChoiceItem choiceItemID="6584" title="D. 无限制" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="68" title="数据通信中的信道传输速率单位是bits／秒，被称为 (  ) ，而每秒钟电位变化的次数被称为">
+      <ChoiceItem choiceItemID="6173" title="A. 数率、比特率" isSelected="false" />
+      <ChoiceItem choiceItemID="6175" title="B. 比特率、波特率" isSelected="false" />
+      <ChoiceItem choiceItemID="6174" title="C. 频率、波特率" isSelected="true" />
+      <ChoiceItem choiceItemID="6176" title="D. 波特率、比特率" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="88" title="以下 (  ) 不是顶级域名。">
+      <ChoiceItem choiceItemID="6255" title="A. www " isSelected="false" />
+      <ChoiceItem choiceItemID="6254" title="B. edu " isSelected="false" />
+      <ChoiceItem choiceItemID="6256" title="C. CN" isSelected="false" />
+      <ChoiceItem choiceItemID="6253" title="D. net " isSelected="true" />
+    </SingleChoice>
+    <SingleChoice choiceID="136" title=" 网络协议主要要素为 (  )">
+      <ChoiceItem choiceItemID="6447" title="A. 语法、语义、同步" isSelected="false" />
+      <ChoiceItem choiceItemID="6446" title="B. 数据格式、控制信息、速度匹配" isSelected="false" />
+      <ChoiceItem choiceItemID="6448" title="C. 编码、控制信息、同步" isSelected="false" />
+      <ChoiceItem choiceItemID="6445" title="D. 数据格式、编码、信号电平" isSelected="true" />
+    </SingleChoice>
+  </SingleChoices>
+  <Judges count="5" eachMark="10" getMark="10">
+    <JudgeItem judgeID="261" title="在将计算机与10BASE-T集线器进行连接时，UTP电缆的长度不能大于100米。" setTrue="1" />
+    <JudgeItem judgeID="197" title=" 支持多种协议，不仅在拨号电话线，并且在路由器—路由器之间的专用线上得到广泛应用的Internet数据链路层协议称之为PPP 协议。" setTrue="0" />
+    <JudgeItem judgeID="200" title=" 从源主机传输用户发送报文开始到目的主机传输用户接收到报文为止经历的时间称之为连接建立延迟。" setTrue="1" />
+    <JudgeItem judgeID="243" title="56Kbps Modem拨号上网接收和发送的速率相同，均为56Kbps。" setTrue="0" />
+    <JudgeItem judgeID="247" title="局域网只有通过代理服务器才能连接Internet。" setTrue="1" />
+  </Judges>
+</StudentExam>

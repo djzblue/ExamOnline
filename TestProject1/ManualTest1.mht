@@ -1,0 +1,919 @@
+﻿MIME-Version: 1.0
+Content-Location: file:///C:/08EBA2D4/ManualTest.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<meta name=3DProgId content=3DWord.Document>
+<meta name=3DGenerator content=3D"Microsoft Word 11">
+<meta name=3DOriginator content=3D"Microsoft Word 11">
+<link rel=3DFile-List href=3D"ManualTest_files/filelist.xml">
+<title>&#24453;&#21150;&#20219;&#21153;&#65306;&#35774;&#32622;&#35828;&#26=
+126;</title>
+<!--[if gte mso 9]><xml>
+ <o:CustomDocumentProperties>
+  <o:TestType dt:dt=3D"string">Manual Test</o:TestType>
+  <o:TestID dt:dt=3D"string">42838a27-9891-416c-ba52-304cb91d0aaa</o:TestID>
+ </o:CustomDocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:UseWord2002TableStyleRules/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState=3D"false" LatentStyleCount=3D"156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:1627421319 -2147483648 8 0 66047 0;}
+@font-face
+	{font-family:Taho=3Da;
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-alt:"Times New Roman";
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:auto;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:"Times=3DNew Roman";
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:auto;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:Arial;
+	mso-font-kerning:16.0pt;}
+h2
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:14.0pt;
+	font-family:Arial;
+	font-style:italic;}
+p.Normal, li.Normal, div.Normal
+	{mso-style-name:Normal;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.Graphic, li.Graphic, div.Graphic
+	{mso-style-name:Graphic;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	mso-pagination:none;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.Comment, li.Comment, div.Comment
+	{mso-style-name:Comment;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:\666E\901A\8868\683C;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+table.TableNormal
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=3DZH-CN style=3D'tab-interval:36.0pt'>
+
+<div class=3DSection1>
+
+<p class=3DComment style=3D'text-align:justify;text-justify:inter-ideograph=
+'><a
+name=3DAuthorName><b style=3D'mso-bidi-font-weight:normal'><span style=3D'f=
+ont-size:
+12.0pt;font-family:SimSun;mso-bidi-font-family:SimSun'>&#33268;&#27979;&#35=
+797;&#20316;&#32773;</span></b></a><span
+style=3D'mso-bookmark:AuthorName'><b style=3D'mso-bidi-font-weight:normal'>=
+<span
+lang=3DEN-US style=3D'font-size:12.0pt'><o:p></o:p></span></b></span></p>
+
+<p class=3DComment style=3D'text-align:justify;text-justify:inter-ideograph=
+'><span
+style=3D'mso-bookmark=3DAuthorName'><span style=3D'mso-bookmark:AuthorName'=
+><b
+style=3D'mso-bidi-font-weight:normal'><span lang=3DEN-US><o:p>&nbsp;</o:p><=
+/span></b></span></p>
+
+</span>
+
+<p class=3DComment style=3D'text-align:justify;text-justify:inter-ideograph=
+'><span
+style=3D'mso-bookmark=3DAuthorName'><span style=3D'mso-bookmark:AuthorName'=
+><span
+style=3D'font-size:9.0pt;font-family:SimSun;mso-bidi-font-family:SimSun'>&#=
+27492;&#27169;&#26495;&#25552;&#20379;&#20102;&#19968;&#20010;&#21487;&#299=
+92;&#26469;&#21019;&#24314;&#25163;&#21160;&#27979;&#35797;&#30340;&#32467;=
+&#26500;&#12290;</span></span><span
+style=3D'mso-bookmark:AuthorName'><span style=3D'font-size:9.0pt;mso-bidi-f=
+ont-family:
+Tahoma'> </span></span><span style=3D'mso-bookmark:AuthorName'><span lang=
+=3DEN-US
+style=3D'font-size:9.0pt'><o:p></o:p></span></span></p>
+
+</span>
+
+<p class=3DComment style=3D'text-align:justify;text-justify:inter-ideograph=
+'><span
+style=3D'mso-bookmark=3DAuthorName'><span style=3D'mso-bookmark:AuthorName'=
+><span
+lang=3DEN-US style=3D'font-size:9.0pt'><o:p>&nbsp;</o:p></span></span></p>
+
+</span>
+
+<p class=3DComment style=3D'text-align:justify;text-justify:inter-ideograph=
+'><span
+style=3D'mso-bookmark=3DAuthorName'><span style=3D'mso-bookmark:AuthorName'=
+><b
+style=3D'mso-bidi-font-weight:normal'><span style=3D'font-size:10.0pt;font-=
+family:
+SimSun;mso-bidi-font-family:SimSun'>&#20160;&#20040;&#26159;&#25163;&#21160=
+;&#27979;&#35797;&#65311;</span></b></span><span
+style=3D'mso-bookmark:AuthorName'><b style=3D'mso-bidi-font-weight:normal'>=
+<span
+lang=3DEN-US style=3D'font-size:10.0pt'><o:p></o:p></span></b></span></p>
+
+</span>
+
+<p class=3DComment style=3D'text-align:justify;text-justify:inter-ideograph=
+'><span
+style=3D'mso-bookmark=3DAuthorName'><span style=3D'mso-bookmark:AuthorName'=
+><b
+style=3D'mso-bidi-font-weight:normal'><span lang=3DEN-US style=3D'font-size=
+:9.0pt'><o:p>&nbsp;</o:p></span></b></span></p>
+
+</span>
+
+<p class=3DComment style=3D'text-align:justify;text-justify:inter-ideograph=
+'><span
+style=3D'mso-bookmark=3DAuthorName'><span style=3D'mso-bookmark:AuthorName'=
+><span
+style=3D'font-size:9.0pt;font-family:SimSun;mso-bidi-font-family:SimSun'>&#=
+25163;&#21160;&#27979;&#35797;&#26159;&#27979;&#35797;&#20154;&#21592;&#251=
+52;&#25191;&#34892;&#30340;&#27979;&#35797;&#27493;&#39588;&#30340;&#35828;=
+&#26126;&#12290;&#36890;&#24120;&#65292;&#22312;&#24456;&#38590;&#20351;&#2=
+7979;&#35797;&#27493;&#39588;&#33258;&#21160;&#21270;&#25110;&#20351;&#2797=
+9;&#35797;&#27493;&#39588;&#33258;&#21160;&#21270;&#38750;&#24120;&#32791;&=
+#26102;&#38388;&#65292;&#25110;&#32773;&#26080;&#27861;&#20351;&#27979;&#35=
+797;&#27493;&#39588;&#33258;&#21160;&#21270;&#65288;&#20363;&#22914;&#65292=
+;&#35201;&#22312;&#32593;&#32476;&#36830;&#25509;&#26029;&#24320;&#26102;&#=
+30830;&#23450;&#32452;&#20214;&#30340;&#34892;&#20026;&#65289;&#30340;&#247=
+73;&#20917;&#19979;&#65292;&#38656;&#35201;&#20351;&#29992;&#25163;&#21160;=
+&#27979;&#35797;&#12290;</span></span><span
+style=3D'mso-bookmark:AuthorName'><span lang=3DEN-US style=3D'font-size:9.0=
+pt;
+mso-bidi-font-family:Tahoma'>Visual Studio Team Test </span></span><span
+style=3D'mso-bookmark:AuthorName'><span style=3D'font-size:9.0pt;font-famil=
+y:SimSun;
+mso-bidi-font-family:SimSun'>&#22788;&#29702;&#25163;&#21160;&#27979;&#3579=
+7;&#30340;&#26041;&#24335;&#21644;&#22788;&#29702;&#33258;&#21160;&#21270;&=
+#27979;&#35797;&#30340;&#26041;&#24335;&#30456;&#21516;&#12290;&#20363;&#22=
+914;&#65292;&#23427;&#20250;&#22312;</span></span><span
+style=3D'mso-bookmark:AuthorName'><span lang=3DEN-US style=3D'font-size:9.0=
+pt;
+mso-bidi-font-family:Tahoma'> Team Test </span></span><span style=3D'mso-bo=
+okmark:
+AuthorName'><span style=3D'font-size:9.0pt;font-family:SimSun;mso-bidi-font=
+-family:
+SimSun'>&#31383;&#21475;&#20013;&#26174;&#31034;&#25163;&#21160;&#27979;&#3=
+5797;&#12290;&#27492;&#22806;&#65292;&#23427;&#36319;&#36394;&#25163;&#2116=
+0;&#27979;&#35797;&#32467;&#26524;&#30340;&#26041;&#24335;&#20063;&#19982;&=
+#36319;&#36394;&#33258;&#21160;&#21270;&#27979;&#35797;&#32467;&#26524;&#30=
+340;&#26041;&#24335;&#30456;&#21516;&#65292;&#24182;&#22312;</span></span><=
+span
+style=3D'mso-bookmark:AuthorName'><span lang=3DEN-US style=3D'font-size:9.0=
+pt;
+mso-bidi-font-family:Tahoma'>&#8220;</span></span><span style=3D'mso-bookma=
+rk:
+AuthorName'><span style=3D'font-size:9.0pt;font-family:SimSun;mso-bidi-font=
+-family:
+SimSun'>&#27979;&#35797;&#32467;&#26524;</span></span><span style=3D'mso-bo=
+okmark:
+AuthorName'><span lang=3DEN-US style=3D'font-size:9.0pt;mso-bidi-font-famil=
+y:Tahoma'>&#8221;</span></span><span
+style=3D'mso-bookmark:AuthorName'><span style=3D'font-size:9.0pt;font-famil=
+y:SimSun;
+mso-bidi-font-family:SimSun'>&#31383;&#21475;&#20013;&#26174;&#31034;&#3045=
+6;&#24212;&#30340;&#32467;&#26524;&#12290;</span></span><span
+style=3D'mso-bookmark:AuthorName'><span style=3D'font-size:9.0pt;mso-bidi-f=
+ont-family:
+Tahoma'> </span></span><span style=3D'mso-bookmark:AuthorName'><span lang=
+=3DEN-US
+style=3D'font-size:9.0pt'><o:p></o:p></span></span></p>
+
+</span>
+
+<p class=3DComment style=3D'text-align:justify;text-justify:inter-ideograph=
+'><span
+style=3D'mso-bookmark=3DAuthorName'><span style=3D'mso-bookmark:AuthorName'=
+><span
+lang=3DEN-US style=3D'font-size:9.0pt'><o:p>&nbsp;</o:p></span></span></p>
+
+</span>
+
+<p class=3DComment style=3D'text-align:justify;text-justify:inter-ideograph=
+'><span
+style=3D'mso-bookmark=3DAuthorName'><span style=3D'mso-bookmark:AuthorName'=
+><b
+style=3D'mso-bidi-font-weight:normal'><span style=3D'font-size:10.0pt;font-=
+family:
+SimSun;mso-bidi-font-family:SimSun'>&#20351;&#29992;&#27492;&#27169;&#26495=
+;</span></b></span><span
+style=3D'mso-bookmark:AuthorName'><b style=3D'mso-bidi-font-weight:normal'>=
+<span
+lang=3DEN-US style=3D'font-size:10.0pt'><o:p></o:p></span></b></span></p>
+
+</span>
+
+<p class=3DComment style=3D'text-align:justify;text-justify:inter-ideograph=
+'><span
+style=3D'mso-bookmark=3DAuthorName'><span style=3D'mso-bookmark:AuthorName'=
+><b
+style=3D'mso-bidi-font-weight:normal'><span lang=3DEN-US style=3D'font-size=
+:9.0pt'><o:p>&nbsp;</o:p></span></b></span></p>
+
+</span>
+
+<p class=3DComment style=3D'text-align:justify;text-justify:inter-ideograph=
+'><span
+style=3D'mso-bookmark=3DAuthorName'><span style=3D'mso-bookmark:AuthorName'=
+><span
+style=3D'font-size:9.0pt;font-family:SimSun;mso-bidi-font-family:SimSun'>&#=
+20462;&#25913;</span></span><span
+style=3D'mso-bookmark:AuthorName'><span lang=3DEN-US style=3D'font-size:9.0=
+pt;
+mso-bidi-font-family:Tahoma'>&#8220;</span></span><span style=3D'mso-bookma=
+rk:
+AuthorName'><span style=3D'font-size:9.0pt;font-family:SimSun;mso-bidi-font=
+-family:
+SimSun'>&#27979;&#35797;&#26631;&#39064;</span></span><span style=3D'mso-bo=
+okmark:
+AuthorName'><span lang=3DEN-US style=3D'font-size:9.0pt;mso-bidi-font-famil=
+y:Tahoma'>&#8221;</span></span><span
+style=3D'mso-bookmark:AuthorName'><span style=3D'font-size:9.0pt;font-famil=
+y:SimSun;
+mso-bidi-font-family:SimSun'>&#25991;&#26412;&#20197;&#25552;&#20379;&#2000=
+4;&#19977;&#20010;&#23383;&#30340;&#27979;&#35797;&#35828;&#26126;&#12290;&=
+#22312;</span></span><span
+style=3D'mso-bookmark:AuthorName'><span lang=3DEN-US style=3D'font-size:9.0=
+pt'>&#8220;</span></span><span
+style=3D'mso-bookmark:AuthorName'><span style=3D'font-size:9.0pt;font-famil=
+y:SimSun;
+mso-bidi-font-family:SimSun'>&#27979;&#35797;&#35814;&#32454;&#20449;&#2468=
+7;</span></span><span
+style=3D'mso-bookmark:AuthorName'><span lang=3DEN-US style=3D'font-size:9.0=
+pt;
+mso-bidi-font-family:Tahoma'>&#8221;</span></span><span style=3D'mso-bookma=
+rk:
+AuthorName'><span style=3D'font-size:9.0pt;font-family:SimSun;mso-bidi-font=
+-family:
+SimSun'>&#26631;&#39064;&#19979;&#65292;&#25551;&#36848;&#35813;&#25163;&#2=
+1160;&#27979;&#35797;&#23558;&#39564;&#35777;&#30340;&#20869;&#23481;&#1229=
+0;&#22312;</span></span><span
+style=3D'mso-bookmark:AuthorName'><span lang=3DEN-US style=3D'font-size:9.0=
+pt;
+mso-bidi-font-family:Tahoma'>&#8220;</span></span><span style=3D'mso-bookma=
+rk:
+AuthorName'><span style=3D'font-size:9.0pt;font-family:SimSun;mso-bidi-font=
+-family:
+SimSun'>&#27979;&#35797;&#30446;&#26631;</span></span><span style=3D'mso-bo=
+okmark:
+AuthorName'><span lang=3DEN-US style=3D'font-size:9.0pt;mso-bidi-font-famil=
+y:Tahoma'>&#8221;</span></span><span
+style=3D'mso-bookmark:AuthorName'><span style=3D'font-size:9.0pt;font-famil=
+y:SimSun;
+mso-bidi-font-family:SimSun'>&#26631;&#39064;&#19979;&#65292;&#25551;&#3684=
+8;&#27492;&#27979;&#35797;&#35201;&#28436;&#32451;&#30340;&#29305;&#23450;&=
+#21151;&#33021;&#12290;&#22312;</span></span><span
+style=3D'mso-bookmark:AuthorName'><span lang=3DEN-US style=3D'font-size:9.0=
+pt;
+mso-bidi-font-family:Tahoma'>&#8220;</span></span><span style=3D'mso-bookma=
+rk:
+AuthorName'><span style=3D'font-size:9.0pt;font-family:SimSun;mso-bidi-font=
+-family:
+SimSun'>&#27979;&#35797;&#27493;&#39588;</span></span><span style=3D'mso-bo=
+okmark:
+AuthorName'><span lang=3DEN-US style=3D'font-size:9.0pt;mso-bidi-font-famil=
+y:Tahoma'>&#8221;</span></span><span
+style=3D'mso-bookmark:AuthorName'><span style=3D'font-size:9.0pt;font-famil=
+y:SimSun;
+mso-bidi-font-family:SimSun'>&#34920;&#20013;&#65292;&#25551;&#36848;&#2010=
+2;&#23436;&#25104;&#27979;&#35797;&#35201;&#37319;&#21462;&#30340;&#27493;&=
+#39588;&#20197;&#21450;&#39034;&#24207;&#12290;&#23545;&#20110;&#27599;&#20=
+010;&#27493;&#39588;&#65292;&#38472;&#36848;&#27979;&#35797;&#20154;&#21592=
+;&#39044;&#26399;&#30340;&#32467;&#26524;&#12290;</span></span><span
+style=3D'mso-bookmark:AuthorName'><span lang=3DEN-US style=3D'font-size:9.0=
+pt;
+mso-bidi-font-family:Tahoma'>&#8220;</span></span><span style=3D'mso-bookma=
+rk:
+AuthorName'><span style=3D'font-size:9.0pt;font-family:SimSun;mso-bidi-font=
+-family:
+SimSun'>&#20462;&#35746;&#21382;&#21490;&#35760;&#24405;</span></span><span
+style=3D'mso-bookmark:AuthorName'><span lang=3DEN-US style=3D'font-size:9.0=
+pt;
+mso-bidi-font-family:Tahoma'>&#8221;</span></span><span style=3D'mso-bookma=
+rk:
+AuthorName'><span style=3D'font-size:9.0pt;font-family:SimSun;mso-bidi-font=
+-family:
+SimSun'>&#34920;&#21015;&#20986;&#23545;&#27979;&#35797;&#25152;&#20570;&#3=
+0340;&#26356;&#25913;&#12289;&#26356;&#25913;&#32773;&#65288;&#36890;&#2412=
+0;&#20351;&#29992;&#30005;&#23376;&#37038;&#20214;&#21035;&#21517;&#65289;&=
+#21644;&#27599;&#27425;&#26356;&#25913;&#30340;&#26102;&#38388;&#12290;</sp=
+an></span><span
+style=3D'mso-bookmark:AuthorName'><span lang=3DEN-US style=3D'font-size:9.0=
+pt'><o:p></o:p></span></span></p>
+
+</span>
+
+<p class=3DComment style=3D'text-align:justify;text-justify:inter-ideograph=
+'><span
+style=3D'mso-bookmark=3DAuthorName'><span style=3D'mso-bookmark:AuthorName'=
+><span
+lang=3DEN-US style=3D'font-size:9.0pt'><o:p>&nbsp;</o:p></span></span></p>
+
+</span>
+
+<p class=3DComment style=3D'text-align:justify;text-justify:inter-ideograph=
+'><span
+style=3D'mso-bookmark=3DAuthorName'><span style=3D'mso-bookmark:AuthorName'=
+><span
+style=3D'font-size:9.0pt;font-family:SimSun;mso-bidi-font-family:SimSun'>&#=
+36890;&#36807;&#20351;&#29992;</span></span><span
+style=3D'mso-bookmark:AuthorName'><span lang=3DEN-US style=3D'font-size:9.0=
+pt;
+mso-bidi-font-family:Tahoma'> Microsoft Word </span></span><span
+style=3D'mso-bookmark:AuthorName'><span style=3D'font-size:9.0pt;font-famil=
+y:SimSun;
+mso-bidi-font-family:SimSun'>&#20316;&#20026;&#27979;&#35797;&#32534;&#3675=
+3;&#22120;&#65292;&#21487;&#20197;&#22312;&#25163;&#21160;&#27979;&#35797;&=
+#20013;&#20351;&#29992;</span></span><span
+style=3D'mso-bookmark:AuthorName'><span lang=3DEN-US style=3D'font-size:9.0=
+pt;
+mso-bidi-font-family:Tahoma'> RTF </span></span><span style=3D'mso-bookmark=
+:AuthorName'><span
+style=3D'font-size:9.0pt;font-family:SimSun;mso-bidi-font-family:SimSun'>&#=
+25991;&#26412;&#21151;&#33021;&#12290;</span></span><span
+style=3D'mso-bookmark:AuthorName'><span lang=3DEN-US style=3D'font-size:9.0=
+pt'><o:p></o:p></span></span></p>
+
+</span>
+
+<h1><span style=3D'mso-bookmark:AuthorName'><span style=3D'font-family:SimS=
+un;
+mso-ascii-font-family:Taho=3Da;mso-hansi-font-family:Taho=3Da;font-weight:n=
+ormal;
+mso-bidi-font-weight:bold'>&#27979;&#35797;&#26631;&#39064;</span></span><s=
+pan
+style=3D'mso-bookmark:AuthorName'><span lang=3DEN-US style=3D'font-family:T=
+aho=3Da;
+font-weight:normal;mso-bidi-font-weight:bold'><o:p></o:p></span></span></h1>
+
+<p class=3DComment><span style=3D'mso-bookmark:AuthorName'><span style=3D'b=
+=3Dckground:
+yellow'><span
+style=3D'font-size:9.0pt;font-family:SimSun;mso-bidi-font-family:SimSun;
+background:yellow;mso-highlight:yellow'>&#65288;&#22312;&#27492;&#36755;&#2=
+0837;&#27979;&#35797;&#21517;&#31216;&#12290;</span></span></span><span
+style=3D'mso-bookmark:AuthorName'><span style=3D'font-size:9.0pt;font-famil=
+y:SimSun;
+mso-bidi-font-family:SimSun'>&#65289;</span></span><span style=3D'mso-bookm=
+ark:
+AuthorName'><span lang=3DEN-US style=3D'font-size:9.0pt'><o:p></o:p></span>=
+</span></p>
+
+<h2><span style=3D'mso-bookmark:AuthorName'><span style=3D'mso-bidi-f=3Dnt-=
+weight:
+bold'><span
+style=3D'font-size:12.0pt;font-family:SimSun;mso-ascii-font-family:Tahoma;
+mso-hansi-font-family:Tahoma;font-weight:normal;font-style:normal;mso-bidi-=
+font-style:
+italic'>&#27979;&#35797;&#35814;&#32454;&#20449;&#24687;</span></span></spa=
+n><span
+style=3D'mso-bookmark:AuthorName'><span style=3D'mso-bid=3D-font-family:
+Arial'><span
+lang=3DEN-US style=3D'font-family:Tahoma;font-weight:normal;mso-bidi-font-w=
+eight:
+bold;font-style:normal;mso-bidi-font-style:italic'><o:p></o:p></span></span=
+></h2>
+
+<p class=3DComment><span style=3D'mso-bookmark:AuthorName'></span><span
+style=3D'font-size:9.0pt;font-family:SimSun;mso-bidi-font-family:SimSun;
+background:yellow;mso-highlight:yellow'><span style=3D'b=3Dckground:
+yellow'>&#65288;&#21521;&#27979;&#35797;&#32773;&#25552;&#20379;&#26377;&#2=
+0851;&#27492;&#27979;&#35797;&#25191;&#34892;&#25110;&#39564;&#35777;&#3034=
+0;&#20869;&#23481;&#30340;&#35814;&#32454;&#20449;&#24687;&#12290;</span></=
+span></span><span
+style=3D'mso-bookmark:AuthorName'><span style=3D'font-size:9.0pt;font-famil=
+y:SimSun;
+mso-bidi-font-family:SimSun'>&#65289;</span></span><span style=3D'mso-bookm=
+ark:
+AuthorName'><span lang=3DEN-US style=3D'font-size:9.0pt'><o:p></o:p></span>=
+</span></p>
+
+<h2><span style=3D'mso-bookmark:AuthorName'><span style=3D'mso-bidi-f=3Dnt-=
+weight:
+bold'><span
+style=3D'font-size:12.0pt;font-family:SimSun;mso-ascii-font-family:Tahoma;
+mso-hansi-font-family:Tahoma;font-weight:normal;font-style:normal;mso-bidi-=
+font-style:
+italic'>&#27979;&#35797;&#30446;&#26631;</span></span><span style=3D'mso-bo=
+okmark:
+AuthorName'><span lang=3DEN-US style=3D'font-size:12.0pt;font-family:Tahoma;
+mso-bidi-font-family:Arial;font-weight:normal;font-style:normal;mso-bidi-fo=
+nt-style:
+italic'><o:p></o:p></span></span></h2>
+
+</span>
+
+<p class=3DComment><span style=3D'mso-bookmark:AuthorName'><span style=3D'b=
+=3Dckground:
+yellow'><span
+style=3D'font-size:9.0pt;font-family:SimSun;mso-bidi-font-family:SimSun;
+background:yellow;mso-highlight:yellow'>&#65288;&#25551;&#36848;&#25152;&#2=
+7979;&#35797;&#30340;&#21151;&#33021;&#12290;&#65289;</span></span></span><=
+span
+style=3D'mso-bookmark:AuthorName'></span><span lang=3DEN-US style=3D'font-s=
+ize:9.0pt'><o:p></o:p></span></p>
+
+<h2><span style=3D'mso-bidi-font-family=3DArial;mso-bidi-fon=3D-style:
+italic'><span
+style=3D'font-size:12.0pt;font-family:SimSun;mso-ascii-font-family:Tahoma;
+mso-hansi-font-family:Tahoma;mso-bidi-font-family:Tahoma;font-weight:normal;
+mso-bidi-font-weight:bold;font-style:normal'>&#27979;&#35797;&#27493;&#3958=
+8;</span><span
+lang=3DEN-US style=3D'font-size:12.0pt;font-family:Tahoma;font-weight:norma=
+l;
+mso-bidi-font-weight:bold;font-style:normal'><o:p></o:p></span></h2>
+
+</span>
+
+<p class=3DComment><span style=3D'font-size:9.0pt;font-family:SimSun;mso-bi=
+di-font-family:
+SimSun;background:yellow;mso-highlight:yellow'>&#65288;&#20026;&#27979;&#35=
+797;&#20154;&#21592;&#25552;&#20379;&#36880;&#20010;&#27493;&#39588;&#30340=
+;&#35828;&#26126;&#65292;&#35299;&#37322;&#22914;&#20309;&#23436;&#25104;&#=
+27492;&#25163;&#21160;&#27979;&#35797;&#12290;&#65289;</span><span
+lang=3DEN-US style=3D'font-size:9.0pt'><o:p></o:p></span></p>
+
+<table class=3DTableNormal border=3D1 cellspacing=3D0 cellpadding=3D0 style=
+=3D'margin-left:
+ 7.1pt;border-collapse:collapse;border:none;mso-border-alt:solid windowtext=
+ .5pt;
+ mso-padding-alt:0cm 4.8pt 0cm 4.8pt;mso-border-insideh:.5pt solid windowte=
+xt;
+ mso-border-insidev:.5pt solid windowtext'>
+ <thead>
+  <tr style=3D'mso-yfti-irow:0;mso-yfti-firstrow:yes;page-break-inside:avoi=
+d'>
+   <td width=3D93 style=3D'width:55.5pt;border:solid windowtext 1.0pt;mso-b=
+order-alt:
+   solid windowtext .5pt;background:#E5E5E5;mso-shading:windowtext;mso-patt=
+ern:
+   gray-10 auto;padding:0cm 4.8pt 0cm 4.8pt'>
+   <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span
+   style=3D'font-size:10.0pt;font-family:SimSun;mso-bidi-font-family:SimSun=
+'>&#27493;&#39588;&#21495;</span><span
+   lang=3DEN-US style=3D'font-size:10.0pt;font-family:Tahoma;mso-bidi-font-=
+family:
+   "Times=3DNew Roman"'><o:p></o:p></span></p>
+   </td>
+   <td width=3D390 style=3D'width:234.0pt;border:solid windowtext 1.0pt;bor=
+der-left:
+   none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid wind=
+owtext .5pt;
+   background:#E5E5E5;mso-shading:windowtext;mso-pattern:gray-10 auto;
+   padding:0cm 4.8pt 0cm 4.8pt'>
+   <p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:SimSun;
+   mso-bidi-font-family:SimSun'>&#27493;&#39588;&#35828;&#26126;</span><span
+   lang=3DEN-US style=3D'font-size:10.0pt;font-family:Tahoma;mso-bidi-font-=
+family:
+   "Times New Roman"'><o:p></o:p></span></p>
+   </td>
+   <td width=3D225 style=3D'width:135.0pt;border:solid windowtext 1.0pt;bor=
+der-left:
+   none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid wind=
+owtext .5pt;
+   background:#E5E5E5;mso-shading:windowtext;mso-pattern:gray-10 auto;
+   padding:0cm 4.8pt 0cm 4.8pt'>
+   <p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:SimSun;
+   mso-bidi-font-family:SimSun'>&#39044;&#26399;&#32467;&#26524;</span><span
+   lang=3DEN-US style=3D'font-size:10.0pt;font-family:Tahoma;mso-bidi-font-=
+family:
+   "Times New Roman"'><o:p></o:p></span></p>
+   </td>
+  </tr>
+ </thead>
+ <tr style=3D'mso-yfti-irow:1;page-break-inside:avoid'>
+  <td width=3D93 valign=3Dtop style=3D'width:55.5pt;border:solid windowtext=
+ 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:s=
+olid windowtext .5pt;
+  padding:0cm 4.8pt 0cm 4.8pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><a
+  name=3DRevisionSheet></a><span lang=3DEN-US style=3D'font-size:10.0pt;fon=
+t-family:
+  Taho=3Da'>1<o:p></o:p></span></p>
+  </td>
+  <td width=3D390 valign=3Dtop style=3D'width:234.0pt;border-top:none;borde=
+r-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1=
+.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid window=
+text .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 4.8pt 0cm 4.8pt'>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-fa=
+mily:Tahoma;
+  mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=3D225 valign=3Dtop style=3D'width:135.0pt;border-top:none;borde=
+r-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1=
+.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid window=
+text .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 4.8pt 0cm 4.8pt'>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-fa=
+mily:Tahoma;
+  mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:2;page-break-inside:avoid;height:11.85pt'>
+  <td width=3D93 valign=3Dtop style=3D'width:55.5pt;border:solid windowtext=
+ 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:s=
+olid windowtext .5pt;
+  padding:0cm 4.8pt 0cm 4.8pt;height:11.85pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span lan=
+g=3DEN-US
+  style=3D'font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times =
+New Roman"'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=3D390 valign=3Dtop style=3D'width:234.0pt;border-top:none;borde=
+r-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1=
+.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid window=
+text .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 4.8pt 0cm 4.8pt;height:1=
+1.85pt'>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-fa=
+mily:Tahoma;
+  mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=3D225 valign=3Dtop style=3D'width:135.0pt;border-top:none;borde=
+r-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1=
+.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid window=
+text .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 4.8pt 0cm 4.8pt;height:1=
+1.85pt'>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-fa=
+mily:Tahoma;
+  mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:3;mso-yfti-lastrow:yes;page-break-inside:avoid'>
+  <td width=3D93 valign=3Dtop style=3D'width:55.5pt;border:solid windowtext=
+ 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:s=
+olid windowtext .5pt;
+  padding:0cm 4.8pt 0cm 4.8pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span lan=
+g=3DEN-US
+  style=3D'font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times =
+New Roman"'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=3D390 valign=3Dtop style=3D'width:234.0pt;border-top:none;borde=
+r-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1=
+.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid window=
+text .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 4.8pt 0cm 4.8pt'>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-fa=
+mily:Tahoma;
+  mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=3D225 valign=3Dtop style=3D'width:135.0pt;border-top:none;borde=
+r-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1=
+.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid window=
+text .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 4.8pt 0cm 4.8pt'>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-fa=
+mily:Tahoma;
+  mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<h2><span style=3D'mso-bidi-font-family=3DArial;mso-bidi-fon=3D-style:
+italic'><span
+style=3D'font-size:12.0pt;font-family:SimSun;mso-ascii-font-family:Tahoma;
+mso-hansi-font-family:Tahoma;mso-bidi-font-family:Tahoma;font-weight:normal;
+mso-bidi-font-weight:bold;font-style:normal'>&#20462;&#35746;&#21382;&#2149=
+0;&#35760;&#24405;</span><span
+lang=3DEN-US style=3D'font-size:12.0pt;font-family:Tahoma;font-weight:norma=
+l;
+mso-bidi-font-weight:bold;font-style:normal'><o:p></o:p></span></h2>
+
+</span>
+
+<p class=3DMsoNormal><span style=3D'mso-=3Didi-font-family:
+"Times New Roman"'><span
+style=3D'font-size:9.0pt;font-family:SimSun;mso-bidi-font-family:SimSun;
+background:yellow;mso-highlight:yellow'>&#65288;&#35760;&#24405;&#24744;&#2=
+1644;&#20182;&#20154;&#23545;&#27492;&#27979;&#35797;&#25152;&#20570;&#3034=
+0;&#20462;&#35746;&#12290;&#65289;</span></span><span
+style=3D'font-size:8.0p=3D'><span lang=3DEN-US style=3D'font-size:9.0pt;fon=
+t-family:
+Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p></o:p></span></p>
+
+<table class=3DTableNormal border=3D1 cellspacing=3D0 cellpadding=3D0 style=
+=3D'margin-left:
+ 7.1pt;border-collapse:collapse;border:none;mso-border-alt:solid windowtext=
+ .5pt;
+ mso-padding-alt:0cm 4.8pt 0cm 4.8pt;mso-border-insideh:.5pt solid windowte=
+xt;
+ mso-border-insidev:.5pt solid windowtext'>
+ <thead>
+  <tr style=3D'mso-yfti-irow:0;mso-yfti-firstrow:yes;page-break-inside:avoi=
+d'>
+   <td width=3D93 style=3D'width:55.5pt;border:solid windowtext 1.0pt;mso-b=
+order-alt:
+   solid windowtext .5pt;background:#E5E5E5;mso-shading:windowtext;mso-patt=
+ern:
+   gray-10 auto;padding:0cm 4.8pt 0cm 4.8pt'>
+   <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span
+   style=3D'font-size:10.0pt;font-family:SimSun;mso-bidi-font-family:SimSun=
+'></span>&#20316;&#32773;</span><span
+   lang=3DEN-US style=3D'font-size:10.0pt;font-family:Tahoma;mso-bidi-font-=
+family:
+   "Times=3DNew Roman"'><o:p></o:p></span></p>
+   </td>
+   <td width=3D390 style=3D'width:234.0pt;border:solid windowtext 1.0pt;bor=
+der-left:
+   none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid wind=
+owtext .5pt;
+   background:#E5E5E5;mso-shading:windowtext;mso-pattern:gray-10 auto;
+   padding:0cm 4.8pt 0cm 4.8pt'>
+   <p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:SimSun;
+   mso-bidi-font-family:SimSun'>&#26356;&#25913;&#35828;&#26126;</span><span
+   lang=3DEN-US style=3D'font-size:10.0pt;font-family:Tahoma;mso-bidi-font-=
+family:
+   "Times New Roman"'><o:p></o:p></span></p>
+   </td>
+   <td width=3D225 style=3D'width:135.0pt;border:solid windowtext 1.0pt;bor=
+der-left:
+   none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid wind=
+owtext .5pt;
+   background:#E5E5E5;mso-shading:windowtext;mso-pattern:gray-10 auto;
+   padding:0cm 4.8pt 0cm 4.8pt'>
+   <p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:SimSun;
+   mso-bidi-font-family:SimSun'>&#20462;&#25913;&#26102;&#38388;</span><span
+   lang=3DEN-US style=3D'font-size:10.0pt;font-family:Tahoma'>/</span><span
+   style=3D'font-size:10.0pt;font-family:SimSun;mso-bidi-font-family:SimSun=
+'>&#26085;&#26399;</span><span
+   lang=3DEN-US style=3D'font-size:10.0pt;font-family:Tahoma;mso-bidi-font-=
+family:
+   "Times New Roman"'><o:p></o:p></span></p>
+   </td>
+  </tr>
+ </thead>
+ <tr style=3D'mso-yfti-irow:1;page-break-inside:avoid'>
+  <td width=3D93 valign=3Dtop style=3D'width:55.5pt;border:solid windowtext=
+ 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:s=
+olid windowtext .5pt;
+  padding:0cm 4.8pt 0cm 4.8pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span lan=
+g=3DEN-US
+  style=3D'font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times =
+New Roman"'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=3D390 valign=3Dtop style=3D'width:234.0pt;border-top:none;borde=
+r-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1=
+.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid window=
+text .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 4.8pt 0cm 4.8pt'>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-fa=
+mily:Tahoma;
+  mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=3D225 valign=3Dtop style=3D'width:135.0pt;border-top:none;borde=
+r-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1=
+.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid window=
+text .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 4.8pt 0cm 4.8pt'>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-fa=
+mily:Tahoma;
+  mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:2;page-break-inside:avoid;height:11.85pt'>
+  <td width=3D93 valign=3Dtop style=3D'width:55.5pt;border:solid windowtext=
+ 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:s=
+olid windowtext .5pt;
+  padding:0cm 4.8pt 0cm 4.8pt;height:11.85pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span lan=
+g=3DEN-US
+  style=3D'font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times =
+New Roman"'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=3D390 valign=3Dtop style=3D'width:234.0pt;border-top:none;borde=
+r-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1=
+.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid window=
+text .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 4.8pt 0cm 4.8pt;height:1=
+1.85pt'>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-fa=
+mily:Tahoma;
+  mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=3D225 valign=3Dtop style=3D'width:135.0pt;border-top:none;borde=
+r-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1=
+.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid window=
+text .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 4.8pt 0cm 4.8pt;height:1=
+1.85pt'>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-fa=
+mily:Tahoma;
+  mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:3;mso-yfti-lastrow:yes;page-break-inside:avoid'>
+  <td width=3D93 valign=3Dtop style=3D'width:55.5pt;border:solid windowtext=
+ 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:s=
+olid windowtext .5pt;
+  padding:0cm 4.8pt 0cm 4.8pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span lan=
+g=3DEN-US
+  style=3D'font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times =
+New Roman"'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=3D390 valign=3Dtop style=3D'width:234.0pt;border-top:none;borde=
+r-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1=
+.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid window=
+text .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 4.8pt 0cm 4.8pt'>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-fa=
+mily:Tahoma;
+  mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=3D225 valign=3Dtop style=3D'width:135.0pt;border-top:none;borde=
+r-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1=
+.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid window=
+text .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 4.8pt 0cm 4.8pt'>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-fa=
+mily:Tahoma;
+  mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US style=3D'mso-bidi-font-size:8.0pt'>=
+<o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

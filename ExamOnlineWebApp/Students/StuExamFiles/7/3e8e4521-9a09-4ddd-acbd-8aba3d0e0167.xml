@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="3e8e4521-9a09-4ddd-acbd-8aba3d0e0167" basicExamID="7" randomExamID="23" getMark="0" endTime="2014-07-03 0:20:07" loginNum="1">
+  <SingleChoices count="10" eachMark="5" getMark="0">
+    <SingleChoice choiceID="79" title="在电子邮件中所包含的信息 (  ) 。">
+      <ChoiceItem choiceItemID="6219" title="A. 只能是文字与声音信息" isSelected="false" />
+      <ChoiceItem choiceItemID="6218" title="B. 只能是文字与图形图像信息" isSelected="false" />
+      <ChoiceItem choiceItemID="6217" title="C. 只能是文字" isSelected="false" />
+      <ChoiceItem choiceItemID="6220" title="D. 可以是文字、声音和图形图像信息" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="168" title="Internet的雏形是1969年美国国防部设计的（ ）网络。">
+      <ChoiceItem choiceItemID="6575" title="A. CSTNet" isSelected="false" />
+      <ChoiceItem choiceItemID="6574" title="B. ARPANet" isSelected="false" />
+      <ChoiceItem choiceItemID="6573" title="C. CERNet" isSelected="false" />
+      <ChoiceItem choiceItemID="6576" title="D. ChinaNet" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="99" title="WWW 的作用是 (  ) 。">
+      <ChoiceItem choiceItemID="6297" title="A. 信息浏览" isSelected="false" />
+      <ChoiceItem choiceItemID="6298" title="B. 文件传输 " isSelected="false" />
+      <ChoiceItem choiceItemID="6300" title="C. 远程登录" isSelected="false" />
+      <ChoiceItem choiceItemID="6299" title="D. 收发电子邮件" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="152" title="超文本的含义是 。">
+      <ChoiceItem choiceItemID="6509" title="A. 该文本中含有声音 " isSelected="false" />
+      <ChoiceItem choiceItemID="6510" title="B. 该文本中含有链接到其他文本的链接点" isSelected="false" />
+      <ChoiceItem choiceItemID="6512" title="C. 该文本中含有图像" isSelected="false" />
+      <ChoiceItem choiceItemID="6511" title="D. 该文本中含有二进制数" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="65" title="万维网的网址以http 为前导，表示遵从 (  ) 协议。">
+      <ChoiceItem choiceItemID="6161" title="A. 超文本传输" isSelected="false" />
+      <ChoiceItem choiceItemID="6162" title="B. 纯文本 " isSelected="false" />
+      <ChoiceItem choiceItemID="6164" title="C. POP" isSelected="false" />
+      <ChoiceItem choiceItemID="6163" title="D. TCP/IP" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="89" title="有关邮件帐号设置的说法中正确的是： (  ) 。">
+      <ChoiceItem choiceItemID="6260" title="A. 发送邮件服务器的域名或IP 必须选择一个其它的服务器地址" isSelected="false" />
+      <ChoiceItem choiceItemID="6259" title="B. 发送邮件服务器的域名或IP 必须与接收邮件服务器相同" isSelected="false" />
+      <ChoiceItem choiceItemID="6257" title="C. 接收邮件服务器使用的邮件协议名，只能采用POP3 协议" isSelected="false" />
+      <ChoiceItem choiceItemID="6258" title="D. 接收邮件服务器的域名或IP 地址，应填入你的电子邮件地址" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="144" title="电子邮件地址Wang@263.net 中没有包含的信息是 (  )">
+      <ChoiceItem choiceItemID="6480" title="A. 邮箱所有者" isSelected="false" />
+      <ChoiceItem choiceItemID="6479" title="B. 邮件客户机" isSelected="false" />
+      <ChoiceItem choiceItemID="6477" title="C. 发送邮件服务器" isSelected="false" />
+      <ChoiceItem choiceItemID="6478" title="D. 接收邮件服务器" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="176" title="一台Web服务器上能设置（ ）个默认Web站点。">
+      <ChoiceItem choiceItemID="6608" title="A. 无限制" isSelected="false" />
+      <ChoiceItem choiceItemID="6607" title="B. 4" isSelected="false" />
+      <ChoiceItem choiceItemID="6605" title="C. 1" isSelected="false" />
+      <ChoiceItem choiceItemID="6606" title="D. 2" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="170" title="ISDN的基本速率接口BRI服务最多可连接（ ）个设备。">
+      <ChoiceItem choiceItemID="6584" title="A. 无限制" isSelected="false" />
+      <ChoiceItem choiceItemID="6583" title="B. 8" isSelected="false" />
+      <ChoiceItem choiceItemID="6581" title="C. 1" isSelected="false" />
+      <ChoiceItem choiceItemID="6582" title="D. 4" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="82" title="在Internet 的基本服务功能中，远程登录所使用的命令是 (  ) 。">
+      <ChoiceItem choiceItemID="6230" title="A. telnet " isSelected="false" />
+      <ChoiceItem choiceItemID="6229" title="B. ftp " isSelected="false" />
+      <ChoiceItem choiceItemID="6232" title="C. open" isSelected="false" />
+      <ChoiceItem choiceItemID="6231" title="D. mail " isSelected="false" />
+    </SingleChoice>
+  </SingleChoices>
+  <Judges count="10" eachMark="5" getMark="0">
+    <JudgeItem judgeID="236" title="在命令状态下键入“ping 127．0．0．1”可以用来验证网卡是否正常；" setTrue="-1" />
+    <JudgeItem judgeID="224" title=" SNMP是基于UDP协议，提供无连接的不可靠的服务。 " setTrue="-1" />
+    <JudgeItem judgeID="235" title="宽带ISDN与ISDN都使用电话线路；" setTrue="-1" />
+    <JudgeItem judgeID="247" title="局域网只有通过代理服务器才能连接Internet。" setTrue="-1" />
+    <JudgeItem judgeID="233" title="美国哈佛大学的域名地址的顶级域名为“GOV” " setTrue="-1" />
+    <JudgeItem judgeID="220" title=" 标准的URL由3部分组成：服务器类型，主机名和路径及文件名。" setTrue="-1" />
+    <JudgeItem judgeID="210" title="常用的FTP客户程序通常有以下3种类型：传统的FTP命令行，FTP下载工具与浏览器。" setTrue="-1" />
+    <JudgeItem judgeID="242" title="Internet基础协议为TCP/IP。" setTrue="-1" />
+    <JudgeItem judgeID="197" title=" 支持多种协议，不仅在拨号电话线，并且在路由器—路由器之间的专用线上得到广泛应用的Internet数据链路层协议称之为PPP 协议。" setTrue="-1" />
+    <JudgeItem judgeID="241" title="ISP又叫Internet服务提供商。" setTrue="-1" />
+  </Judges>
+</StudentExam>

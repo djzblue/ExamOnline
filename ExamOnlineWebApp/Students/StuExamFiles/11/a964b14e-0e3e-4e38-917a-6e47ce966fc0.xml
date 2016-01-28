@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="a964b14e-0e3e-4e38-917a-6e47ce966fc0" basicExamID="11" randomExamID="22" getMark="0" endTime="2014-07-03 0:16:45" loginNum="1">
+  <SingleChoices count="5" eachMark="10" getMark="0">
+    <SingleChoice choiceID="64" title="关于Windows 共享文件夹的说法中，正确的是 (  ) 。">
+      <ChoiceItem choiceItemID="6160" title="A. 设置成共享的文件夹图表下有一个上托的手掌" isSelected="false" />
+      <ChoiceItem choiceItemID="6158" title="B. 设置成共享的文件夹无变化" isSelected="false" />
+      <ChoiceItem choiceItemID="6159" title="C. 设置成共享的文件夹图表下有一个箭头" isSelected="false" />
+      <ChoiceItem choiceItemID="6157" title="D. 在任何时候在文件菜单中可找到共享命令" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="138" title="通信系统必须具备的三个基本要素是 (  )">
+      <ChoiceItem choiceItemID="6456" title="A. 终端、通信设施、接收设备" isSelected="false" />
+      <ChoiceItem choiceItemID="6454" title="B. 信号发生器、通信线路、信号接收设备" isSelected="false" />
+      <ChoiceItem choiceItemID="6455" title="C. 信源(源系统)、通信媒体（传输系统）、信宿（目的系统）" isSelected="false" />
+      <ChoiceItem choiceItemID="6453" title="D. 终端、电缆、计算机" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="134" title="两台计算机利用电话线路传输数据信号时必备的设备是(  )">
+      <ChoiceItem choiceItemID="6437" title="A. 网卡" isSelected="false" />
+      <ChoiceItem choiceItemID="6439" title="B. 中继器" isSelected="false" />
+      <ChoiceItem choiceItemID="6440" title="C. 同轴电缆" isSelected="false" />
+      <ChoiceItem choiceItemID="6438" title="D. MODEM" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="69" title="中继器的作用就是将信号 (  ) ，使其传播得更远。">
+      <ChoiceItem choiceItemID="6177" title="A. 缩小" isSelected="false" />
+      <ChoiceItem choiceItemID="6179" title="B. 放大" isSelected="false" />
+      <ChoiceItem choiceItemID="6180" title="C. 整形" isSelected="false" />
+      <ChoiceItem choiceItemID="6178" title="D. 滤波" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="150" title="Internet服务提供者的英文简写是">
+      <ChoiceItem choiceItemID="6501" title="A. DSS " isSelected="false" />
+      <ChoiceItem choiceItemID="6503" title="B. IIS " isSelected="false" />
+      <ChoiceItem choiceItemID="6504" title="C. ISP" isSelected="false" />
+      <ChoiceItem choiceItemID="6502" title="D. NII " isSelected="false" />
+    </SingleChoice>
+  </SingleChoices>
+  <Judges count="5" eachMark="10" getMark="0">
+    <JudgeItem judgeID="221" title=" 数据完整性服务可以保证信息流、单个信息或信息中指定的字段，保证接收方所接收的信息与发送方所发送的信息是一致的。 " setTrue="-1" />
+    <JudgeItem judgeID="178" title="网络数据传输时，在网络层及以上使用IP地址，数据链了路层及以下使用物理地址。" setTrue="-1" />
+    <JudgeItem judgeID="241" title="ISP又叫Internet服务提供商。" setTrue="-1" />
+    <JudgeItem judgeID="231" title="路由器工作在物理层，其实现路径选择和寻址的功能" setTrue="-1" />
+    <JudgeItem judgeID="256" title="在Windows Server 2003中，用户帐户经删除后可恢复。" setTrue="-1" />
+  </Judges>
+</StudentExam>

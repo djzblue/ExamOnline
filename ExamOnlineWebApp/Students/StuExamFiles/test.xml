@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="123456" basicExamID="2" getMark="0">
+  <SingleChoices count="15" eachMark="2" getMark="0">
+    <SingleChoice choiceID="1067" title="选择题391">
+      <ChoiceItem choiceItemID="4257" title="A. 选项1390" isSelected="false" />
+      <ChoiceItem choiceItemID="4260" title="B. 选项4390" isSelected="false" />
+      <ChoiceItem choiceItemID="4259" title="C. 选项3390" isSelected="false" />
+      <ChoiceItem choiceItemID="4258" title="D. 选项2390" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1033" title="选择题357">
+      <ChoiceItem choiceItemID="4121" title="A. 选项1356" isSelected="false" />
+      <ChoiceItem choiceItemID="4124" title="B. 选项4356" isSelected="false" />
+      <ChoiceItem choiceItemID="4123" title="C. 选项3356" isSelected="false" />
+      <ChoiceItem choiceItemID="4122" title="D. 选项2356" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1345" title="选择题669">
+      <ChoiceItem choiceItemID="5372" title="A. 选项4668" isSelected="false" />
+      <ChoiceItem choiceItemID="5370" title="B. 选项2668" isSelected="false" />
+      <ChoiceItem choiceItemID="5371" title="C. 选项3668" isSelected="false" />
+      <ChoiceItem choiceItemID="5369" title="D. 选项1668" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="922" title="选择题246">
+      <ChoiceItem choiceItemID="3680" title="A. 选项4245" isSelected="false" />
+      <ChoiceItem choiceItemID="3678" title="B. 选项2245" isSelected="false" />
+      <ChoiceItem choiceItemID="3679" title="C. 选项3245" isSelected="false" />
+      <ChoiceItem choiceItemID="3677" title="D. 选项1245" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="689" title="选择题13">
+      <ChoiceItem choiceItemID="2746" title="A. 选项2012" isSelected="false" />
+      <ChoiceItem choiceItemID="2748" title="B. 选项4012" isSelected="false" />
+      <ChoiceItem choiceItemID="2747" title="C. 选项3012" isSelected="false" />
+      <ChoiceItem choiceItemID="2745" title="D. 选项1012" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="933" title="选择题257">
+      <ChoiceItem choiceItemID="3721" title="A. 选项1256" isSelected="false" />
+      <ChoiceItem choiceItemID="3722" title="B. 选项2256" isSelected="false" />
+      <ChoiceItem choiceItemID="3723" title="C. 选项3256" isSelected="false" />
+      <ChoiceItem choiceItemID="3724" title="D. 选项4256" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="996" title="选择题320">
+      <ChoiceItem choiceItemID="3973" title="A. 选项1319" isSelected="false" />
+      <ChoiceItem choiceItemID="3974" title="B. 选项2319" isSelected="false" />
+      <ChoiceItem choiceItemID="3975" title="C. 选项3319" isSelected="false" />
+      <ChoiceItem choiceItemID="3976" title="D. 选项4319" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="708" title="选择题32">
+      <ChoiceItem choiceItemID="2822" title="A. 选项2031" isSelected="false" />
+      <ChoiceItem choiceItemID="2821" title="B. 选项1031" isSelected="false" />
+      <ChoiceItem choiceItemID="2823" title="C. 选项3031" isSelected="false" />
+      <ChoiceItem choiceItemID="2824" title="D. 选项4031" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="687" title="选择题11">
+      <ChoiceItem choiceItemID="2740" title="A. 选项4010" isSelected="false" />
+      <ChoiceItem choiceItemID="2739" title="B. 选项3010" isSelected="false" />
+      <ChoiceItem choiceItemID="2738" title="C. 选项2010" isSelected="false" />
+      <ChoiceItem choiceItemID="2737" title="D. 选项1010" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1034" title="选择题358">
+      <ChoiceItem choiceItemID="4128" title="A. 选项4357" isSelected="false" />
+      <ChoiceItem choiceItemID="4127" title="B. 选项3357" isSelected="false" />
+      <ChoiceItem choiceItemID="4126" title="C. 选项2357" isSelected="false" />
+      <ChoiceItem choiceItemID="4125" title="D. 选项1357" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1072" title="选择题396">
+      <ChoiceItem choiceItemID="4279" title="A. 选项3395" isSelected="false" />
+      <ChoiceItem choiceItemID="4277" title="B. 选项1395" isSelected="false" />
+      <ChoiceItem choiceItemID="4278" title="C. 选项2395" isSelected="false" />
+      <ChoiceItem choiceItemID="4280" title="D. 选项4395" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="943" title="选择题267">
+      <ChoiceItem choiceItemID="3763" title="A. 选项3266" isSelected="false" />
+      <ChoiceItem choiceItemID="3761" title="B. 选项1266" isSelected="false" />
+      <ChoiceItem choiceItemID="3762" title="C. 选项2266" isSelected="false" />
+      <ChoiceItem choiceItemID="3764" title="D. 选项4266" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="858" title="选择题182">
+      <ChoiceItem choiceItemID="3421" title="A. 选项1181" isSelected="false" />
+      <ChoiceItem choiceItemID="3424" title="B. 选项4181" isSelected="false" />
+      <ChoiceItem choiceItemID="3422" title="C. 选项2181" isSelected="false" />
+      <ChoiceItem choiceItemID="3423" title="D. 选项3181" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="853" title="选择题177">
+      <ChoiceItem choiceItemID="3402" title="A. 选项2176" isSelected="false" />
+      <ChoiceItem choiceItemID="3403" title="B. 选项3176" isSelected="false" />
+      <ChoiceItem choiceItemID="3404" title="C. 选项4176" isSelected="false" />
+      <ChoiceItem choiceItemID="3401" title="D. 选项1176" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="916" title="选择题240">
+      <ChoiceItem choiceItemID="3654" title="A. 选项2239" isSelected="false" />
+      <ChoiceItem choiceItemID="3655" title="B. 选项3239" isSelected="false" />
+      <ChoiceItem choiceItemID="3656" title="C. 选项4239" isSelected="false" />
+      <ChoiceItem choiceItemID="3653" title="D. 选项1239" isSelected="false" />
+    </SingleChoice>
+  </SingleChoices>
+  <MutilChoices count="15" eachMark="2" getMark="0">
+    <MutilChoice choiceID="776" title="选择题100">
+      <ChoiceItem choiceItemID="3093" title="A. 选项1099" isSelected="false" />
+      <ChoiceItem choiceItemID="3096" title="B. 选项4099" isSelected="false" />
+      <ChoiceItem choiceItemID="3095" title="C. 选项3099" isSelected="false" />
+      <ChoiceItem choiceItemID="3094" title="D. 选项2099" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1092" title="选择题416">
+      <ChoiceItem choiceItemID="4359" title="A. 选项3415" isSelected="false" />
+      <ChoiceItem choiceItemID="4357" title="B. 选项1415" isSelected="false" />
+      <ChoiceItem choiceItemID="4358" title="C. 选项2415" isSelected="false" />
+      <ChoiceItem choiceItemID="4360" title="D. 选项4415" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="779" title="选择题103">
+      <ChoiceItem choiceItemID="3107" title="A. 选项3102" isSelected="false" />
+      <ChoiceItem choiceItemID="3105" title="B. 选项1102" isSelected="false" />
+      <ChoiceItem choiceItemID="3106" title="C. 选项2102" isSelected="false" />
+      <ChoiceItem choiceItemID="3108" title="D. 选项4102" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1224" title="选择题548">
+      <ChoiceItem choiceItemID="4886" title="A. 选项2547" isSelected="false" />
+      <ChoiceItem choiceItemID="4885" title="B. 选项1547" isSelected="false" />
+      <ChoiceItem choiceItemID="4887" title="C. 选项3547" isSelected="false" />
+      <ChoiceItem choiceItemID="4888" title="D. 选项4547" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="827" title="选择题151">
+      <ChoiceItem choiceItemID="3298" title="A. 选项2150" isSelected="false" />
+      <ChoiceItem choiceItemID="3297" title="B. 选项1150" isSelected="false" />
+      <ChoiceItem choiceItemID="3299" title="C. 选项3150" isSelected="false" />
+      <ChoiceItem choiceItemID="3300" title="D. 选项4150" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="879" title="选择题203">
+      <ChoiceItem choiceItemID="3508" title="A. 选项4202" isSelected="false" />
+      <ChoiceItem choiceItemID="3507" title="B. 选项3202" isSelected="false" />
+      <ChoiceItem choiceItemID="3505" title="C. 选项1202" isSelected="false" />
+      <ChoiceItem choiceItemID="3506" title="D. 选项2202" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1221" title="选择题545">
+      <ChoiceItem choiceItemID="4876" title="A. 选项4544" isSelected="false" />
+      <ChoiceItem choiceItemID="4875" title="B. 选项3544" isSelected="false" />
+      <ChoiceItem choiceItemID="4873" title="C. 选项1544" isSelected="false" />
+      <ChoiceItem choiceItemID="4874" title="D. 选项2544" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="763" title="选择题87">
+      <ChoiceItem choiceItemID="3041" title="A. 选项1086" isSelected="false" />
+      <ChoiceItem choiceItemID="3042" title="B. 选项2086" isSelected="false" />
+      <ChoiceItem choiceItemID="3043" title="C. 选项3086" isSelected="false" />
+      <ChoiceItem choiceItemID="3044" title="D. 选项4086" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="722" title="选择题46">
+      <ChoiceItem choiceItemID="2877" title="A. 选项1045" isSelected="false" />
+      <ChoiceItem choiceItemID="2878" title="B. 选项2045" isSelected="false" />
+      <ChoiceItem choiceItemID="2879" title="C. 选项3045" isSelected="false" />
+      <ChoiceItem choiceItemID="2880" title="D. 选项4045" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1167" title="选择题491">
+      <ChoiceItem choiceItemID="4660" title="A. 选项4490" isSelected="false" />
+      <ChoiceItem choiceItemID="4659" title="B. 选项3490" isSelected="false" />
+      <ChoiceItem choiceItemID="4657" title="C. 选项1490" isSelected="false" />
+      <ChoiceItem choiceItemID="4658" title="D. 选项2490" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1171" title="选择题495">
+      <ChoiceItem choiceItemID="4676" title="A. 选项4494" isSelected="false" />
+      <ChoiceItem choiceItemID="4675" title="B. 选项3494" isSelected="false" />
+      <ChoiceItem choiceItemID="4673" title="C. 选项1494" isSelected="false" />
+      <ChoiceItem choiceItemID="4674" title="D. 选项2494" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1276" title="选择题600">
+      <ChoiceItem choiceItemID="5094" title="A. 选项2599" isSelected="false" />
+      <ChoiceItem choiceItemID="5095" title="B. 选项3599" isSelected="false" />
+      <ChoiceItem choiceItemID="5096" title="C. 选项4599" isSelected="false" />
+      <ChoiceItem choiceItemID="5093" title="D. 选项1599" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="793" title="选择题117">
+      <ChoiceItem choiceItemID="3163" title="A. 选项3116" isSelected="false" />
+      <ChoiceItem choiceItemID="3161" title="B. 选项1116" isSelected="false" />
+      <ChoiceItem choiceItemID="3164" title="C. 选项4116" isSelected="false" />
+      <ChoiceItem choiceItemID="3162" title="D. 选项2116" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1140" title="选择题464">
+      <ChoiceItem choiceItemID="4551" title="A. 选项3463" isSelected="false" />
+      <ChoiceItem choiceItemID="4549" title="B. 选项1463" isSelected="false" />
+      <ChoiceItem choiceItemID="4552" title="C. 选项4463" isSelected="false" />
+      <ChoiceItem choiceItemID="4550" title="D. 选项2463" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1195" title="选择题519">
+      <ChoiceItem choiceItemID="4771" title="A. 选项3518" isSelected="false" />
+      <ChoiceItem choiceItemID="4770" title="B. 选项2518" isSelected="false" />
+      <ChoiceItem choiceItemID="4772" title="C. 选项4518" isSelected="false" />
+      <ChoiceItem choiceItemID="4769" title="D. 选项1518" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="877" title="选择题201">
+      <ChoiceItem choiceItemID="3499" title="A. 选项3200" isSelected="false" />
+      <ChoiceItem choiceItemID="3498" title="B. 选项2200" isSelected="false" />
+      <ChoiceItem choiceItemID="3500" title="C. 选项4200" isSelected="false" />
+      <ChoiceItem choiceItemID="3497" title="D. 选项1200" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="878" title="选择题202">
+      <ChoiceItem choiceItemID="3504" title="A. 选项4201" isSelected="false" />
+      <ChoiceItem choiceItemID="3502" title="B. 选项2201" isSelected="false" />
+      <ChoiceItem choiceItemID="3503" title="C. 选项3201" isSelected="false" />
+      <ChoiceItem choiceItemID="3501" title="D. 选项1201" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1309" title="选择题633">
+      <ChoiceItem choiceItemID="5228" title="A. 选项4632" isSelected="false" />
+      <ChoiceItem choiceItemID="5226" title="B. 选项2632" isSelected="false" />
+      <ChoiceItem choiceItemID="5227" title="C. 选项3632" isSelected="false" />
+      <ChoiceItem choiceItemID="5225" title="D. 选项1632" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="798" title="选择题122">
+      <ChoiceItem choiceItemID="3183" title="A. 选项3121" isSelected="false" />
+      <ChoiceItem choiceItemID="3181" title="B. 选项1121" isSelected="false" />
+      <ChoiceItem choiceItemID="3182" title="C. 选项2121" isSelected="false" />
+      <ChoiceItem choiceItemID="3184" title="D. 选项4121" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="768" title="选择题92">
+      <ChoiceItem choiceItemID="3063" title="A. 选项3091" isSelected="false" />
+      <ChoiceItem choiceItemID="3061" title="B. 选项1091" isSelected="false" />
+      <ChoiceItem choiceItemID="3062" title="C. 选项2091" isSelected="false" />
+      <ChoiceItem choiceItemID="3064" title="D. 选项4091" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="760" title="选择题84">
+      <ChoiceItem choiceItemID="3029" title="A. 选项1083" isSelected="false" />
+      <ChoiceItem choiceItemID="3030" title="B. 选项2083" isSelected="false" />
+      <ChoiceItem choiceItemID="3032" title="C. 选项4083" isSelected="false" />
+      <ChoiceItem choiceItemID="3031" title="D. 选项3083" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="880" title="选择题204">
+      <ChoiceItem choiceItemID="3509" title="A. 选项1203" isSelected="false" />
+      <ChoiceItem choiceItemID="3510" title="B. 选项2203" isSelected="false" />
+      <ChoiceItem choiceItemID="3512" title="C. 选项4203" isSelected="false" />
+      <ChoiceItem choiceItemID="3511" title="D. 选项3203" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="797" title="选择题121">
+      <ChoiceItem choiceItemID="3177" title="A. 选项1120" isSelected="false" />
+      <ChoiceItem choiceItemID="3178" title="B. 选项2120" isSelected="false" />
+      <ChoiceItem choiceItemID="3180" title="C. 选项4120" isSelected="false" />
+      <ChoiceItem choiceItemID="3179" title="D. 选项3120" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1252" title="选择题576">
+      <ChoiceItem choiceItemID="4998" title="A. 选项2575" isSelected="false" />
+      <ChoiceItem choiceItemID="4997" title="B. 选项1575" isSelected="false" />
+      <ChoiceItem choiceItemID="5000" title="C. 选项4575" isSelected="false" />
+      <ChoiceItem choiceItemID="4999" title="D. 选项3575" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1213" title="选择题537">
+      <ChoiceItem choiceItemID="4842" title="A. 选项2536" isSelected="false" />
+      <ChoiceItem choiceItemID="4841" title="B. 选项1536" isSelected="false" />
+      <ChoiceItem choiceItemID="4844" title="C. 选项4536" isSelected="false" />
+      <ChoiceItem choiceItemID="4843" title="D. 选项3536" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1248" title="选择题572">
+      <ChoiceItem choiceItemID="4982" title="A. 选项2571" isSelected="false" />
+      <ChoiceItem choiceItemID="4983" title="B. 选项3571" isSelected="false" />
+      <ChoiceItem choiceItemID="4984" title="C. 选项4571" isSelected="false" />
+      <ChoiceItem choiceItemID="4981" title="D. 选项1571" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1234" title="选择题558">
+      <ChoiceItem choiceItemID="4927" title="A. 选项3557" isSelected="false" />
+      <ChoiceItem choiceItemID="4925" title="B. 选项1557" isSelected="false" />
+      <ChoiceItem choiceItemID="4928" title="C. 选项4557" isSelected="false" />
+      <ChoiceItem choiceItemID="4926" title="D. 选项2557" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="738" title="选择题62">
+      <ChoiceItem choiceItemID="2943" title="A. 选项3061" isSelected="false" />
+      <ChoiceItem choiceItemID="2941" title="B. 选项1061" isSelected="false" />
+      <ChoiceItem choiceItemID="2944" title="C. 选项4061" isSelected="false" />
+      <ChoiceItem choiceItemID="2942" title="D. 选项2061" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1107" title="选择题431">
+      <ChoiceItem choiceItemID="4420" title="A. 选项4430" isSelected="false" />
+      <ChoiceItem choiceItemID="4418" title="B. 选项2430" isSelected="false" />
+      <ChoiceItem choiceItemID="4417" title="C. 选项1430" isSelected="false" />
+      <ChoiceItem choiceItemID="4419" title="D. 选项3430" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1273" title="选择题597">
+      <ChoiceItem choiceItemID="5084" title="A. 选项4596" isSelected="false" />
+      <ChoiceItem choiceItemID="5082" title="B. 选项2596" isSelected="false" />
+      <ChoiceItem choiceItemID="5081" title="C. 选项1596" isSelected="false" />
+      <ChoiceItem choiceItemID="5083" title="D. 选项3596" isSelected="false" />
+    </MutilChoice>
+  </MutilChoices>
+  <Judges count="10" eachMark="1" getMark="0">
+    <JudgeItem judgeID="54" title="判断题51" setTrue="-1" />
+    <JudgeItem judgeID="130" title="判断题127" setTrue="-1" />
+    <JudgeItem judgeID="57" title="判断题54" setTrue="-1" />
+    <JudgeItem judgeID="251" title="判断题248" setTrue="-1" />
+    <JudgeItem judgeID="88" title="判断题85" setTrue="-1" />
+    <JudgeItem judgeID="119" title="判断题116" setTrue="-1" />
+    <JudgeItem judgeID="248" title="判断题245" setTrue="-1" />
+    <JudgeItem judgeID="42" title="判断题39" setTrue="-1" />
+    <JudgeItem judgeID="5" title="判断题2" setTrue="-1" />
+    <JudgeItem judgeID="199" title="判断题196" setTrue="-1" />
+  </Judges>
+</StudentExam>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="b9f04ed7-89b5-4be1-8a55-62c692c81b37" basicExamID="7" randomExamID="6" getMark="0" endTime="2013-5-22 23:03:57" loginNum="1">
+  <SingleChoices count="1" eachMark="50" getMark="0">
+    <SingleChoice choiceID="152" title="超文本的含义是 。">
+      <ChoiceItem choiceItemID="6512" title="A. 该文本中含有图像" isSelected="false" />
+      <ChoiceItem choiceItemID="6510" title="B. 该文本中含有链接到其他文本的链接点" isSelected="false" />
+      <ChoiceItem choiceItemID="6509" title="C. 该文本中含有声音 " isSelected="false" />
+      <ChoiceItem choiceItemID="6511" title="D. 该文本中含有二进制数" isSelected="false" />
+    </SingleChoice>
+  </SingleChoices>
+  <Judges count="1" eachMark="50" getMark="0">
+    <JudgeItem judgeID="245" title="ADSL虚拟拨号连接Internet时也需要拨号电话号码。" setTrue="-1" />
+  </Judges>
+</StudentExam>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="b8c73f2b-d7d7-443c-bf96-cf63bac13d69" basicExamID="6" randomExamID="16" getMark="0" endTime="2013-5-23 17:32:29" loginNum="1">
+  <SingleChoices count="10" eachMark="5" getMark="0">
+    <SingleChoice choiceID="62" title=" 国际标准化组织 (  ) 提出的七层网络模型被称为开放系统互连参考模型 ( )">
+      <ChoiceItem choiceItemID="6149" title="A. OSI " isSelected="false" />
+      <ChoiceItem choiceItemID="6150" title="B. ISO " isSelected="false" />
+      <ChoiceItem choiceItemID="6152" title="C. TCP／IP" isSelected="false" />
+      <ChoiceItem choiceItemID="6151" title="D. OSI／RM " isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="22" title="如果互联的局域网高层分别采用TCP/IP协议与SPX/IPX协议，那么我们可以选择的互联设备应该是（ ）。">
+      <ChoiceItem choiceItemID="5989" title="A. 中继器" isSelected="false" />
+      <ChoiceItem choiceItemID="5990" title="B. 网桥" isSelected="false" />
+      <ChoiceItem choiceItemID="5992" title="C. 路由器" isSelected="false" />
+      <ChoiceItem choiceItemID="5991" title="D. 网卡" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="66" title="双绞线分 (  ) 双绞线和 ( ) 双纹线两类。">
+      <ChoiceItem choiceItemID="6165" title="A. 基带、宽带 " isSelected="false" />
+      <ChoiceItem choiceItemID="6166" title="B. 基带、窄带" isSelected="false" />
+      <ChoiceItem choiceItemID="6168" title="C. 屏蔽、基带" isSelected="false" />
+      <ChoiceItem choiceItemID="6167" title="D. 屏蔽、非屏蔽" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="72" title="(  ) 是传输层以上实现两个异构系统互连的设备。">
+      <ChoiceItem choiceItemID="6189" title="A. 网桥" isSelected="false" />
+      <ChoiceItem choiceItemID="6190" title="B. 网关" isSelected="false" />
+      <ChoiceItem choiceItemID="6192" title="C. 路由器" isSelected="false" />
+      <ChoiceItem choiceItemID="6191" title="D. 集线器" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="23" title="一个单位有多幢办公楼，每幢办公楼内部建立了局域网，这些局域网需要互联起来，构成支持整个单位管理信息系统的局域网环境。这种情况下采用的局域网互联设备一般应为（ ）。">
+      <ChoiceItem choiceItemID="5996" title="A. 路由器" isSelected="false" />
+      <ChoiceItem choiceItemID="5994" title="B. 集线器" isSelected="false" />
+      <ChoiceItem choiceItemID="5995" title="C. 网桥" isSelected="false" />
+      <ChoiceItem choiceItemID="5993" title="D. 网关" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="30" title="在局域网交换机中，交换机只要接收并检测到目的地址字段就立即将该帧转发出去，帧出错检测任务有节点主机完成，这种交换方法叫做（ ）。">
+      <ChoiceItem choiceItemID="6024" title="A. 查询交换" isSelected="false" />
+      <ChoiceItem choiceItemID="6022" title="B. 存储转发交换" isSelected="false" />
+      <ChoiceItem choiceItemID="6023" title="C. 改进直接交换" isSelected="false" />
+      <ChoiceItem choiceItemID="6021" title="D. 直接交换" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="141" title="在OSI 七层结构模型中，处于数据链路层与运输层之间的是（  ）">
+      <ChoiceItem choiceItemID="6468" title="A. 表示层" isSelected="false" />
+      <ChoiceItem choiceItemID="6466" title="B. 网络层" isSelected="false" />
+      <ChoiceItem choiceItemID="6467" title="C. 会话层" isSelected="false" />
+      <ChoiceItem choiceItemID="6465" title="D. 物理层" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="41" title="计算机网络最基本的功能是 (  ) 。">
+      <ChoiceItem choiceItemID="6068" title="A. 文件调用" isSelected="false" />
+      <ChoiceItem choiceItemID="6066" title="B. 打印文件" isSelected="false" />
+      <ChoiceItem choiceItemID="6067" title="C. 资源共享" isSelected="false" />
+      <ChoiceItem choiceItemID="6065" title="D. 降低成本" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="125" title="虚拟网（VLAN）可以有多种划分方式,下列方式中不正确的是()">
+      <ChoiceItem choiceItemID="6402" title="A. 基于网卡的MAC 地址" isSelected="false" />
+      <ChoiceItem choiceItemID="6403" title="B. 基于网络层地址" isSelected="false" />
+      <ChoiceItem choiceItemID="6404" title="C. 基于用户" isSelected="false" />
+      <ChoiceItem choiceItemID="6401" title="D. 基于交换机端口" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="47" title="因特网利用浏览器，查看某Web 主页时，在地址栏中也可填入 (  ) 格式的地址。">
+      <ChoiceItem choiceItemID="6090" title="A. 198.4.135" isSelected="false" />
+      <ChoiceItem choiceItemID="6091" title="B. 128.AA.5" isSelected="false" />
+      <ChoiceItem choiceItemID="6092" title="C. 210.37.AA.3" isSelected="false" />
+      <ChoiceItem choiceItemID="6089" title="D. 210.37.40.54" isSelected="false" />
+    </SingleChoice>
+  </SingleChoices>
+  <Judges count="10" eachMark="5" getMark="0">
+    <JudgeItem judgeID="184" title="PING命令使用ICMP回送请求与回送回答报文来测试两主机间的连通性。" setTrue="-1" />
+    <JudgeItem judgeID="153" title="集线器不会将数据帧传递到不同的逻辑工作组去。" setTrue="-1" />
+    <JudgeItem judgeID="186" title="以集线器为中心的星型拓扑结构是局域网的主要拓扑结构之一。" setTrue="-1" />
+    <JudgeItem judgeID="190" title="上下层之间交换信息叫接口。" setTrue="-1" />
+    <JudgeItem judgeID="154" title="交换机组成的以太网在物理连接上不能出现环路。" setTrue="-1" />
+    <JudgeItem judgeID="159" title="路由器具有信息过滤功能。" setTrue="-1" />
+    <JudgeItem judgeID="232" title="频带传输只传输模拟信号；" setTrue="-1" />
+    <JudgeItem judgeID="168" title="在CSMA/CD控制方法中，站点在发送完帧之后，再对冲突进行检测。" setTrue="-1" />
+    <JudgeItem judgeID="218" title=" ICMP差错报告报文共有5种：目的站不可达、源站抑制、超时、参数问题与改变路由。" setTrue="-1" />
+    <JudgeItem judgeID="175" title="IP协议首部的源地址和目的地址字段存放的是源主机和目的主机的物理地址地址。" setTrue="-1" />
+  </Judges>
+</StudentExam>

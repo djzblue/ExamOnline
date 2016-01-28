@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="09990130" basicExamID="5" randomExamID="85" getMark="0" endTime="2011-12-26T14:07:58.5+08:00" loginNum="3">
+  <SingleChoices count="25" eachMark="2" getMark="0">
+    <SingleChoice choiceID="1358" title="2011年3月，全国人大十一届四次会议批准的《十二五规划纲要》中提出，今后五年我国单位国内生产总值能源消耗和单位国内生产总值二氧化碳排放分别降低（）。">
+      <ChoiceItem choiceItemID="5423" title="A. 16%和17%" isSelected="false" />
+      <ChoiceItem choiceItemID="5424" title="B. 17%和15%" isSelected="false" />
+      <ChoiceItem choiceItemID="5422" title="C. 16%和15%" isSelected="false" />
+      <ChoiceItem choiceItemID="5421" title="D. 15%和16%" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1353" title="2011年3月，全国人大十一届四次会议批准的《十二五规划纲要》中提出，今后五年我国单位国内生产总值能源消耗和单位国内生产总值二氧化碳排放分别降低（）">
+      <ChoiceItem choiceItemID="5403" title="A. 16%和17%" isSelected="false" />
+      <ChoiceItem choiceItemID="5404" title="B. 17%和15%" isSelected="false" />
+      <ChoiceItem choiceItemID="5402" title="C. 16%和15%" isSelected="false" />
+      <ChoiceItem choiceItemID="5401" title="D. 15%和16%" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1404" title="美俄目前拥有全球（）以上的核武器。">
+      <ChoiceItem choiceItemID="5607" title="A. 96%" isSelected="false" />
+      <ChoiceItem choiceItemID="5608" title="B. 98%" isSelected="false" />
+      <ChoiceItem choiceItemID="5606" title="C. 95%" isSelected="false" />
+      <ChoiceItem choiceItemID="5605" title="D. 90%" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1375" title="新兴产业的共同特征主要体现在：一、技术含量比较高；二、未来发展潜力比较大；三（）；四、新兴产业对于产业的从业人员来讲既是一种机遇，也是一种挑战。">
+      <ChoiceItem choiceItemID="5491" title="A. 有可能替代传统产业" isSelected="false" />
+      <ChoiceItem choiceItemID="5492" title="B. 软大的市场空间" isSelected="false" />
+      <ChoiceItem choiceItemID="5490" title="C. 具有参与性" isSelected="false" />
+      <ChoiceItem choiceItemID="5489" title="D. 文化内容丰富" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1361" title="博鳌亚洲论坛2011年年会的主题是（）。">
+      <ChoiceItem choiceItemID="5435" title="A. 绿色亚洲：在变革中实现共赢" isSelected="false" />
+      <ChoiceItem choiceItemID="5436" title="B. 亚洲寻共赢" isSelected="false" />
+      <ChoiceItem choiceItemID="5434" title="C. 绿色复苏：亚洲可持发展的现实选择" isSelected="false" />
+      <ChoiceItem choiceItemID="5433" title="D. 包容性发展：共同议程与全新挑战" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1398" title="三民主义指的是民族独立、民主政治和（）。">
+      <ChoiceItem choiceItemID="5582" title="A. 民生独立" isSelected="false" />
+      <ChoiceItem choiceItemID="5581" title="B. 民权独立" isSelected="false" />
+      <ChoiceItem choiceItemID="5584" title="C. 民权主义" isSelected="false" />
+      <ChoiceItem choiceItemID="5583" title="D. 民生幸福" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1414" title="新的《食品安全法》的第一个亮点就是国家要建立食品（）制度。">
+      <ChoiceItem choiceItemID="5646" title="A. 安全风险评估" isSelected="false" />
+      <ChoiceItem choiceItemID="5645" title="B. 安全评估" isSelected="false" />
+      <ChoiceItem choiceItemID="5648" title="C. 安全风险测评" isSelected="false" />
+      <ChoiceItem choiceItemID="5647" title="D. 安全测评" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1428" title="创意产业指那些从个人的（）、技能和天分中获取发展动力的企业，以及那些通过对知识产权的开发创造潜在财富和就业机会的活动。">
+      <ChoiceItem choiceItemID="5702" title="A. 创造力" isSelected="false" />
+      <ChoiceItem choiceItemID="5701" title="B. 想像力" isSelected="false" />
+      <ChoiceItem choiceItemID="5704" title="C. 思维能力" isSelected="false" />
+      <ChoiceItem choiceItemID="5703" title="D. 生产力" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1438" title="“十一五”期间，（ ）居民人均可支配收入大幅提高。">
+      <ChoiceItem choiceItemID="5742" title="A. 农村" isSelected="false" />
+      <ChoiceItem choiceItemID="5741" title="B. 城市" isSelected="false" />
+      <ChoiceItem choiceItemID="5744" title="C. 城镇和农村" isSelected="false" />
+      <ChoiceItem choiceItemID="5743" title="D. 工人和农民" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1369" title="完成美国为期30年航天飞机项目最后一次飞机的航天飞机是（）。">
+      <ChoiceItem choiceItemID="5468" title="A. 亚特兰蒂斯号" isSelected="false" />
+      <ChoiceItem choiceItemID="5465" title="B. 挑战者号" isSelected="false" />
+      <ChoiceItem choiceItemID="5466" title="C. 哥伦比亚号" isSelected="false" />
+      <ChoiceItem choiceItemID="5467" title="D. 发现号" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1442" title="以下各项，不属于民生工程的成果的是（  ）。">
+      <ChoiceItem choiceItemID="5760" title="A. 房价涨幅加大" isSelected="false" />
+      <ChoiceItem choiceItemID="5757" title="B. 保障性住房促安居" isSelected="false" />
+      <ChoiceItem choiceItemID="5758" title="C. 继续深化医疗体制改革" isSelected="false" />
+      <ChoiceItem choiceItemID="5759" title="D. 养老保障体系覆盖面进一步扩大" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1437" title="我国“十二五”社会发展规划，要在（  ）这五年内完成。">
+      <ChoiceItem choiceItemID="5740" title="A. 2005年-2010年" isSelected="false" />
+      <ChoiceItem choiceItemID="5737" title="B. 2010年-2015    " isSelected="false" />
+      <ChoiceItem choiceItemID="5738" title="C. 2011年-2015年 " isSelected="false" />
+      <ChoiceItem choiceItemID="5739" title="D. 2006年-2010年" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1443" title="2011年是我国（  ）规划的开局之年，是全面建设小康社会的关键时期。">
+      <ChoiceItem choiceItemID="5761" title="A. “十五”" isSelected="false" />
+      <ChoiceItem choiceItemID="5763" title="B. “十二五”" isSelected="false" />
+      <ChoiceItem choiceItemID="5762" title="C. “十一五”" isSelected="false" />
+      <ChoiceItem choiceItemID="5764" title="D. “十三五”" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1436" title="2009年电视剧《蜗居》风靡全国，该剧现实地反映了（  ）的生活状态。">
+      <ChoiceItem choiceItemID="5733" title="A. “车奴”" isSelected="false" />
+      <ChoiceItem choiceItemID="5735" title="B. “养老奴”" isSelected="false" />
+      <ChoiceItem choiceItemID="5734" title="C. “孩奴”" isSelected="false" />
+      <ChoiceItem choiceItemID="5736" title="D. “房奴”" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1386" title="培育健康社会心情，可以促进形成良好的（）和社会风气，增进人与人之间，人与社会之间的和谐，从而为经济社会发展提供有利条件。">
+      <ChoiceItem choiceItemID="5533" title="A. 社会心态" isSelected="false" />
+      <ChoiceItem choiceItemID="5535" title="B. 社会关系" isSelected="false" />
+      <ChoiceItem choiceItemID="5534" title="C. 社会意识" isSelected="false" />
+      <ChoiceItem choiceItemID="5536" title="D. 健康心态" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1376" title="今年国务院制定了开工建设（）套保障性住房的计划，有着重大的意义。">
+      <ChoiceItem choiceItemID="5493" title="A. 1500" isSelected="false" />
+      <ChoiceItem choiceItemID="5495" title="B. 1000" isSelected="false" />
+      <ChoiceItem choiceItemID="5494" title="C. 1200" isSelected="false" />
+      <ChoiceItem choiceItemID="5496" title="D. 800" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1411" title="央行公布的一份针对全国储户的调查显示，超过（）的居民认为房价“过高，难以接受”。">
+      <ChoiceItem choiceItemID="5633" title="A. 60%" isSelected="false" />
+      <ChoiceItem choiceItemID="5635" title="B. 70%" isSelected="false" />
+      <ChoiceItem choiceItemID="5634" title="C. 65%" isSelected="false" />
+      <ChoiceItem choiceItemID="5636" title="D. 75%" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1415" title="北极五国指的是：美国、加拿大、丹麦、俄罗斯和（）。">
+      <ChoiceItem choiceItemID="5649" title="A. 墨尔本" isSelected="false" />
+      <ChoiceItem choiceItemID="5652" title="B. 印尼" isSelected="false" />
+      <ChoiceItem choiceItemID="5651" title="C. 日本" isSelected="false" />
+      <ChoiceItem choiceItemID="5650" title="D. 挪威" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1389" title="（），《食品安全法》开始实施，施行了近14年的《食品卫生法》同时被废止。">
+      <ChoiceItem choiceItemID="5545" title="A. 2009-7-1" isSelected="false" />
+      <ChoiceItem choiceItemID="5548" title="B. 2010-7-1" isSelected="false" />
+      <ChoiceItem choiceItemID="5547" title="C. 2010-6-1" isSelected="false" />
+      <ChoiceItem choiceItemID="5546" title="D. 2009月6月1日" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1388" title="农业部门的统计数据显示，2010年各类食用农产品、食品安全水平稳中有升蔬菜、畜产品、水产品监测合格率分别达到96.8%\99.6%和 96.7%,全国库存粮食质量达标率（）。">
+      <ChoiceItem choiceItemID="5541" title="A. 96.50%" isSelected="false" />
+      <ChoiceItem choiceItemID="5544" title="B. 97.30%" isSelected="false" />
+      <ChoiceItem choiceItemID="5543" title="C. 98.50%" isSelected="false" />
+      <ChoiceItem choiceItemID="5542" title="D. 97.50%" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1377" title="（）中提出，要“推动文化产业成为国民经济支柱性产业”。">
+      <ChoiceItem choiceItemID="5497" title="A. 《关于制定国民经济与社会发展第十个五年规划的建议》" isSelected="false" />
+      <ChoiceItem choiceItemID="5500" title="B. 《关于制定国民经济与社会发展第十三个五年规划的建议》" isSelected="false" />
+      <ChoiceItem choiceItemID="5499" title="C. 《关于制定国民经济与社会发展第十个二五年规划的建议》" isSelected="false" />
+      <ChoiceItem choiceItemID="5498" title="D. 《关于制定国民经济与社会发展第十一个五年规划的建议》" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1426" title="2011年6月30日，十一届全国人大常委第二十一次会议表决通过关于修改个人所得税法的决定，起征点调到（）元。">
+      <ChoiceItem choiceItemID="5693" title="A. 2800" isSelected="false" />
+      <ChoiceItem choiceItemID="5696" title="B. 3800" isSelected="false" />
+      <ChoiceItem choiceItemID="5695" title="C. 3500" isSelected="false" />
+      <ChoiceItem choiceItemID="5694" title="D. 3000" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1405" title="2011年3月，日本福岛第一核电厂因（）级大地震导致核泄漏，污染周边环境，辐射尘向全球飘散，造成国际恐慌和外交风波。">
+      <ChoiceItem choiceItemID="5610" title="A. 8.0" isSelected="false" />
+      <ChoiceItem choiceItemID="5611" title="B. 8.5" isSelected="false" />
+      <ChoiceItem choiceItemID="5612" title="C. 9.0" isSelected="false" />
+      <ChoiceItem choiceItemID="5609" title="D. 7.5" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1392" title="复旦大学研究生吴恒在网上召集（）名志同道合者一起，建立了一个《中国食品安全问题新闻资料库（2004-2011）》。">
+      <ChoiceItem choiceItemID="5558" title="A. 33" isSelected="false" />
+      <ChoiceItem choiceItemID="5559" title="B. 34" isSelected="false" />
+      <ChoiceItem choiceItemID="5560" title="C. 35" isSelected="false" />
+      <ChoiceItem choiceItemID="5557" title="D. 32" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1441" title="为控制房价上涨，被称为“最严厉楼市调控措施”的（  ）已在北京、上海、深圳、厦门等30多个城市实行。">
+      <ChoiceItem choiceItemID="5754" title="A. 遏制令" isSelected="false" />
+      <ChoiceItem choiceItemID="5755" title="B. 控制令" isSelected="false" />
+      <ChoiceItem choiceItemID="5756" title="C. 限制令" isSelected="false" />
+      <ChoiceItem choiceItemID="5753" title="D. 限购令 " isSelected="false" />
+    </SingleChoice>
+  </SingleChoices>
+  <MutilChoices count="10" eachMark="3" getMark="0">
+    <MutilChoice choiceID="1448" title="2011年2月，胡锦涛总书记在出席省部级主要领导干部社会管理及其创新专题研讨班开班式时指出，当前加强和创新社会管理的总要求是（）。">
+      <ChoiceItem choiceItemID="5782" title="A. 最大限度增加和谐因素" isSelected="false" />
+      <ChoiceItem choiceItemID="5783" title="B. 最大限度减少不和谐因素" isSelected="false" />
+      <ChoiceItem choiceItemID="5784" title="C. 最大限度促进社会稳定" isSelected="false" />
+      <ChoiceItem choiceItemID="5781" title="D. 最大限度激发社会活力" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1447" title="2011年2月，胡锦涛总书记在出席省部级主要领导干部社会管理及其创新专题研讨班开班式时指出，当前加强和创新社会管理的重要性为（）。">
+      <ChoiceItem choiceItemID="5778" title="A. 是构建社会主义和谐社会的必然要求" isSelected="false" />
+      <ChoiceItem choiceItemID="5779" title="B. 是维护最广大人民根本利益的必然要求" isSelected="false" />
+      <ChoiceItem choiceItemID="5780" title="C. 是提高党的执政能力和巩固党的执政地位的必然要求" isSelected="false" />
+      <ChoiceItem choiceItemID="5777" title="D. 是继续抓住和用好我国发展重要战略机遇期，推进党和国家事业的必然要求" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1463" title="当前我国文化产业发展的特点：（）">
+      <ChoiceItem choiceItemID="5844" title="A. 文化产业水平提高" isSelected="false" />
+      <ChoiceItem choiceItemID="5842" title="B. 文化资源加速整合" isSelected="false" />
+      <ChoiceItem choiceItemID="5841" title="C. 市场主体数量倍增" isSelected="false" />
+      <ChoiceItem choiceItemID="5843" title="D. 新兴业态蓬勃发展" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1454" title="2011年7月， 国家副主席习近平在庆祝西藏和平解放60周年大会上的讲话中提出，60年来，西藏主片古老而神奇的土地发生了翻天覆地的伟大变化是（）。">
+      <ChoiceItem choiceItemID="5808" title="A. 各民族团结不断巩固" isSelected="false" />
+      <ChoiceItem choiceItemID="5806" title="B. 经济社会实现全面发展" isSelected="false" />
+      <ChoiceItem choiceItemID="5805" title="C. 社会制度实现历史性跨越" isSelected="false" />
+      <ChoiceItem choiceItemID="5807" title="D. 人民生活水平大幅提高" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1449" title="2011年6月，国家主席胡锦涛在《中俄睦邻友好合作条约》签署10周年庆祝音乐会上致辞时强调，条约签署10年来，中俄两国战略协作伙伴关系的发展成就包括（）。">
+      <ChoiceItem choiceItemID="5788" title="A. 我们在国际事务中密切协调，战略协作不断深化" isSelected="false" />
+      <ChoiceItem choiceItemID="5786" title="B. 我们两国在经济上互利互惠，务实合作全面发展" isSelected="false" />
+      <ChoiceItem choiceItemID="5785" title="C. 我们两国在政治上互尊互信，两国关系日臻成熟" isSelected="false" />
+      <ChoiceItem choiceItemID="5787" title="D. 我们在人文领域互学互鉴，传统友谊日益加深" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1461" title="解决食品安全问题在于（）。">
+      <ChoiceItem choiceItemID="5835" title="A. 加大惩处力度，充分发挥舆论监督的作用" isSelected="false" />
+      <ChoiceItem choiceItemID="5836" title="B. 食品产业结构规模化、规范化是根本出路" isSelected="false" />
+      <ChoiceItem choiceItemID="5833" title="C. 建立食品安全风险评估制度" isSelected="false" />
+      <ChoiceItem choiceItemID="5834" title="D. 明确食品生产经营者是第一责任人，建立食品安全过程监管" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1466" title="卫生部5月13日公布了（）新的食品安全国家标准。">
+      <ChoiceItem choiceItemID="5855" title="A. 《预包装食品标签通则》" isSelected="false" />
+      <ChoiceItem choiceItemID="5856" title="B. 《蜂蜜》" isSelected="false" />
+      <ChoiceItem choiceItemID="5853" title="C. 《食品添加剂使用标准》" isSelected="false" />
+      <ChoiceItem choiceItemID="5854" title="D. 《食品中真菌毒素限量》" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1470" title="三网融合，又叫“三网合一”，是当代热门技术及热门话题之一，三网指的是（）。">
+      <ChoiceItem choiceItemID="5871" title="A. 有线电视网" isSelected="false" />
+      <ChoiceItem choiceItemID="5872" title="B. 计算机通信网" isSelected="false" />
+      <ChoiceItem choiceItemID="5869" title="C. 互联网" isSelected="false" />
+      <ChoiceItem choiceItemID="5870" title="D. 电信网" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1474" title="我国（）的乡镇和（）的行政村接通了互联网，（）的乡镇接通了宽带。">
+      <ChoiceItem choiceItemID="5887" title="A. 96%" isSelected="false" />
+      <ChoiceItem choiceItemID="5888" title="B. 95.50%" isSelected="false" />
+      <ChoiceItem choiceItemID="5885" title="C. 99.30%" isSelected="false" />
+      <ChoiceItem choiceItemID="5886" title="D. 91.50%" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1452" title="2011年7月1日，胡锦涛总书记在庆祝中国共产党成立90周年大会上的讲话中提出，推动我国经济又好又快发展的重要意义是（）。">
+      <ChoiceItem choiceItemID="5800" title="A. 筑牢和平崛起的强大物质基础" isSelected="false" />
+      <ChoiceItem choiceItemID="5799" title="B. 筑牢中华民族伟大复兴的强大物质基础" isSelected="false" />
+      <ChoiceItem choiceItemID="5797" title="C. 筑牢国家发繁荣的强大物质基础" isSelected="false" />
+      <ChoiceItem choiceItemID="5798" title="D. 筑牢全国各族人民幸福安康的强大物质基础" isSelected="false" />
+    </MutilChoice>
+  </MutilChoices>
+  <Judges count="10" eachMark="2" getMark="0">
+    <JudgeItem judgeID="346" title="民生问题仍然是影响社会心态良性发展的重要因素之一。" setTrue="-1" />
+    <JudgeItem judgeID="354" title="1969年，美国国防部高级研究计划署资助建立了世界上第一个分组交换试验网ARPAnet，标志着现代计算机网络的诞生。（）" setTrue="-1" />
+    <JudgeItem judgeID="355" title="截止2011年6月，我国网络游戏用户规模达3.11亿人，占网民总数68.2%。（）" setTrue="-1" />
+    <JudgeItem judgeID="353" title="网络战五种子作战样式：网络情报、网络阴瘫、网络防御、网络心理和网电一体。（）" setTrue="-1" />
+    <JudgeItem judgeID="343" title="美国是世界第一大文化产业强国，文化产业规模在其国内产业结构中位居第二。" setTrue="-1" />
+    <JudgeItem judgeID="347" title="食品安全问题是重要的民生问题。（）" setTrue="-1" />
+    <JudgeItem judgeID="358" title="目前在我国住房制度建设中，还缺乏一部基本法，即住宅法。（）" setTrue="-1" />
+    <JudgeItem judgeID="360" title="科学发展观的基本要求是“以人为本”。（）" setTrue="-1" />
+    <JudgeItem judgeID="336" title="社会心态与个人的幸福指数有着密切的关系。（）" setTrue="-1" />
+    <JudgeItem judgeID="345" title="当代中国人生活动办排序，“个人利益追求”排第一。" setTrue="-1" />
+  </Judges>
+</StudentExam>

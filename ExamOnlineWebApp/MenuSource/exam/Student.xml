@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<工作台>
+
+  <ParentMenu title="进入考试" url="~/Students/StuExam.aspx" target="mainFrame"/>
+  <ParentMenu title="我的得分" url="~/Students/MyMark.aspx" target="mainFrame"/>
+  <ParentMenu title="我的试题" url="~/Students/StuExam.aspx" target="mainFrame"/>
+  <ParentMenu title="资源管理" url="" target="mainFrame">
+    <SubMenu title="个人文件夹" url="~/FileManagerPage.aspx" target="mainFrame"></SubMenu>
+  </ParentMenu>
+
+
+</工作台>

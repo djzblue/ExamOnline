@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="aa3f5f1b-59e4-44ae-9dd3-adaf7ab65d7f" Owner="" Priority="0" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="" StopOnError="False" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Items>
+    <Request Method="GET" Version="1.1" Url="http://192.168.4.189/" ThinkTime="18" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://192.168.4.189/Login.aspx?AspxAutoDetectCookieSupport=1">
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="提取隐藏的字段" Description="从响应中提取所有隐藏的字段，并将这些字段放入测试上下文中。">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam1.AspxAutoDetectCookieSupport" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?AspxAutoDetectCookieSupport=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam1.rblRoles" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="rblRoles_0" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="POST" Version="1.1" Url="http://192.168.4.189/Login.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://192.168.4.189/admin.html">
+      <QueryStringParameters>
+        <QueryStringParameter Name="AspxAutoDetectCookieSupport" Value="1" RecordedValue="1" CorrelationBinding="{{QueryStringParam1.AspxAutoDetectCookieSupport}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="__LASTFOCUS" Value="{{$HIDDEN1.__LASTFOCUS}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTTARGET" Value="{{$HIDDEN1.__EVENTTARGET}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTARGUMENT" Value="{{$HIDDEN1.__EVENTARGUMENT}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATE" Value="{{$HIDDEN1.__VIEWSTATE}}" RecordedValue="/wEPDwUKLTI4NDU5MDg0MWQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFDEltYWdlQnV0dG9uMYZw4SW5EBf2v58QcHN/s9DzoZel" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTVALIDATION" Value="{{$HIDDEN1.__EVENTVALIDATION}}" RecordedValue="/wEWCAKyjeDVDwKl1bKzCQKd+7qdDgLDyZ2PCQKf6IS5BAKcqrbfCALYg4X4DALSwpnTCHyjnD3faatoZpIiWIidZR7y57Cx" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="txtUserName" Value="student6" RecordedValue="student6" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="txtPwd" Value="student6" RecordedValue="student6" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="rblRoles" Value="student" RecordedValue="student" CorrelationBinding="{{FormPostParam1.rblRoles}}" UrlEncode="True" />
+        <FormPostParameter Name="ImageButton1.x" Value="31" RecordedValue="31" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ImageButton1.y" Value="41" RecordedValue="41" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Version="1.1" Url="http://192.168.4.189/Top.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" />
+    <Request Method="GET" Version="1.1" Url="http://192.168.4.189/left.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" />
+    <Request Method="GET" Version="1.1" Url="http://192.168.4.189/ShowNotices.aspx" ThinkTime="11" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" />
+    <Request Method="GET" Version="1.1" Url="http://192.168.4.189/Students/SelectSubject.aspx" ThinkTime="15" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="">
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="提取隐藏的字段" Description="从响应中提取所有隐藏的字段，并将这些字段放入测试上下文中。">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam14.btnDeleteMySubject" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="btnDeleteMySubject" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="POST" Version="1.1" Url="http://192.168.4.189/Students/SelectSubject.aspx" ThinkTime="6" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="">
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="提取隐藏的字段" Description="从响应中提取所有隐藏的字段，并将这些字段放入测试上下文中。">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam10.GridView1$ctl02$Button1" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="GridView1_ctl02_Button1" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam11.GridView1$ctl04$ctl06" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="GridView1$ctl04$ctl06" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam12.ddlQueryType" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&gt;课题名" />
+            <RuleParameter Name="Index" Value="7" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam13.GridView1$ctl04$ctl07" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="der=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; bor" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <FormPostHttpBody>
+        <FormPostParameter Name="__VIEWSTATE" Value="{{$HIDDEN1.__VIEWSTATE}}" RecordedValue="rDB0BThZVmYluuz38fMPKcRX55W30dTxL8gh5C+DAR74zY/FHZnXomziKuH3dgF8+v1bz8DyWpxwlBTwnFzL6LHLy8REXaA6y5Qzyhoujt45Pcgs4v8nRBzq/hqyKm9VPeN9o+Ed1AS8WvcJMAPUjQ39AIyBiWzqCyEjTWrYeL8i7btIXjHPq8BHBLNjSk6Tj0FW3iQUuqCObg56y/yMy1rP75W9GtHyhT4gARFca+m3oNzAyJCXcjdUwcM4tt8aUPB3SQieSb2zQlRghrihfl3V6vuAI3di9Aot/EuppIYJtUmRbajqjSHL/HjQMtOhw+BfWinBWfxms6xju4Da3fLUzToxRE6btKYWFXT1nv5iucVkt9GXNjDxk2HKpaUDQBeY6O+80dVoJHfPK83aHPHM1fVM4sJ8aLD+nxgP4CRnj4gxnhwYtHKnyEn8QljoRReUUNpzgi+9O8CIVGa85llObIOjK7wd3+6BqaU3DNRAbDtj0Eso9dHt1jG7FP9u" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATEENCRYPTED" Value="{{$HIDDEN1.__VIEWSTATEENCRYPTED}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTVALIDATION" Value="{{$HIDDEN1.__EVENTVALIDATION}}" RecordedValue="COR/j8zdMTpKfUT9ujuNmbHwQhMjxABBKJkO4tL5lXM=" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="btnDeleteMySubject" Value="取消我的选题" RecordedValue="取消我的选题" CorrelationBinding="{{FormPostParam14.btnDeleteMySubject}}" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="POST" Version="1.1" Url="http://192.168.4.189/Students/SelectSubject.aspx" ThinkTime="5" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="">
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="提取隐藏的字段" Description="从响应中提取所有隐藏的字段，并将这些字段放入测试上下文中。">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam6.btnDeleteMySubject" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="btnDeleteMySubject" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam7.GridView1$ctl04$ctl06" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="GridView1$ctl04$ctl06" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam8.ddlQueryType" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&gt;课题名" />
+            <RuleParameter Name="Index" Value="7" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam9.GridView1$ctl04$ctl07" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="der=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; bor" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <FormPostHttpBody>
+        <FormPostParameter Name="__EVENTTARGET" Value="{{$HIDDEN1.__EVENTTARGET}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTARGUMENT" Value="{{$HIDDEN1.__EVENTARGUMENT}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__LASTFOCUS" Value="{{$HIDDEN1.__LASTFOCUS}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATE" Value="{{$HIDDEN1.__VIEWSTATE}}" RecordedValue="rDB0BThZVmYluuz38fMPKcRX55W30dTxL8gh5C+DAR7afRw+GRduxbUd9gIpBIkiLHclk7aMksbsKrmfo7RyD3QTzv6Yb0V/oEfbH0N3+Vrmy12ndggLaqpxY+N9hXOSR5uq0bHZP0+zZATP9VuRHCYE2p6b9MvyL2ieYpgXwiQtiBI+Sefd/dOZ5De0HhXLWfEkL7RDU81A5rbFpZ/tza1mG2KseuyuCtEjPROkWCRDlkW3yHVY0hOauqmWZcHEX/xufnuaEEmwKUku27o3+3/ZyiSPPC6wm3hEd6BbfNSioNzSGab5iLNBuMrHWE8QOFtk9CCmTPtSV4Zy4a5ikbmbUYC4lRhZGFMTCbz3KKL4C92hwESJBRpI1v0N9pfBuWZ+ItsaYOSL/jOSRciUTXiAsINCH511byhvd6be8EvSRlixxaEZw7qpYMEOsxxcXDD4e/4zVXH8ntYRrdw+zMB1A+CdhQvyGHXQLVwMGXCFL29HMR12iKeJ1o68YpFytMXAHkB4QuxsVLho73/sWaUBB6uvXBEiD9rK/b7qz9V9astA6BV94oMYWLodtOG47+4wMc/GB0JPtcU3J9WQXxpdkXPD2B54oIQinikNZ6lQBPCd1kBcRU7W5Se1XTKUH/TwX/neMJM4aOIKTOwCJwQqcEM9vZmUelY1OGED8RJwfWtreKfhuSS5P+Uvuh/9DQcvtvMQ1V50Auf8aIt3c7U0diXSjQQz8ctTgyGS3WJDcjTL5AYIpKJ6VZyHhCyhUyCQ4n6RQl96SCR5AGGNLOKZw1tzooJ3GB4bPszxTYg/8ahbyegAmL3PegAT+M9gH1o8AgOlTFhBV45xWHb2hfXhxgh3A1WC/kE1HbmX9kLZu0DO5aOUD9Zf5j4tXKGkowMvBTApVJhEPN4pJOUC7Lq20tp1HMaSRX5wng5Nv0ta/8Pqk6tIvC8A1j6meAz53JJhOeN8ZczQO6kZcUoPoG2uLBBD9HbIjrfrci9TnkgryE64VHoiiCGwiNMqrTXZmItY7+LcvHpHjHZw6wmzMbu4il2/DT/9SJuTYkC5F5t4Un06z4650r/LUSvSQYCSPlKSLYF3//FE5BQrHm7ZjpPb8ZXDIVStjnfu2jjLFf4=" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATEENCRYPTED" Value="{{$HIDDEN1.__VIEWSTATEENCRYPTED}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTVALIDATION" Value="{{$HIDDEN1.__EVENTVALIDATION}}" RecordedValue="ukP/SZGlGds5jF2zkIwnrbFcFj46OXNZkDxw6mDsWiiVGtwvoj5KznJYo2ey6mmO7Xx77kg4ZTGNptcx6kKPV5SdX11fHQo1zsUaTYVaSvY=" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ddlQueryType" Value="title" RecordedValue="title" CorrelationBinding="{{FormPostParam12.ddlQueryType}}" UrlEncode="True" />
+        <FormPostParameter Name="txtCondition" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="GridView1$ctl02$Button1" Value="拟选" RecordedValue="拟选" CorrelationBinding="{{FormPostParam10.GridView1$ctl02$Button1}}" UrlEncode="True" />
+        <FormPostParameter Name="GridView1$ctl04$ctl06" Value="20" RecordedValue="20" CorrelationBinding="{{FormPostParam11.GridView1$ctl04$ctl06}}" UrlEncode="True" />
+        <FormPostParameter Name="GridView1$ctl04$ctl07" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam13.GridView1$ctl04$ctl07}}" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="POST" Version="1.1" Url="http://192.168.4.189/Students/SelectSubject.aspx" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="">
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="提取隐藏的字段" Description="从响应中提取所有隐藏的字段，并将这些字段放入测试上下文中。">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam2.btnDeleteMySubject" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="btnDeleteMySubject" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam3.GridView1$ctl04$ctl06" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="GridView1$ctl04$ctl06" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam4.ddlQueryType" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&gt;课题名" />
+            <RuleParameter Name="Index" Value="7" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam5.GridView1$ctl04$ctl07" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="der=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; bor" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <FormPostHttpBody>
+        <FormPostParameter Name="__EVENTTARGET" Value="{{$HIDDEN1.__EVENTTARGET}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTARGUMENT" Value="{{$HIDDEN1.__EVENTARGUMENT}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__LASTFOCUS" Value="{{$HIDDEN1.__LASTFOCUS}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATE" Value="{{$HIDDEN1.__VIEWSTATE}}" RecordedValue="rDB0BThZVmYluuz38fMPKcRX55W30dTxL8gh5C+DAR7afRw+GRduxbUd9gIpBIkigSDpKoLzk5la9T0XN6VVgvF15a2tiCRnJd32/5HDBkGatOwXP+sJLpSlbS6RZW5FKDjDHC/qwZEP94fDPvuqydhOuIN9/VSVEcWUOnCiHZyMQQ63iw3Na9KATYuCYgNVBBKgDT0FShLLjQxvcecUi7LJf5m9/WyYvf2sXgEGj1sjcMSDqY9hcFbBAcyupjAVxvqi49W2D44Yy1cvW2LGDPl4Ljde+jJZ6IYfO82z01yT9irm/GdngRKk3Frcq4cMyyDcvaFBc8hpk8LfhQz6wYoR0SefIrjarORqgSOx6SniL/07jrIcSPvVY2S58Dx7kutlNAVP03v2lbniFQ4APWAG+m66hwE6jzacauUIwwp2wBumrpzENBWfJT39MW8VkBD0HgQVCDr8NrsHIOtKaMm9n4BKrKgVKl3hKyY4/tgRwBU0n4cmH/UYiLX6iQXOAtwpL8I3Ep1B2E++/eOJoJLWzaaXk4ArCwGqwVNoWe9FRtxEEnNnrSl5ipbWmLLAykbJpgW7UG0rmjEdgFLq4VHO32KqxXaAUht6KMAc2NBg82HkciORpi8c7Dzv/B0yNeJ1yB3oYu1quLuljDXuKJiehplCKlNzVPO/aKFz4+ITMeDABKeLdZr9RRP51cdnLHW82GD7W3Z9TnXwjweali65Avrt25NS54UwUBfrzQWWgUSHKvg+rFOl8jRUOArc1XTQyOzFXLxuKvLADZ3j0tyYgeA0aDpK2/syhMOuBRNfOWbChw7xsKQcQmG7pE3X/JfJN00sX29yfAXPFV3byEDgQW5rylHG+jU5gx3Y6S1+D7eo+fhGNiYQgJkvaJegXnB9J3Wxyjye9/2ARh5YS3PMPgJblPFCZuTVKtWTqxXdFaKxN2X/0xCJWAsT5QZGLWewOviHDS7z6Dg59u5tPBp+eVT3ok/gD/pH2GM9KtIK8oBXmgtSaLA9gcEFCZRejz4U/eQdwgQRkX7ulUE4kXVpHlSsP4iulGqQ5J8vQtrO+GHPgiVJKWlyVIaa4SVyIWTgcjFgMUCRNomC9GeEFDSi9wKcKzmUX9LQNQmdIaU5/r6bvD61ugd0glkD0UmRQqqSXczg44V7MwIBCDTiYgY89SY5YMliXu+6HsVtQ4KiElxmLRYHoBNvOpW5lOBc" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATEENCRYPTED" Value="{{$HIDDEN1.__VIEWSTATEENCRYPTED}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTVALIDATION" Value="{{$HIDDEN1.__EVENTVALIDATION}}" RecordedValue="Zvs9dW84q/p9MkNKzOXAJ2w8+c0HbiZfVCWSBrLKRlygO3frJ5RWX38wKnMzNah//oAVYyOFCWZiZkt26eTcuEREsBvNj+20FaKpIVzJhD4=" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="btnDeleteMySubject" Value="取消我的选题" RecordedValue="取消我的选题" CorrelationBinding="{{FormPostParam6.btnDeleteMySubject}}" UrlEncode="True" />
+        <FormPostParameter Name="ddlQueryType" Value="title" RecordedValue="title" CorrelationBinding="{{FormPostParam8.ddlQueryType}}" UrlEncode="True" />
+        <FormPostParameter Name="txtCondition" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="GridView1$ctl04$ctl06" Value="20" RecordedValue="20" CorrelationBinding="{{FormPostParam7.GridView1$ctl04$ctl06}}" UrlEncode="True" />
+        <FormPostParameter Name="GridView1$ctl04$ctl07" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam9.GridView1$ctl04$ctl07}}" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="POST" Version="1.1" Url="http://192.168.4.189/Students/SelectSubject.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="">
+      <FormPostHttpBody>
+        <FormPostParameter Name="__EVENTTARGET" Value="{{$HIDDEN1.__EVENTTARGET}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTARGUMENT" Value="{{$HIDDEN1.__EVENTARGUMENT}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__LASTFOCUS" Value="{{$HIDDEN1.__LASTFOCUS}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATE" Value="{{$HIDDEN1.__VIEWSTATE}}" RecordedValue="rDB0BThZVmYluuz38fMPKcRX55W30dTxL8gh5C+DAR7afRw+GRduxbUd9gIpBIkiLHclk7aMksbsKrmfo7RyD3QTzv6Yb0V/oEfbH0N3+Vrmy12ndggLaqpxY+N9hXOSR5uq0bHZP0+zZATP9VuRHCYE2p6b9MvyL2ieYpgXwiQtiBI+Sefd/dOZ5De0HhXLWfEkL7RDU81A5rbFpZ/tza1mG2KseuyuCtEjPROkWCRDlkW3yHVY0hOauqmWZcHEX/xufnuaEEmwKUku27o3+3/ZyiSPPC6wm3hEd6BbfNSioNzSGab5iLNBuMrHWE8QOFtk9CCmTPtSV4Zy4a5ikbmbUYC4lRhZGFMTCbz3KKL4C92hwESJBRpI1v0N9pfBuWZ+ItsaYOSL/jOSRciUTXiAsINCH511byhvd6be8EvSRlixxaEZw7qpYMEOsxxcXDD4e/4zVXH8ntYRrdw+zMB1A+CdhQvyGHXQLVwMGXCFL29HMR12iKeJ1o68YpFytMXAHkB4QuxsVLho73/sWaUBB6uvXBEiD9rK/b7qz9V9astA6BV94oMYWLodtOG47+4wMc/GB0JPtcU3J9WQXxpdkXPD2B54oIQinikNZ6lQBPCd1kBcRU7W5Se1XTKUH/TwX/neMJM4aOIKTOwCJwQqcEM9vZmUelY1OGED8RJwfWtreKfhuSS5P+Uvuh/9DQcvtvMQ1V50Auf8aIt3c7U0diXSjQQz8ctTgyGS3WJDcjTL5AYIpKJ6VZyHhCyhUyCQ4n6RQl96SCR5AGGNLOKZw1tzooJ3GB4bPszxTYg/8ahbyegAmL3PegAT+M9gH1o8AgOlTFhBV45xWHb2hfXhxgh3A1WC/kE1HbmX9kLZu0DO5aOUD9Zf5j4tXKGkowMvBTApVJhEPN4pJOUC7Lq20tp1HMaSRX5wng5Nv0ta/8Pqk6tIvC8A1j6meAz53JJhOeN8ZczQO6kZcUoPoG2uLBBD9HbIjrfrci9TnkgryE64VHoiiCGwiNMqrTXZ8PdPzPUWWdurL2by27Mo+IbZbb2W1zctxCW4Fg70c366I9lQEe7cQXNm3BJeQMUrjKt4EZ4SdUZ1xK4lxLZzQhaarSE3/1g7SmAswnUUu2Q=" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATEENCRYPTED" Value="{{$HIDDEN1.__VIEWSTATEENCRYPTED}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTVALIDATION" Value="{{$HIDDEN1.__EVENTVALIDATION}}" RecordedValue="ooEfoZfORq0eDH8MkykgKRCdvcBs+fk7I+GRxBOqDdsOkzZiSkQZwij61YYEUpwvGFPrHNrsnrXvKhqVrVf6atf4anzZuX8W2T7CAiIR8JA=" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="btnDeleteMySubject" Value="取消我的选题" RecordedValue="取消我的选题" CorrelationBinding="{{FormPostParam2.btnDeleteMySubject}}" UrlEncode="True" />
+        <FormPostParameter Name="ddlQueryType" Value="title" RecordedValue="title" CorrelationBinding="{{FormPostParam4.ddlQueryType}}" UrlEncode="True" />
+        <FormPostParameter Name="txtCondition" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="GridView1$ctl04$ctl06" Value="20" RecordedValue="20" CorrelationBinding="{{FormPostParam3.GridView1$ctl04$ctl06}}" UrlEncode="True" />
+        <FormPostParameter Name="GridView1$ctl04$ctl07" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam5.GridView1$ctl04$ctl07}}" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="响应 URL" Description="验证在执行重定向之后响应 URL 是否与所记录的响应 URL 相同。QueryString 参数将被忽略。" Level="Low" />
+  </ValidationRules>
+</WebTest>

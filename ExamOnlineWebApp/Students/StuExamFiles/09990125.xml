@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StudentExam stuNum="09990125" basicExamID="5" randomExamID="86" getMark="0" endTime="2011-12-26T14:24:30.53125+08:00" loginNum="4">
+  <SingleChoices count="25" eachMark="2" getMark="0">
+    <SingleChoice choiceID="1368" title="2011年7月14日，第65届联合国大会宣布正式接纳的联合国第193个会员国是（）。">
+      <ChoiceItem choiceItemID="5464" title="A. 图瓦卢" isSelected="false" />
+      <ChoiceItem choiceItemID="5461" title="B. 瑞士" isSelected="false" />
+      <ChoiceItem choiceItemID="5462" title="C. 南苏丹共和国" isSelected="false" />
+      <ChoiceItem choiceItemID="5463" title="D. 东帝汶" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1387" title="食品安全包含两个层面的概论一是“数量”层面的安全；二是（）层面的安全。">
+      <ChoiceItem choiceItemID="5540" title="A. 产品" isSelected="false" />
+      <ChoiceItem choiceItemID="5537" title="B. 质量" isSelected="false" />
+      <ChoiceItem choiceItemID="5538" title="C. 品质" isSelected="false" />
+      <ChoiceItem choiceItemID="5539" title="D. 质地" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1380" title="文化产业所涵盖的内容包括（）、影视、动漫、游戏、网络、视频、艺术品等等。">
+      <ChoiceItem choiceItemID="5512" title="A. 杂志" isSelected="false" />
+      <ChoiceItem choiceItemID="5509" title="B. 文化" isSelected="false" />
+      <ChoiceItem choiceItemID="5510" title="C. 博客" isSelected="false" />
+      <ChoiceItem choiceItemID="5511" title="D. 出版" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1375" title="新兴产业的共同特征主要体现在：一、技术含量比较高；二、未来发展潜力比较大；三（）；四、新兴产业对于产业的从业人员来讲既是一种机遇，也是一种挑战。">
+      <ChoiceItem choiceItemID="5492" title="A. 软大的市场空间" isSelected="false" />
+      <ChoiceItem choiceItemID="5489" title="B. 文化内容丰富" isSelected="false" />
+      <ChoiceItem choiceItemID="5490" title="C. 具有参与性" isSelected="false" />
+      <ChoiceItem choiceItemID="5491" title="D. 有可能替代传统产业" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1441" title="为控制房价上涨，被称为“最严厉楼市调控措施”的（  ）已在北京、上海、深圳、厦门等30多个城市实行。">
+      <ChoiceItem choiceItemID="5753" title="A. 限购令 " isSelected="false" />
+      <ChoiceItem choiceItemID="5756" title="B. 限制令" isSelected="false" />
+      <ChoiceItem choiceItemID="5754" title="C. 遏制令" isSelected="false" />
+      <ChoiceItem choiceItemID="5755" title="D. 控制令" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1371" title="截至2011年6月末，国家外汇储备余额为（）美元，同比增长30.3%。">
+      <ChoiceItem choiceItemID="5473" title="A. 31795亿" isSelected="false" />
+      <ChoiceItem choiceItemID="5476" title="B. 35971亿" isSelected="false" />
+      <ChoiceItem choiceItemID="5474" title="C. 31975亿" isSelected="false" />
+      <ChoiceItem choiceItemID="5475" title="D. 37951亿" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1427" title="2011年7月19日，西藏各族各界干部群众2万多人参加了西藏和平解放（）周年大会。">
+      <ChoiceItem choiceItemID="5697" title="A. 60" isSelected="false" />
+      <ChoiceItem choiceItemID="5700" title="B. 66" isSelected="false" />
+      <ChoiceItem choiceItemID="5698" title="C. 62" isSelected="false" />
+      <ChoiceItem choiceItemID="5699" title="D. 64" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1379" title="社会心态是一段时间内弥漫在全社会或某些社会群体中的宏观社会心境状态，是整个社会的情绪基调、社会共识和（）的总和。">
+      <ChoiceItem choiceItemID="5505" title="A. 社会行为" isSelected="false" />
+      <ChoiceItem choiceItemID="5508" title="B. 情感意向" isSelected="false" />
+      <ChoiceItem choiceItemID="5506" title="C. 行为意向" isSelected="false" />
+      <ChoiceItem choiceItemID="5507" title="D. 心理行为" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1419" title="2008年6月20日，胡锦涛总书记来到人民网强国论坛，与网友进行了近5分钟的在线交流，这被网民称为（）。">
+      <ChoiceItem choiceItemID="5668" title="A. 最幸福的网事" isSelected="false" />
+      <ChoiceItem choiceItemID="5666" title="B. 最快乐的网事" isSelected="false" />
+      <ChoiceItem choiceItemID="5665" title="C. 最幸福的日子" isSelected="false" />
+      <ChoiceItem choiceItemID="5667" title="D. 最快乐的日子" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1397" title="（），在孙中山，黄兴推动下，中国同盟会在日本东京正式成立。">
+      <ChoiceItem choiceItemID="5580" title="A. 1905-8-25" isSelected="false" />
+      <ChoiceItem choiceItemID="5578" title="B. 1905-8-15" isSelected="false" />
+      <ChoiceItem choiceItemID="5577" title="C. 1905-8-10" isSelected="false" />
+      <ChoiceItem choiceItemID="5579" title="D. 1905-8-20" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1431" title="新民主主义革命党领导人民经过（  ）年艰苦卓绝的斗争，推翻了“三座大山”，建立了新中国。">
+      <ChoiceItem choiceItemID="5716" title="A. 29" isSelected="false" />
+      <ChoiceItem choiceItemID="5714" title="B. 27" isSelected="false" />
+      <ChoiceItem choiceItemID="5713" title="C. 26" isSelected="false" />
+      <ChoiceItem choiceItemID="5715" title="D. 28" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1420" title="（），温家宝总理做客新华网，与网友进行在线交流，国内外网友纷纷向总理提问，内容涉及经济、民生、反腐、医疗等社会生活的方方面面。">
+      <ChoiceItem choiceItemID="5672" title="A. 2010-2-28" isSelected="false" />
+      <ChoiceItem choiceItemID="5670" title="B. 2009-2-28" isSelected="false" />
+      <ChoiceItem choiceItemID="5669" title="C. 2009-2-20" isSelected="false" />
+      <ChoiceItem choiceItemID="5671" title="D. 2010-2-20" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1391" title="《食品安全法》规定了建立食品召回制度、统一食品国家安全标准、取消食品（）构筑了更严密的食品安全网络。">
+      <ChoiceItem choiceItemID="5556" title="A. 免审制度" isSelected="false" />
+      <ChoiceItem choiceItemID="5554" title="B. 免检制度" isSelected="false" />
+      <ChoiceItem choiceItemID="5553" title="C. 免测制度" isSelected="false" />
+      <ChoiceItem choiceItemID="5555" title="D. 免查制度" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1416" title="“茉莉花革命”发生在（）。">
+      <ChoiceItem choiceItemID="5654" title="A. 巴林" isSelected="false" />
+      <ChoiceItem choiceItemID="5656" title="B. 埃及" isSelected="false" />
+      <ChoiceItem choiceItemID="5653" title="C. 利比亚" isSelected="false" />
+      <ChoiceItem choiceItemID="5655" title="D. 突尼斯" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1436" title="2009年电视剧《蜗居》风靡全国，该剧现实地反映了（  ）的生活状态。">
+      <ChoiceItem choiceItemID="5734" title="A. “孩奴”" isSelected="false" />
+      <ChoiceItem choiceItemID="5736" title="B. “房奴”" isSelected="false" />
+      <ChoiceItem choiceItemID="5733" title="C. “车奴”" isSelected="false" />
+      <ChoiceItem choiceItemID="5735" title="D. “养老奴”" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1407" title="2011年美国在网络空间领域再现霸气，2月15日，（）在华盛顿发表名为《互联网的是与非：网络世界的选择与挑战》的演讲。">
+      <ChoiceItem choiceItemID="5618" title="A. 希拉里" isSelected="false" />
+      <ChoiceItem choiceItemID="5620" title="B. 盖茨" isSelected="false" />
+      <ChoiceItem choiceItemID="5617" title="C. 奥巴马" isSelected="false" />
+      <ChoiceItem choiceItemID="5619" title="D. 霍华德" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1428" title="创意产业指那些从个人的（）、技能和天分中获取发展动力的企业，以及那些通过对知识产权的开发创造潜在财富和就业机会的活动。">
+      <ChoiceItem choiceItemID="5702" title="A. 创造力" isSelected="false" />
+      <ChoiceItem choiceItemID="5704" title="B. 思维能力" isSelected="false" />
+      <ChoiceItem choiceItemID="5701" title="C. 想像力" isSelected="false" />
+      <ChoiceItem choiceItemID="5703" title="D. 生产力" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1439" title="随着新中国的成立，中国的民主法制建设也开创了新纪元。在新中国成立后第一部起到宪法作用的法律文献是（  ）。">
+      <ChoiceItem choiceItemID="5747" title="A. 《中华苏维埃共和国宪法大纲》" isSelected="false" />
+      <ChoiceItem choiceItemID="5745" title="B. 《共同纲领》" isSelected="false" />
+      <ChoiceItem choiceItemID="5746" title="C. 《中华人民共和国土地改革法》" isSelected="false" />
+      <ChoiceItem choiceItemID="5748" title="D. 1954年宪法" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1360" title="2011年4月28日公布的第六次人口普查数据显示，目前全国总人口为（）。">
+      <ChoiceItem choiceItemID="5431" title="A. 13.3亿" isSelected="false" />
+      <ChoiceItem choiceItemID="5429" title="B. 12.9亿" isSelected="false" />
+      <ChoiceItem choiceItemID="5430" title="C. 13亿" isSelected="false" />
+      <ChoiceItem choiceItemID="5432" title="D. 13.7亿" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1351" title="2011年3月，全国人大十一届四次会议批准的《十二五规划纲要》中提出，今后五年我国国内生产总值年均增长的目标是（）。">
+      <ChoiceItem choiceItemID="5395" title="A. 9%" isSelected="false" />
+      <ChoiceItem choiceItemID="5393" title="B. 7%" isSelected="false" />
+      <ChoiceItem choiceItemID="5394" title="C. 8%" isSelected="false" />
+      <ChoiceItem choiceItemID="5396" title="D. 10%" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1352" title="2011年3月，全国人大十一届四次会议批准的《十二五规划纲要》中提出，今后五年我国城镇居民人均可支配收入的年均增长率是（）。">
+      <ChoiceItem choiceItemID="5399" title="A. 6%以上" isSelected="false" />
+      <ChoiceItem choiceItemID="5397" title="B. 4%" isSelected="false" />
+      <ChoiceItem choiceItemID="5398" title="C. 5%以上" isSelected="false" />
+      <ChoiceItem choiceItemID="5400" title="D. 7%以上" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1399" title="晚清中国资产阶级的两个政治派别分别是（）和改良派。">
+      <ChoiceItem choiceItemID="5587" title="A. 正义派" isSelected="false" />
+      <ChoiceItem choiceItemID="5585" title="B. 民主派" isSelected="false" />
+      <ChoiceItem choiceItemID="5586" title="C. 革命派" isSelected="false" />
+      <ChoiceItem choiceItemID="5588" title="D. 专制派" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1356" title="2011年3月，全国人大十一届四次会议批准的《十二五规划纲要》中提出，今后五年我国国内生产总值年均增长的目标是（）。">
+      <ChoiceItem choiceItemID="5414" title="A. 8%" isSelected="false" />
+      <ChoiceItem choiceItemID="5413" title="B. 7%" isSelected="false" />
+      <ChoiceItem choiceItemID="5415" title="C. 9%" isSelected="false" />
+      <ChoiceItem choiceItemID="5416" title="D. 10%" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1412" title="我国城镇居民拥有自主产权住房的比例已经高达85%，高于（）、西欧、新加坡及香港特别行政区。">
+      <ChoiceItem choiceItemID="5638" title="A. 韩国" isSelected="false" />
+      <ChoiceItem choiceItemID="5637" title="B. 日本" isSelected="false" />
+      <ChoiceItem choiceItemID="5639" title="C. 美国" isSelected="false" />
+      <ChoiceItem choiceItemID="5640" title="D. 印度" isSelected="false" />
+    </SingleChoice>
+    <SingleChoice choiceID="1367" title="2011年7月1日，胡锦涛总书记在庆祝中国共产党成立90周年大会上的讲话中提出，社会主义民主政治的本质和核心是（）。">
+      <ChoiceItem choiceItemID="5458" title="A. 人民当家作主" isSelected="false" />
+      <ChoiceItem choiceItemID="5457" title="B. 党的领导" isSelected="false" />
+      <ChoiceItem choiceItemID="5459" title="C. 依法治国" isSelected="false" />
+      <ChoiceItem choiceItemID="5460" title="D. 全民公选" isSelected="false" />
+    </SingleChoice>
+  </SingleChoices>
+  <MutilChoices count="10" eachMark="3" getMark="0">
+    <MutilChoice choiceID="1451" title="2011年7月1日，胡锦涛总书记在庆祝中国共产党成立90周年大会上的讲话中提出，我们党要团结带领人民继续前进，开创工作新局面，赢得事业新胜利，最根本的就是要（）。">
+      <ChoiceItem choiceItemID="5794" title="A. 坚持和拓展中国特色社会主义道路" isSelected="false" />
+      <ChoiceItem choiceItemID="5793" title="B. 高举中国特色社会主义伟大旗帜" isSelected="false" />
+      <ChoiceItem choiceItemID="5795" title="C. 坚持和丰富中国特色社会主义理论体系" isSelected="false" />
+      <ChoiceItem choiceItemID="5796" title="D. 坚持和完善中国特色社会主义制度" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1457" title="社会心态是()变化的“晴雨表”，具有时代性、客观性、实践性和历史性。">
+      <ChoiceItem choiceItemID="5820" title="A. 文化" isSelected="false" />
+      <ChoiceItem choiceItemID="5818" title="B. 政治" isSelected="false" />
+      <ChoiceItem choiceItemID="5819" title="C. 社会" isSelected="false" />
+      <ChoiceItem choiceItemID="5817" title="D. 经济" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1455" title="文化产业里面主要包含三个部分：一、（）；二、内容产业和传媒产业相结合的部分；三、（）">
+      <ChoiceItem choiceItemID="5812" title="A. 文化产业中的传媒业" isSelected="false" />
+      <ChoiceItem choiceItemID="5810" title="B. 文化产业制造业" isSelected="false" />
+      <ChoiceItem choiceItemID="5811" title="C. 文化品牌产品" isSelected="false" />
+      <ChoiceItem choiceItemID="5809" title="D. 文化内容产品" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1454" title="2011年7月， 国家副主席习近平在庆祝西藏和平解放60周年大会上的讲话中提出，60年来，西藏主片古老而神奇的土地发生了翻天覆地的伟大变化是（）。">
+      <ChoiceItem choiceItemID="5808" title="A. 各民族团结不断巩固" isSelected="false" />
+      <ChoiceItem choiceItemID="5806" title="B. 经济社会实现全面发展" isSelected="false" />
+      <ChoiceItem choiceItemID="5807" title="C. 人民生活水平大幅提高" isSelected="false" />
+      <ChoiceItem choiceItemID="5805" title="D. 社会制度实现历史性跨越" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1475" title="互联网优化了经济结构体现在（）。">
+      <ChoiceItem choiceItemID="5892" title="A. 扩大市场范围" isSelected="false" />
+      <ChoiceItem choiceItemID="5890" title="B. 改变消费方式 " isSelected="false" />
+      <ChoiceItem choiceItemID="5891" title="C. 知识产权决胜于千里之外" isSelected="false" />
+      <ChoiceItem choiceItemID="5889" title="D. 改变生产力与生产关系" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1452" title="2011年7月1日，胡锦涛总书记在庆祝中国共产党成立90周年大会上的讲话中提出，推动我国经济又好又快发展的重要意义是（）。">
+      <ChoiceItem choiceItemID="5800" title="A. 筑牢和平崛起的强大物质基础" isSelected="false" />
+      <ChoiceItem choiceItemID="5798" title="B. 筑牢全国各族人民幸福安康的强大物质基础" isSelected="false" />
+      <ChoiceItem choiceItemID="5799" title="C. 筑牢中华民族伟大复兴的强大物质基础" isSelected="false" />
+      <ChoiceItem choiceItemID="5797" title="D. 筑牢国家发繁荣的强大物质基础" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1470" title="三网融合，又叫“三网合一”，是当代热门技术及热门话题之一，三网指的是（）。">
+      <ChoiceItem choiceItemID="5871" title="A. 有线电视网" isSelected="false" />
+      <ChoiceItem choiceItemID="5869" title="B. 互联网" isSelected="false" />
+      <ChoiceItem choiceItemID="5870" title="C. 电信网" isSelected="false" />
+      <ChoiceItem choiceItemID="5872" title="D. 计算机通信网" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1468" title="中共七大的重大意义是(   ) 。">
+      <ChoiceItem choiceItemID="5863" title="A. 实现了全党空前的团结和统一" isSelected="false" />
+      <ChoiceItem choiceItemID="5861" title="B. 确立毛泽东思想为党的指导思想" isSelected="false" />
+      <ChoiceItem choiceItemID="5862" title="C. 做出了把党和国家工作重心转移到城市的决定" isSelected="false" />
+      <ChoiceItem choiceItemID="5864" title="D. 首次提出了新民主主义革命的总路线" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1467" title="近期党内开展的“创先争优”活动，是指创建先进基层党组织和争当优秀共产党员，其中争当优秀共产党员的标准是(   )。">
+      <ChoiceItem choiceItemID="5859" title="A. 带头服务群众" isSelected="false" />
+      <ChoiceItem choiceItemID="5857" title="B. 带头学习提高" isSelected="false" />
+      <ChoiceItem choiceItemID="5858" title="C. 带头争创佳绩" isSelected="false" />
+      <ChoiceItem choiceItemID="5860" title="D. 带头遵纪守法、带头弘扬正气&#xA;" isSelected="false" />
+    </MutilChoice>
+    <MutilChoice choiceID="1460" title="当前食品安全领域最严重，人民群众反映最强烈的问题主要有：（）">
+      <ChoiceItem choiceItemID="5829" title="A. 非法添加" isSelected="false" />
+      <ChoiceItem choiceItemID="5832" title="B. 食用农产品农兽药残留超标" isSelected="false" />
+      <ChoiceItem choiceItemID="5831" title="C. 制售假冒伪劣食品" isSelected="false" />
+      <ChoiceItem choiceItemID="5830" title="D. 使用非食品原料或有害食品原料生产加工食品" isSelected="false" />
+    </MutilChoice>
+  </MutilChoices>
+  <Judges count="10" eachMark="2" getMark="0">
+    <JudgeItem judgeID="338" title="从食品安全层面来说，最具代表性的数据是食品的达标率。（）" setTrue="-1" />
+    <JudgeItem judgeID="344" title="公益性文化事业的任务是满足人民群众的基本文化需求。" setTrue="-1" />
+    <JudgeItem judgeID="342" title="我国文化产业在世界文化市场上的份额不足协%。" setTrue="-1" />
+    <JudgeItem judgeID="341" title="文化产业是以“文化创意”为核心，通过技术的介入和产业化的方式制造、营销不同形态的文化产品的行业。" setTrue="-1" />
+    <JudgeItem judgeID="362" title="住有所居意味着每人都有自己的住房。（）" setTrue="-1" />
+    <JudgeItem judgeID="339" title="1911年5月，清政俯改革中央官制，组织“皇族内阁”》" setTrue="-1" />
+    <JudgeItem judgeID="357" title="目前房价上涨是民生问题，影响人民的生活。（）" setTrue="-1" />
+    <JudgeItem judgeID="355" title="截止2011年6月，我国网络游戏用户规模达3.11亿人，占网民总数68.2%。（）" setTrue="-1" />
+    <JudgeItem judgeID="354" title="1969年，美国国防部高级研究计划署资助建立了世界上第一个分组交换试验网ARPAnet，标志着现代计算机网络的诞生。（）" setTrue="-1" />
+    <JudgeItem judgeID="347" title="食品安全问题是重要的民生问题。（）" setTrue="-1" />
+  </Judges>
+</StudentExam>
